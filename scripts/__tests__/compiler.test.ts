@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
@@ -147,6 +147,28 @@ describe('Data Compiler', () => {
       factors: { cloud_region_density: 2 },
     });
     expect(latest.entities.ashburn.factors.gpu_supply).toBeGreaterThan(0);
+  });
+
+  it('virtual city rollups use source timestamps for staleness', async () => {
+    vi.useFakeTimers().setSystemTime(new Date('2026-05-07T00:00:00Z'));
+    try {
+      await writeEntity(tmpDir, 'aws-us-east-1', EntityType.CLOUD_REGION, [
+        { metric: 'gpu-price-hr', value: 10, timestamp: '2026-01-01T00:00:00Z' },
+      ]);
+      await writeEntity(tmpDir, 'azure-eastus', EntityType.CLOUD_REGION, [
+        { metric: 'gpu-price-hr', value: 2, timestamp: '2026-01-02T00:00:00Z' },
+      ]);
+
+      const { compile } = await import('../compiler.js');
+      await compile(tmpDir);
+
+      const latest = JSON.parse(await fs.readFile(path.join(tmpDir, 'latest.json'), 'utf-8'));
+
+      expect(latest.entities.ashburn.lastUpdated).toBe('2026-01-02T00:00:00Z');
+      expect(latest.entities.ashburn.confidence).toBeLessThan(4);
+    } finally {
+      vi.useRealTimers();
+    }
   });
 
   it('compile preserves existing city entity data when adding cloud-region rollups', async () => {

@@ -85,8 +85,8 @@ function virtualEntity(
   type: EntityType,
   name: string,
   factors: Record<string, number>,
+  timestamp: string,
 ): EntityFile {
-  const timestamp = new Date().toISOString();
   const firstFactor = Object.entries(factors)[0] ?? ['virtual', 0];
   const record = {
     source: 'aggregate',
@@ -131,6 +131,13 @@ function validateWeights(config: IndexConfig): void {
   }
 }
 
+function newestTimestamp(entities: EntityFile[], fallback: string): string {
+  return entities
+    .flatMap(entity => entity.series.map(record => record.timestamp))
+    .filter(timestamp => Number.isFinite(Date.parse(timestamp)))
+    .sort((a, b) => b.localeCompare(a))[0] ?? fallback;
+}
+
 function computeAllScores(
   entities: Map<string, EntityFile>,
   config: IndexConfig,
@@ -152,11 +159,14 @@ function computeAllScores(
     const existing = rawFactors.get(countryId) ?? {};
     rawFactors.set(countryId, { ...factors, ...existing });
     if (!allEntities.has(countryId)) {
+      const sourceEntities = Array.from(entities.values())
+        .filter(entity => crossRef.cloudRegions[entity.id]?.country === countryId);
       allEntities.set(countryId, virtualEntity(
         countryId,
         EntityType.COUNTRY,
         crossRef.countries[countryId]?.name ?? countryId,
         factors,
+        newestTimestamp(sourceEntities, new Date().toISOString()),
       ));
       entityTypes.set(countryId, EntityType.COUNTRY);
     }
@@ -166,11 +176,14 @@ function computeAllScores(
     const existing = rawFactors.get(cityId) ?? {};
     rawFactors.set(cityId, { ...factors, ...existing });
     if (!allEntities.has(cityId)) {
+      const sourceEntities = Array.from(entities.values())
+        .filter(entity => crossRef.cloudRegions[entity.id]?.city === cityId);
       allEntities.set(cityId, virtualEntity(
         cityId,
         EntityType.CITY,
         crossRef.cities[cityId]?.name ?? cityId,
         factors,
+        newestTimestamp(sourceEntities, new Date().toISOString()),
       ));
       entityTypes.set(cityId, EntityType.CITY);
     }
