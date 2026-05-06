@@ -46,11 +46,12 @@ export async function writeEntityIfChanged(
   const filePath = path.join(dataDir, 'entities', entityType, `${entityId}.json`);
   await fs.mkdir(path.dirname(filePath), { recursive: true });
 
+  const sortedByTime = [...records].sort((a, b) => a.timestamp.localeCompare(b.timestamp));
   const entityFile: EntityFile = {
     id: entityId,
     type: entityType,
-    latest: records[records.length - 1],
-    series: records,
+    latest: sortedByTime[sortedByTime.length - 1],
+    series: sortedByTime,
     _hash: newHash,
     _updatedAt: new Date().toISOString(),
   };
@@ -79,6 +80,7 @@ async function run(): Promise<void> {
 
     // 3. Write entity files (with hash check)
     for (const [entityId, entityRecords] of byEntity) {
+      if (entityRecords.length === 0) continue;
       const entityType = entityRecords[0].entity.type;
       const changed = await writeEntityIfChanged(entityId, entityType, entityRecords, meta);
       if (changed) written++;
@@ -86,10 +88,16 @@ async function run(): Promise<void> {
     }
   }
 
-  // 4. Compile aggregate outputs
+  // 4. Guard against empty compile
+  if (written === 0 && Object.keys(meta.entities).length === 0) {
+    console.warn('[pipeline] No data produced and no existing entities. Skipping compile.');
+    return;
+  }
+
+  // 5. Compile aggregate outputs
   await compile(DATA_DIR);
 
-  // 5. Write pipeline metadata
+  // 6. Write pipeline metadata
   meta.lastRun = new Date().toISOString();
   await fs.writeFile(META_PATH, JSON.stringify(meta, null, 2));
 

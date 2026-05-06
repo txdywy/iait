@@ -99,4 +99,47 @@ export interface CompiledEntity {
   confidence: number;
   /** ISO 8601 last-updated timestamp */
   lastUpdated: string;
+  /** Export control risk tier name */
+  riskTier?: string;
+  /** Export control risk multiplier (0.3-1.0) */
+  riskMultiplier?: number;
+  /** Per-factor breakdown: raw value, normalized 0-100, and weight */
+  factorBreakdown?: Record<string, { raw: number; normalized: number; weight: number }>;
+  /** Data completeness: 'full' if >=3 factors, 'partial' if <3 */
+  dataCompleteness?: 'full' | 'partial';
+}
+
+/** Index configuration loaded from public/data/index-config.json */
+export interface IndexConfig {
+  version: number;
+  factors: Record<string, { weight: number; description: string }>;
+  confidence: {
+    staleDays: number;
+    stalePenalty: number;
+    veryStaleDays: number;
+    veryStalePenalty: number;
+    missingFactorPenalty: number;
+    minConfidence: number;
+  };
+}
+
+/** Export control tier definitions loaded from scripts/mappings/export-control-tiers.json */
+export interface ExportControlTiers {
+  version: number;
+  tiers: Record<string, { multiplier: number; description: string }>;
+  countries: Record<string, string>;
+}
+
+/** Entity cross-reference mapping loaded from scripts/mappings/entity-crossref.json */
+export interface EntityCrossRef {
+  countries: Record<string, {
+    iso2: string;
+    iso3: string;
+    worldBankCode: string;
+    owidName: string;
+    name: string;
+  }>;
+  cloudRegions: Record<string, { country: string; city: string; provider: string }>;
+  cities: Record<string, { country: string; name: string }>;
+  companies: Record<string, { cik: string; country: string; name: string }>;
 }
