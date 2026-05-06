@@ -88,7 +88,7 @@ class AzureGpuPricingScraper implements Scraper {
       metric: 'gpu-price-hr',
       value: item.retailPrice,
       unit: 'USD/hr',
-      timestamp: new Date().toISOString(),
+      timestamp: item.effectiveStartDate,
       confidence: 5, // structured_api per D-07
     };
   }

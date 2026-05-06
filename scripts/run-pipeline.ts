@@ -12,9 +12,12 @@ const META_PATH = path.join(DATA_DIR, '_pipeline-meta.json');
 export async function loadMeta(metaPath = META_PATH): Promise<PipelineMeta> {
   try {
     const raw = await fs.readFile(metaPath, 'utf-8');
-    return JSON.parse(raw);
-  } catch {
-    return { lastRun: '', entities: {} };
+    return JSON.parse(raw) as PipelineMeta;
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') {
+      return { lastRun: '', entities: {} };
+    }
+    throw err;
   }
 }
 

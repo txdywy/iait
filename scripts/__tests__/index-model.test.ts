@@ -97,18 +97,24 @@ describe('percentileRank', () => {
   });
 
   it('returns neutral score when all values are identical', () => {
-    expect(percentileRank(5, [5, 5, 5])).toBe(100);
+    expect(percentileRank(5, [5, 5, 5])).toBe(50);
   });
 });
 
 describe('computeFactors', () => {
-  it('extracts inverse GPU supply from cloud-region GPU pricing records', () => {
-    expect(computeFactors(entity('aws-us-east-1', EntityType.CLOUD_REGION, 'gpu-price-hr', 4), crossRef))
-      .toMatchObject({ gpu_supply: 0.25 });
+  it('extracts inverse minimum GPU price from cloud-region GPU pricing records', () => {
+    const region = entity('aws-us-east-1', EntityType.CLOUD_REGION, 'gpu-price-hr', 4);
+    region.series.push({ ...region.latest, value: 2 });
+
+    expect(computeFactors(region, crossRef)).toMatchObject({ gpu_supply: 0.5 });
   });
 
-  it('extracts energy capacity from country energy metrics', () => {
-    expect(computeFactors(entity('us', EntityType.COUNTRY, 'electricity-generation', 4000), crossRef))
+  it('uses energy metric priority for same-date country energy metrics', () => {
+    const country = entity('us', EntityType.COUNTRY, 'primary-energy-consumption', 100);
+    country.series.push({ ...country.latest, metric: 'renewables-share-elec', value: 21.3 });
+    country.series.push({ ...country.latest, metric: 'electricity-generation', value: 4000 });
+
+    expect(computeFactors(country, crossRef))
       .toMatchObject({ energy_capacity: 4000, cloud_region_density: 2 });
   });
 

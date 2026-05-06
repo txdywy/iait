@@ -44,22 +44,28 @@ describe('SecEdgarCapexScraper', () => {
     expect(nvidia!.value).toBe(1069000000);
   });
 
-  it('computes TTM from quarterly data when latest is 10-Q', async () => {
-    const quarterlyOnly = JSON.parse(JSON.stringify(fixture));
-    quarterlyOnly.units.USD = quarterlyOnly.units.USD.filter(
-      (fact: { form: string }) => fact.form === '10-Q',
-    );
+  it('falls back to latest annual filing when latest filing is quarterly', async () => {
+    const latestQuarterly = JSON.parse(JSON.stringify(fixture));
+    latestQuarterly.units.USD.unshift({
+      end: '2024-04-28',
+      val: 500000000,
+      accn: '0001045810-24-000111',
+      fy: 2025,
+      fp: 'Q1',
+      form: '10-Q',
+      filed: '2024-05-29',
+    });
 
     vi.mocked(fetch).mockResolvedValue({
       ok: true,
-      json: () => Promise.resolve(quarterlyOnly),
+      json: () => Promise.resolve(latestQuarterly),
     } as Response);
 
     const { default: scraper } = await import('../scrapers/sec-edgar-capex.js');
     const records = await scraper.fetch();
 
     expect(records.length).toBe(5);
-    expect(records.find(r => r.entity.id === 'nvidia')!.value).toBe(849000000);
+    expect(records.find(r => r.entity.id === 'nvidia')!.value).toBe(1069000000);
   });
 
   it('sets User-Agent header with SEC_EDGAR_EMAIL', async () => {

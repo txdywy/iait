@@ -148,4 +148,25 @@ describe('Data Compiler', () => {
     });
     expect(latest.entities.ashburn.factors.gpu_supply).toBeGreaterThan(0);
   });
+
+  it('compile preserves existing history snapshots when appending new scores', async () => {
+    await writeEntity(tmpDir, 'aws-us-east-1', EntityType.CLOUD_REGION, [
+      { metric: 'gpu-price-hr', value: 98.32 },
+    ]);
+    await fs.writeFile(path.join(tmpDir, 'history.json'), JSON.stringify({
+      'aws-us-east-1': {
+        type: 'cloud-region',
+        name: 'aws-us-east-1',
+        series: [{ timestamp: '2025-01-01T00:00:00Z', score: 42, factors: { gpu_supply: 0.01 } }],
+      },
+    }));
+
+    const { compile } = await import('../compiler.js');
+    await compile(tmpDir);
+
+    const history = JSON.parse(await fs.readFile(path.join(tmpDir, 'history.json'), 'utf-8'));
+
+    expect(history['aws-us-east-1'].series).toHaveLength(2);
+    expect(history['aws-us-east-1'].series[0]).toMatchObject({ score: 42 });
+  });
 });

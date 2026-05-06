@@ -277,25 +277,35 @@ async function writeHistory(
   scoredEntities: Map<string, ScoredEntity>,
   dataDir: string,
 ): Promise<void> {
-  const history: Record<string, {
+  const historyPath = path.join(dataDir, 'history.json');
+  let history: Record<string, {
     type: EntityType;
     name: string;
     series: Array<{ timestamp: string; score: number; factors: Record<string, number> }>;
   }> = {};
 
+  try {
+    history = await loadJsonFile<typeof history>(historyPath);
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code !== 'ENOENT') throw err;
+  }
+
   for (const [id, scored] of scoredEntities) {
     history[id] = {
       type: scored.entity.type,
       name: scored.entity.latest.entity.name,
-      series: [{
-        timestamp: scored.entity._updatedAt,
-        score: scored.score,
-        factors: scored.factors,
-      }],
+      series: [
+        ...(history[id]?.series ?? []),
+        {
+          timestamp: new Date().toISOString(),
+          score: scored.score,
+          factors: scored.factors,
+        },
+      ],
     };
   }
 
-  await fs.writeFile(path.join(dataDir, 'history.json'), JSON.stringify(history, null, 2));
+  await fs.writeFile(historyPath, JSON.stringify(history, null, 2));
 }
 
 export async function compile(dataDir = 'public/data'): Promise<void> {

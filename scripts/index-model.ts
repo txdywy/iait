@@ -6,13 +6,18 @@ const METRIC_TO_FACTOR: Record<string, string> = {
   'primary-energy-consumption': 'energy_capacity',
   'electricity-generation': 'energy_capacity',
   'electricity-production': 'energy_capacity',
-  'electricity-per-capita': 'energy_capacity',
-  'renewables-share-elec': 'energy_capacity',
   'ai-capex-ttm': 'ai_capex',
+};
+
+const ENERGY_PRIORITY: Record<string, number> = {
+  'electricity-generation': 3,
+  'electricity-production': 2,
+  'primary-energy-consumption': 1,
 };
 
 export function percentileRank(value: number, allValues: number[]): number {
   if (allValues.length <= 1) return 50;
+  if (allValues.every(v => v === allValues[0])) return 50;
   const count = allValues.filter(v => v <= value).length;
   return (count / allValues.length) * 100;
 }
@@ -22,22 +27,35 @@ export function computeFactors(
   crossRef: EntityCrossRef,
 ): Record<string, number> {
   const factors: Record<string, number> = {};
-  const latestByFactor = new Map<string, { timestamp: string; value: number }>();
+  const latestByFactor = new Map<string, { timestamp: string; value: number; priority: number }>();
+  const gpuPrices: number[] = [];
 
   for (const record of entity.series) {
     const factor = METRIC_TO_FACTOR[record.metric];
     if (!factor || !Number.isFinite(record.value)) continue;
 
+    if (factor === 'gpu_supply') {
+      if (record.value > 0) gpuPrices.push(record.value);
+      continue;
+    }
+
+    const priority = factor === 'energy_capacity' ? ENERGY_PRIORITY[record.metric] ?? 0 : 0;
     const existing = latestByFactor.get(factor);
-    if (!existing || record.timestamp >= existing.timestamp) {
-      latestByFactor.set(factor, { timestamp: record.timestamp, value: record.value });
+    if (
+      !existing
+      || record.timestamp > existing.timestamp
+      || (record.timestamp === existing.timestamp && priority > existing.priority)
+    ) {
+      latestByFactor.set(factor, { timestamp: record.timestamp, value: record.value, priority });
     }
   }
 
+  if (gpuPrices.length > 0) {
+    factors.gpu_supply = 1 / Math.min(...gpuPrices);
+  }
+
   for (const [factor, record] of latestByFactor) {
-    factors[factor] = factor === 'gpu_supply' && record.value > 0
-      ? 1 / record.value
-      : record.value;
+    factors[factor] = record.value;
   }
 
   if (entity.type === EntityType.COUNTRY) {

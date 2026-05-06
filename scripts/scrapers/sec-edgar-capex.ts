@@ -61,7 +61,7 @@ class SecEdgarCapexScraper implements Scraper {
     return data.units?.USD ?? [];
   }
 
-  private computeTTM(facts: XBRLFact[]): number | null {
+  private computeTTM(facts: XBRLFact[]): { value: number; timestamp: string } | null {
     const filings = facts.filter(f =>
       (f.form === '10-K' || f.form === '10-Q') && Number.isFinite(f.val),
     );
@@ -77,18 +77,22 @@ class SecEdgarCapexScraper implements Scraper {
 
     const sorted = Array.from(byPeriod.values()).sort((a, b) => b.end.localeCompare(a.end));
     const latest = sorted[0];
-    const capex = latest.form === '10-K'
-      ? Math.abs(latest.val)
-      : sorted.slice(0, 4).reduce((sum, filing) => sum + Math.abs(filing.val), 0);
+    const latestAnnual = sorted.find(filing => filing.form === '10-K');
+    const selected = latest.form === '10-K' ? latest : latestAnnual;
+    if (!selected) return null;
 
-    if (capex < MIN_CAPEX || capex > MAX_CAPEX) {
-      console.warn(`[sec-edgar-capex] TTM CapEx $${(capex / 1e9).toFixed(2)}B outside expected range`);
+    const value = Math.abs(selected.val);
+    if (value < MIN_CAPEX || value > MAX_CAPEX) {
+      console.warn(`[sec-edgar-capex] TTM CapEx $${(value / 1e9).toFixed(2)}B outside expected range`);
     }
 
-    return capex;
+    return { value, timestamp: `${selected.end}T00:00:00Z` };
   }
 
-  private normalize(company: typeof COMPANIES[number], capex: number): NormalizedRecord {
+  private normalize(
+    company: typeof COMPANIES[number],
+    capex: { value: number; timestamp: string },
+  ): NormalizedRecord {
     return {
       source: this.name,
       entity: {
@@ -97,9 +101,9 @@ class SecEdgarCapexScraper implements Scraper {
         name: company.name,
       },
       metric: 'ai-capex-ttm',
-      value: capex,
+      value: capex.value,
       unit: 'USD',
-      timestamp: new Date().toISOString(),
+      timestamp: capex.timestamp,
       confidence: 5,
     };
   }
