@@ -23,11 +23,13 @@ ComputeAtlas delivers a pure-frontend AI compute index platform in four phases. 
   3. Adding a new data source requires only implementing the scraper interface and registering it -- no core pipeline changes needed
   4. Incremental runs skip entities whose source data has not changed since the last run
   5. Fetch library retries on failure (3 retries, exponential backoff) and respects rate limits
-**Plans**: TBD
+**Plans**: 4 plans in 3 waves
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md -- Project scaffold, types, and test infrastructure (Wave 1)
+- [ ] 01-02-PLAN.md -- Shared utilities: hash, fetch-with-retry, registry (Wave 1)
+- [ ] 01-03-PLAN.md -- AWS GPU pricing scraper with Signature V4 (Wave 2)
+- [ ] 01-04-PLAN.md -- Data compiler and pipeline orchestration (Wave 3)
 
 ### Phase 2: Data Sources + Index Model
 **Goal**: Complete compute index covering all data sources with configurable scoring, confidence levels, and risk adjustment
@@ -87,7 +89,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Pipeline Skeleton | 0/2 | Not started | - |
+| 1. Pipeline Skeleton | 0/4 | In Progress | - |
 | 2. Data Sources + Index Model | 0/3 | Not started | - |
 | 3. Frontend Visualization | 0/3 | Not started | - |
 | 4. Automation + Deployment | 0/1 | Not started | - |
