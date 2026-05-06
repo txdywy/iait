@@ -1,0 +1,7 @@
+{
+  "FormatVersion": "aws_v1",
+  "PriceList": [
+    "{\"product\":{\"productFamily\":\"Compute Instance\",\"attributes\":{\"instanceType\":\"p5.48xlarge\",\"instanceFamily\":\"GPU instance\",\"vcpu\":\"192\",\"memory\":\"2048 GiB\",\"gpuMemory\":\"640 GiB\",\"operatingSystem\":\"Linux\",\"location\":\"US East (N. Virginia)\",\"locationType\":\"AWS Region\"}},\"terms\":{\"OnDemand\":{\"JRTJXK3PMHUZS49S.JRTTC3J3R88C8UEP\":{\"priceDimensions\":{\"JRTTC3J3R88C8UEP\":{\"unit\":\"Hrs\",\"pricePerUnit\":{\"USD\":\"98.3200\"}}}}}}}"
+  ],
+  "NextToken": null
+}

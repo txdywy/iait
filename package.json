@@ -1,0 +1,21 @@
+{
+  "name": "computeatlas",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": "^20.19.0"
+  },
+  "scripts": {
+    "pipeline": "tsx scripts/run-pipeline.ts",
+    "test": "vitest run",
+    "test:scripts": "vitest run scripts/"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "tsx": "~4.21.0",
+    "vitest": "~4.1.5",
+    "glob": "~13.0.6",
+    "@types/node": "^20.0.0"
+  }
+}

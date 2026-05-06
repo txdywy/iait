@@ -1,0 +1,8 @@
+node_modules/
+dist/
+data/raw/
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
