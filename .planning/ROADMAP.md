@@ -34,7 +34,7 @@ Plans:
 - [x] 01-03-PLAN.md -- AWS GPU pricing scraper with Signature V4 (Wave 2)
 
 **Wave 3** *(blocked on Wave 2 completion)*
-- [ ] 01-04-PLAN.md -- Data compiler and pipeline orchestration (Wave 3)
+- [x] 01-04-PLAN.md -- Data compiler and pipeline orchestration (Wave 3)
 
 ### Phase 2: Data Sources + Index Model
 **Goal**: Complete compute index covering all data sources with configurable scoring, confidence levels, and risk adjustment
