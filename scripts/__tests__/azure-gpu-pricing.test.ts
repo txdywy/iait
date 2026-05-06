@@ -127,4 +127,27 @@ describe('AzureGpuPricingScraper', () => {
       expect(Number.isFinite(r.value)).toBe(true);
     }
   });
+
+  it('skips items with missing or invalid effectiveStartDate', async () => {
+    const badFixture = {
+      ...fixture,
+      Items: [
+        { ...fixture.Items[0], effectiveStartDate: '' },
+        { ...fixture.Items[1], effectiveStartDate: 'not-a-date' },
+        fixture.Items[2],
+      ],
+      Count: 3,
+    };
+
+    vi.mocked(fetch).mockResolvedValue({
+      ok: true,
+      json: () => Promise.resolve(badFixture),
+    } as Response);
+
+    const { default: scraper } = await import('../scrapers/azure-gpu-pricing.js');
+    const records = await scraper.fetch();
+
+    expect(records.length).toBe(3);
+    expect(records[0].timestamp).toBe('2024-01-01T00:00:00.000Z');
+  });
 });

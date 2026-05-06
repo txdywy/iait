@@ -163,14 +163,17 @@ function computeAllScores(
   }
 
   for (const [cityId, factors] of aggregateToCities(entities, crossRef)) {
-    rawFactors.set(cityId, factors);
-    allEntities.set(cityId, virtualEntity(
-      cityId,
-      EntityType.CITY,
-      crossRef.cities[cityId]?.name ?? cityId,
-      factors,
-    ));
-    entityTypes.set(cityId, EntityType.CITY);
+    const existing = rawFactors.get(cityId) ?? {};
+    rawFactors.set(cityId, { ...factors, ...existing });
+    if (!allEntities.has(cityId)) {
+      allEntities.set(cityId, virtualEntity(
+        cityId,
+        EntityType.CITY,
+        crossRef.cities[cityId]?.name ?? cityId,
+        factors,
+      ));
+      entityTypes.set(cityId, EntityType.CITY);
+    }
   }
 
   const normalized = new Map<string, Record<string, number>>();

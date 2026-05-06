@@ -73,10 +73,13 @@ class AzureGpuPricingScraper implements Scraper {
     if (!item.isPrimaryMeterRegion) return null;
 
     // Guard against missing required fields
-    if (!item.armRegionName || item.retailPrice == null) return null;
+    if (!item.armRegionName || item.retailPrice == null || !item.effectiveStartDate) return null;
 
     // Guard against non-finite prices (T-02-04)
     if (!Number.isFinite(item.retailPrice)) return null;
+
+    const timestampMs = Date.parse(item.effectiveStartDate);
+    if (!Number.isFinite(timestampMs)) return null;
 
     return {
       source: this.name,
@@ -88,7 +91,7 @@ class AzureGpuPricingScraper implements Scraper {
       metric: 'gpu-price-hr',
       value: item.retailPrice,
       unit: 'USD/hr',
-      timestamp: item.effectiveStartDate,
+      timestamp: new Date(timestampMs).toISOString(),
       confidence: 5, // structured_api per D-07
     };
   }

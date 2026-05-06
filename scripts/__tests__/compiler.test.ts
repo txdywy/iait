@@ -149,6 +149,30 @@ describe('Data Compiler', () => {
     expect(latest.entities.ashburn.factors.gpu_supply).toBeGreaterThan(0);
   });
 
+  it('compile preserves existing city entity data when adding cloud-region rollups', async () => {
+    await writeEntity(tmpDir, 'ashburn', EntityType.CITY, [
+      { metric: 'electricity-generation', value: 300 },
+    ]);
+    await writeEntity(tmpDir, 'aws-us-east-1', EntityType.CLOUD_REGION, [
+      { metric: 'gpu-price-hr', value: 10 },
+    ]);
+    await writeEntity(tmpDir, 'azure-eastus', EntityType.CLOUD_REGION, [
+      { metric: 'gpu-price-hr', value: 2 },
+    ]);
+
+    const { compile } = await import('../compiler.js');
+    await compile(tmpDir);
+
+    const latest = JSON.parse(await fs.readFile(path.join(tmpDir, 'latest.json'), 'utf-8'));
+
+    expect(latest.entities.ashburn.name).toBe('ashburn');
+    expect(latest.entities.ashburn.factors).toMatchObject({
+      energy_capacity: 300,
+      cloud_region_density: 2,
+    });
+    expect(latest.entities.ashburn.factors.gpu_supply).toBeGreaterThan(0);
+  });
+
   it('compile preserves existing history snapshots when appending new scores', async () => {
     await writeEntity(tmpDir, 'aws-us-east-1', EntityType.CLOUD_REGION, [
       { metric: 'gpu-price-hr', value: 98.32 },
