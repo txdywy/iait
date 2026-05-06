@@ -27,8 +27,8 @@ ComputeAtlas delivers a pure-frontend AI compute index platform in four phases. 
 
 Plans:
 **Wave 1**
-- [ ] 01-01-PLAN.md -- Project scaffold, types, and test infrastructure (Wave 1)
-- [ ] 01-02-PLAN.md -- Shared utilities: hash, fetch-with-retry, registry (Wave 1)
+- [x] 01-01-PLAN.md -- Project scaffold, types, and test infrastructure (Wave 1)
+- [x] 01-02-PLAN.md -- Shared utilities: hash, fetch-with-retry, registry (Wave 1)
 
 **Wave 2** *(blocked on Wave 1 completion)*
 - [ ] 01-03-PLAN.md -- AWS GPU pricing scraper with Signature V4 (Wave 2)
