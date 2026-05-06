@@ -31,7 +31,7 @@ Plans:
 - [x] 01-02-PLAN.md -- Shared utilities: hash, fetch-with-retry, registry (Wave 1)
 
 **Wave 2** *(blocked on Wave 1 completion)*
-- [ ] 01-03-PLAN.md -- AWS GPU pricing scraper with Signature V4 (Wave 2)
+- [x] 01-03-PLAN.md -- AWS GPU pricing scraper with Signature V4 (Wave 2)
 
 **Wave 3** *(blocked on Wave 2 completion)*
 - [ ] 01-04-PLAN.md -- Data compiler and pipeline orchestration (Wave 3)
