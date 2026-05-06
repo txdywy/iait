@@ -53,8 +53,8 @@ Plans:
 - [x] 02-01-PLAN.md -- Bug fixes (CR-01/CR-02), types extension, and config files
 
 **Wave 2** *(blocked on Wave 1 completion)*
-- [ ] 02-02-PLAN.md -- Azure GPU pricing scraper
-- [ ] 02-03-PLAN.md -- OWID energy, World Bank energy, and SEC EDGAR CapEx scrapers
+- [x] 02-02-PLAN.md -- Azure GPU pricing scraper
+- [x] 02-03-PLAN.md -- OWID energy, World Bank energy, and SEC EDGAR CapEx scrapers
 
 **Wave 3** *(blocked on Wave 2 completion)*
 - [ ] 02-04-PLAN.md -- Composite index model, compiler upgrade, and pipeline integration
