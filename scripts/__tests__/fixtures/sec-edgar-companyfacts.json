@@ -1,0 +1,58 @@
+{
+  "cik": 1045810,
+  "taxonomy": "us-gaap",
+  "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+  "label": "Payments to Acquire Property, Plant, and Equipment",
+  "description": "Cash outflow for acquiring PP&E",
+  "entityName": "NVIDIA CORP",
+  "units": {
+    "USD": [
+      {
+        "end": "2024-01-28",
+        "val": 1069000000,
+        "accn": "0001045810-24-000029",
+        "fy": 2024,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2024-02-21",
+        "frame": "CY2023Q4I"
+      },
+      {
+        "end": "2023-10-29",
+        "val": 369000000,
+        "accn": "0001045810-24-000053",
+        "fy": 2024,
+        "fp": "Q3",
+        "form": "10-Q",
+        "filed": "2024-05-29"
+      },
+      {
+        "end": "2023-07-30",
+        "val": 285000000,
+        "accn": "0001045810-24-000077",
+        "fy": 2024,
+        "fp": "Q2",
+        "form": "10-Q",
+        "filed": "2024-08-28"
+      },
+      {
+        "end": "2023-04-30",
+        "val": 195000000,
+        "accn": "0001045810-24-000099",
+        "fy": 2024,
+        "fp": "Q1",
+        "form": "10-Q",
+        "filed": "2024-11-27"
+      },
+      {
+        "end": "2023-01-29",
+        "val": 946000000,
+        "accn": "0001045810-23-000011",
+        "fy": 2023,
+        "fp": "FY",
+        "form": "10-K",
+        "filed": "2023-02-24"
+      }
+    ]
+  }
+}

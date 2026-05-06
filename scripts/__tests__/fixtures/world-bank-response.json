@@ -1,0 +1,42 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 1000,
+    "total": 3,
+    "sourceid": "2",
+    "lastupdated": "2024-09-16"
+  },
+  [
+    {
+      "indicator": { "id": "EG.USE.ELEC.KH.PC", "value": "Electric power consumption (kWh per capita)" },
+      "country": { "id": "US", "value": "United States" },
+      "countryiso3code": "USA",
+      "date": "2014",
+      "value": 12984.38,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": { "id": "EG.USE.ELEC.KH.PC", "value": "Electric power consumption (kWh per capita)" },
+      "country": { "id": "CN", "value": "China" },
+      "countryiso3code": "CHN",
+      "date": "2014",
+      "value": 3927.11,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    },
+    {
+      "indicator": { "id": "EG.USE.ELEC.KH.PC", "value": "Electric power consumption (kWh per capita)" },
+      "country": { "id": "DE", "value": "Germany" },
+      "countryiso3code": "DEU",
+      "date": "2014",
+      "value": 6557.94,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 0
+    }
+  ]
+]
