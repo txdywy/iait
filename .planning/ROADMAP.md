@@ -57,7 +57,7 @@ Plans:
 - [x] 02-03-PLAN.md -- OWID energy, World Bank energy, and SEC EDGAR CapEx scrapers
 
 **Wave 3** *(blocked on Wave 2 completion)*
-- [ ] 02-04-PLAN.md -- Composite index model, compiler upgrade, and pipeline integration
+- [x] 02-04-PLAN.md -- Composite index model, compiler upgrade, and pipeline integration
 
 ### Phase 3: Frontend Visualization
 **Goal**: Users can explore the compute index through an interactive map, rankings, trends, and detail pages with a Bloomberg Terminal aesthetic
