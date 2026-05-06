@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "factors": {
+    "gpu_supply": { "weight": 0.30, "description": "GPU pricing density across cloud regions (inverse price = higher supply)" },
+    "energy_capacity": { "weight": 0.20, "description": "Power generation and consumption capacity" },
+    "cloud_region_density": { "weight": 0.15, "description": "Number of cloud regions/zones per entity" },
+    "ai_capex": { "weight": 0.25, "description": "Company AI capital expenditure (annualized TTM)" },
+    "risk_adjustment": { "weight": 0.10, "description": "Export control risk tier multiplier" }
+  },
+  "confidence": {
+    "staleDays": 30,
+    "stalePenalty": 1,
+    "veryStaleDays": 90,
+    "veryStalePenalty": 2,
+    "missingFactorPenalty": 1,
+    "minConfidence": 1
+  }
+}

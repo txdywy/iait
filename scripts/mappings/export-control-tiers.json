@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "tiers": {
+    "unrestricted": { "multiplier": 1.0, "description": "No export restrictions on AI compute hardware" },
+    "restricted": { "multiplier": 0.7, "description": "Partial restrictions on advanced AI chips" },
+    "sanctioned": { "multiplier": 0.3, "description": "Broad restrictions on AI compute exports" }
+  },
+  "countries": {
+    "us": "unrestricted",
+    "gb": "unrestricted",
+    "de": "unrestricted",
+    "nl": "unrestricted",
+    "ie": "unrestricted",
+    "ca": "unrestricted",
+    "jp": "unrestricted",
+    "sg": "unrestricted",
+    "in": "restricted",
+    "cn": "sanctioned"
+  }
+}
