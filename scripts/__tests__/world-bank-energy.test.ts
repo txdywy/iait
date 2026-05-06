@@ -58,6 +58,41 @@ describe('WorldBankEnergyScraper', () => {
     expect(entityIds).toContain('de');
   });
 
+  it('uses live-valid World Bank electricity indicators', async () => {
+    vi.mocked(fetch).mockResolvedValue({
+      ok: true,
+      json: () => Promise.resolve(fixture),
+    } as Response);
+
+    const { default: scraper } = await import('../scrapers/world-bank-energy.js');
+    await scraper.fetch();
+
+    const urls = vi.mocked(fetch).mock.calls.map(call => String(call[0]));
+    expect(urls.some(url => url.includes('EG.USE.ELEC.KH.PC'))).toBe(true);
+    expect(urls.some(url => url.includes('EG.ELC.RNWX.KH'))).toBe(true);
+    expect(urls.some(url => url.includes('EG.ELC.PROD.KH'))).toBe(false);
+  });
+
+  it('continues when one indicator request fails', async () => {
+    let callCount = 0;
+    vi.mocked(fetch).mockImplementation((() => {
+      callCount++;
+      if (callCount === 2) {
+        return Promise.resolve({ ok: false, status: 400, statusText: 'Bad Request' } as Response);
+      }
+      return Promise.resolve({
+        ok: true,
+        json: () => Promise.resolve(fixture),
+      } as Response);
+    }) as typeof fetch);
+
+    const { default: scraper } = await import('../scrapers/world-bank-energy.js');
+    const records = await scraper.fetch();
+
+    expect(records.length).toBeGreaterThan(0);
+    expect(callCount).toBe(2);
+  });
+
   it('handles malformed response gracefully', async () => {
     vi.mocked(fetch).mockResolvedValue({
       ok: true,

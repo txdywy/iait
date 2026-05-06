@@ -43,7 +43,7 @@ const {
 
 const INDICATORS = [
   { code: 'EG.USE.ELEC.KH.PC', metric: 'electricity-per-capita', unit: 'kWh' },
-  { code: 'EG.ELC.PROD.KH', metric: 'electricity-production', unit: 'kWh' },
+  { code: 'EG.ELC.RNWX.KH', metric: 'electricity-renewable-production', unit: 'kWh' },
 ] as const;
 
 interface WorldBankItem {
@@ -61,7 +61,11 @@ class WorldBankEnergyScraper implements Scraper {
     const records: NormalizedRecord[] = [];
 
     for (const indicator of INDICATORS) {
-      records.push(...await this.fetchIndicator(indicator));
+      try {
+        records.push(...await this.fetchIndicator(indicator));
+      } catch (err) {
+        console.warn(`[world-bank-energy] Indicator ${indicator.code} failed: ${err}`);
+      }
     }
 
     return records;

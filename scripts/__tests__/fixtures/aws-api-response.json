@@ -1,7 +1,57 @@
 {
-  "FormatVersion": "aws_v1",
-  "PriceList": [
-    "{\"product\":{\"productFamily\":\"Compute Instance\",\"attributes\":{\"instanceType\":\"p5.48xlarge\",\"instanceFamily\":\"GPU instance\",\"vcpu\":\"192\",\"memory\":\"2048 GiB\",\"gpuMemory\":\"640 GiB\",\"operatingSystem\":\"Linux\",\"location\":\"US East (N. Virginia)\",\"locationType\":\"AWS Region\"}},\"terms\":{\"OnDemand\":{\"JRTJXK3PMHUZS49S.JRTTC3J3R88C8UEP\":{\"priceDimensions\":{\"JRTTC3J3R88C8UEP\":{\"unit\":\"Hrs\",\"pricePerUnit\":{\"USD\":\"98.3200\"}}}}}}}"
-  ],
-  "NextToken": null
+  "publicationDate": "2026-01-01T00:00:00Z",
+  "products": {
+    "SKU-P5": {
+      "sku": "SKU-P5",
+      "productFamily": "Compute Instance",
+      "attributes": {
+        "instanceType": "p5.48xlarge",
+        "instanceFamily": "GPU instance",
+        "vcpu": "192",
+        "memory": "2048 GiB",
+        "gpuMemory": "640 GiB",
+        "operatingSystem": "Linux",
+        "location": "US East (N. Virginia)",
+        "locationType": "AWS Region",
+        "tenancy": "Shared",
+        "capacitystatus": "Used"
+      }
+    },
+    "SKU-M7I": {
+      "sku": "SKU-M7I",
+      "productFamily": "Compute Instance",
+      "attributes": {
+        "instanceType": "m7i.large",
+        "instanceFamily": "General purpose",
+        "operatingSystem": "Linux",
+        "location": "US East (N. Virginia)",
+        "tenancy": "Shared",
+        "capacitystatus": "Used"
+      }
+    }
+  },
+  "terms": {
+    "OnDemand": {
+      "SKU-P5": {
+        "TERM-P5": {
+          "priceDimensions": {
+            "DIM-P5": {
+              "unit": "Hrs",
+              "pricePerUnit": { "USD": "98.3200" }
+            }
+          }
+        }
+      },
+      "SKU-M7I": {
+        "TERM-M7I": {
+          "priceDimensions": {
+            "DIM-M7I": {
+              "unit": "Hrs",
+              "pricePerUnit": { "USD": "0.1000" }
+            }
+          }
+        }
+      }
+    }
+  }
 }

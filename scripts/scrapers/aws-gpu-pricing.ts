@@ -1,49 +1,46 @@
 import type { Scraper, NormalizedRecord } from '../types.js';
 import { DataSourceLayer, EntityType } from '../types.js';
-import { signRequest } from './aws-signature-v4.js';
+import { fetchWithRetry } from '../fetch-with-retry.js';
+
+const REGION_OFFERS = [
+  { region: 'us-east-1', entityId: 'aws-us-east-1', name: 'US East (N. Virginia)' },
+  { region: 'us-west-2', entityId: 'aws-us-west-2', name: 'US West (Oregon)' },
+  { region: 'eu-west-1', entityId: 'aws-eu-west-1', name: 'EU (Ireland)' },
+  { region: 'eu-central-1', entityId: 'aws-eu-central-1', name: 'EU (Frankfurt)' },
+  { region: 'ap-northeast-1', entityId: 'aws-ap-northeast-1', name: 'Asia Pacific (Tokyo)' },
+  { region: 'ap-southeast-1', entityId: 'aws-ap-southeast-1', name: 'Asia Pacific (Singapore)' },
+  { region: 'sa-east-1', entityId: 'aws-sa-east-1', name: 'South America (Sao Paulo)' },
+] as const;
 
 const GPU_FAMILIES = ['p4d', 'p5', 'g5', 'g6', 'trn', 'inf'];
-const PRICING_API = 'https://pricing.us-east-1.amazonaws.com';
+const OFFER_BASE_URL = 'https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current';
 
-const AWS_CREDENTIALS = {
-  accessKeyId: process.env.AWS_ACCESS_KEY_ID ?? '',
-  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY ?? '',
-};
-
-interface PricingProduct {
-  product?: {
-    productFamily?: string;
-    attributes?: {
-      instanceType?: string;
-      instanceFamily?: string;
-      location?: string;
-      locationType?: string;
-      operatingSystem?: string;
-      vcpu?: string;
-      memory?: string;
-      gpuMemory?: string;
-    };
-  };
-  terms?: {
-    OnDemand?: Record<
-      string,
-      {
-        priceDimensions?: Record<
-          string,
-          {
-            unit?: string;
-            pricePerUnit?: { USD?: string };
-          }
-        >;
-      }
-    >;
+interface OfferProduct {
+  sku: string;
+  productFamily?: string;
+  attributes?: {
+    instanceType?: string;
+    instanceFamily?: string;
+    operatingSystem?: string;
+    location?: string;
+    tenancy?: string;
+    capacitystatus?: string;
   };
 }
 
-interface PricingApiResponse {
-  FormatVersion?: string;
-  PriceList?: string[];
-  NextToken?: string | null;
+interface OfferTerm {
+  priceDimensions?: Record<string, {
+    unit?: string;
+    pricePerUnit?: { USD?: string };
+  }>;
+}
+
+interface RegionOfferResponse {
+  products?: Record<string, OfferProduct>;
+  terms?: {
+    OnDemand?: Record<string, Record<string, OfferTerm>>;
+  };
+  publicationDate?: string;
 }
 
 class AwsGpuPricingScraper implements Scraper {
@@ -53,115 +50,67 @@ class AwsGpuPricingScraper implements Scraper {
   async fetch(): Promise<NormalizedRecord[]> {
     const records: NormalizedRecord[] = [];
 
-    for (const family of GPU_FAMILIES) {
-      const products = await this.fetchFamily(family);
-      for (const product of products) {
-        const record = this.normalize(product);
-        if (record) records.push(record);
-      }
+    for (const region of REGION_OFFERS) {
+      const offer = await this.fetchRegion(region.region);
+      records.push(...this.normalizeRegion(offer, region));
     }
 
     return records;
   }
 
-  private async fetchFamily(family: string): Promise<PricingProduct[]> {
-    const allProducts: PricingProduct[] = [];
-    let nextToken: string | undefined;
+  private async fetchRegion(region: string): Promise<RegionOfferResponse> {
+    const response = await fetchWithRetry(`${OFFER_BASE_URL}/${region}/index.json`);
+    return await response.json() as RegionOfferResponse;
+  }
 
-    do {
-      const params = new URLSearchParams({
-        ServiceCode: 'AmazonEC2',
-        FormatVersion: 'aws_v1',
-        MaxResults: '100',
-      });
+  private normalizeRegion(
+    offer: RegionOfferResponse,
+    region: typeof REGION_OFFERS[number],
+  ): NormalizedRecord[] {
+    const records: NormalizedRecord[] = [];
 
-      const filters = [
-        {
-          Type: 'TERM_MATCH',
-          Field: 'instanceFamily',
-          Value: `${family} instance`,
+    for (const product of Object.values(offer.products ?? {})) {
+      if (!this.isGpuLinuxOnDemandProduct(product)) continue;
+
+      const price = this.extractOnDemandPrice(offer, product.sku);
+      if (price === null) continue;
+
+      records.push({
+        source: this.name,
+        entity: {
+          id: region.entityId,
+          type: EntityType.CLOUD_REGION,
+          name: product.attributes?.location ?? region.name,
         },
-        { Type: 'TERM_MATCH', Field: 'operatingSystem', Value: 'Linux' },
-        { Type: 'TERM_MATCH', Field: 'tenancy', Value: 'Shared' },
-        { Type: 'TERM_MATCH', Field: 'capacitystatus', Value: 'Used' },
-      ];
-
-      filters.forEach((f, i) => {
-        params.set(`Filters.${i + 1}.Type`, f.Type);
-        params.set(`Filters.${i + 1}.Field`, f.Field);
-        params.set(`Filters.${i + 1}.Value`, f.Value);
+        metric: 'gpu-price-hr',
+        value: price,
+        unit: 'USD/hr',
+        timestamp: offer.publicationDate ?? new Date().toISOString(),
+        confidence: 5,
       });
+    }
 
-      if (nextToken) {
-        params.set('NextToken', nextToken);
-      }
-
-      const url = `${PRICING_API}/?${params}`;
-      const headers = signRequest('GET', url, AWS_CREDENTIALS);
-
-      const response = await fetch(url, { headers });
-
-      if (!response.ok) {
-        throw new Error(
-          `AWS Pricing API returned ${response.status}: ${response.statusText}`,
-        );
-      }
-
-      const data = (await response.json()) as PricingApiResponse;
-
-      // PriceList items are JSON strings, not objects -- AWS pitfall
-      if (data.PriceList) {
-        for (const item of data.PriceList) {
-          try {
-            allProducts.push(JSON.parse(item) as PricingProduct);
-          } catch {
-            // Skip malformed PriceList items (ASVS V5 input validation)
-          }
-        }
-      }
-
-      nextToken = data.NextToken ?? undefined;
-    } while (nextToken);
-
-    return allProducts;
+    return records;
   }
 
-  private normalize(product: PricingProduct): NormalizedRecord | null {
-    const attrs = product.product?.attributes;
-    if (!attrs?.instanceType || !attrs?.location) return null;
+  private isGpuLinuxOnDemandProduct(product: OfferProduct): boolean {
+    const attrs = product.attributes;
+    if (!attrs?.instanceType) return false;
+    if (attrs.operatingSystem !== 'Linux') return false;
+    if (attrs.tenancy && attrs.tenancy !== 'Shared') return false;
+    if (attrs.capacitystatus && attrs.capacitystatus !== 'Used') return false;
 
-    const price = this.extractOnDemandPrice(product);
-    if (price === null) return null;
-
-    return {
-      source: this.name,
-      entity: {
-        id: `aws-${attrs.location
-          .toLowerCase()
-          .replace(/[().]/g, '')
-          .replace(/\s+/g, '-')}`,
-        type: EntityType.CLOUD_REGION,
-        name: attrs.location,
-      },
-      metric: 'gpu-price-hr',
-      value: price,
-      unit: 'USD/hr',
-      timestamp: new Date().toISOString(),
-      confidence: 5,
-    };
+    return GPU_FAMILIES.some(family => attrs.instanceType!.startsWith(family));
   }
 
-  private extractOnDemandPrice(product: PricingProduct): number | null {
-    const onDemand = product.terms?.OnDemand;
-    if (!onDemand) return null;
+  private extractOnDemandPrice(offer: RegionOfferResponse, sku: string): number | null {
+    const termsBySku = offer.terms?.OnDemand?.[sku];
+    if (!termsBySku) return null;
 
-    for (const offer of Object.values(onDemand)) {
-      const dims = offer.priceDimensions;
-      if (!dims) continue;
-
-      for (const dim of Object.values(dims)) {
-        const priceStr = dim.pricePerUnit?.USD;
-        if (priceStr) return parseFloat(priceStr);
+    for (const term of Object.values(termsBySku)) {
+      for (const dimension of Object.values(term.priceDimensions ?? {})) {
+        const price = Number.parseFloat(dimension.pricePerUnit?.USD ?? '');
+        if (dimension.unit === 'Hrs' && Number.isFinite(price)) return price;
       }
     }
 
