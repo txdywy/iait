@@ -87,17 +87,46 @@
 
 ## Traceability
 
-*Updated during roadmap creation.*
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| *Pending roadmap creation* | | |
+| PIPE-01 | Phase 1 | Pending |
+| PIPE-02 | Phase 2 | Pending |
+| PIPE-03 | Phase 2 | Pending |
+| PIPE-04 | Phase 2 | Pending |
+| PIPE-05 | Phase 2 | Pending |
+| PIPE-06 | Phase 1 | Pending |
+| PIPE-07 | Phase 1 | Pending |
+| PIPE-08 | Phase 1 | Pending |
+| PIPE-09 | Phase 1 | Pending |
+| PIPE-10 | Phase 1 | Pending |
+| INDX-01 | Phase 2 | Pending |
+| INDX-02 | Phase 2 | Pending |
+| INDX-03 | Phase 2 | Pending |
+| INDX-04 | Phase 2 | Pending |
+| INDX-05 | Phase 2 | Pending |
+| INDX-06 | Phase 2 | Pending |
+| INDX-07 | Phase 2 | Pending |
+| FE-01 | Phase 3 | Pending |
+| FE-02 | Phase 3 | Pending |
+| FE-03 | Phase 3 | Pending |
+| FE-04 | Phase 3 | Pending |
+| FE-05 | Phase 3 | Pending |
+| FE-06 | Phase 3 | Pending |
+| FE-07 | Phase 3 | Pending |
+| FE-08 | Phase 3 | Pending |
+| FE-09 | Phase 3 | Pending |
+| INF-01 | Phase 4 | Pending |
+| INF-02 | Phase 4 | Pending |
+| INF-03 | Phase 1 | Pending |
+| INF-04 | Phase 4 | Pending |
+| INF-05 | Phase 4 | Pending |
+| INF-06 | Phase 4 | Pending |
 
 **Coverage:**
-- v1 requirements: 28 total
-- Mapped to phases: 0
-- Unmapped: 28 ⚠️
+- v1 requirements: 32 total
+- Mapped to phases: 32
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-05-06*
-*Last updated: 2026-05-06 after initial definition*
+*Last updated: 2026-05-06 after roadmap creation*
