@@ -50,7 +50,7 @@ Plans:
 
 Plans:
 **Wave 1**
-- [ ] 02-01-PLAN.md -- Bug fixes (CR-01/CR-02), types extension, and config files
+- [x] 02-01-PLAN.md -- Bug fixes (CR-01/CR-02), types extension, and config files
 
 **Wave 2** *(blocked on Wave 1 completion)*
 - [ ] 02-02-PLAN.md -- Azure GPU pricing scraper
