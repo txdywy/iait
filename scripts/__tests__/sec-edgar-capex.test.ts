@@ -44,30 +44,39 @@ describe('SecEdgarCapexScraper', () => {
     expect(nvidia!.value).toBe(1069000000);
   });
 
-  it('computes TTM from cumulative quarterly filings when latest filing is quarterly', async () => {
+  it('computes TTM from latest Q3 cumulative filing plus prior annual remainder', async () => {
     const latestQuarterly = JSON.parse(JSON.stringify(fixture));
     latestQuarterly.units.USD = [
       {
-        end: '2024-04-28',
+        end: '2025-04-27',
         val: 200000000,
-        accn: '0001045810-25-000001',
-        fy: 2025,
+        accn: '0001045810-26-000001',
+        fy: 2026,
         fp: 'Q1',
         form: '10-Q',
-        filed: '2024-05-29',
+        filed: '2025-05-29',
       },
       {
-        end: '2024-07-28',
+        end: '2025-07-27',
         val: 450000000,
-        accn: '0001045810-25-000002',
-        fy: 2025,
+        accn: '0001045810-26-000002',
+        fy: 2026,
         fp: 'Q2',
         form: '10-Q',
-        filed: '2024-08-28',
+        filed: '2025-08-28',
+      },
+      {
+        end: '2025-10-26',
+        val: 750000000,
+        accn: '0001045810-26-000003',
+        fy: 2026,
+        fp: 'Q3',
+        form: '10-Q',
+        filed: '2025-11-27',
       },
       {
         end: '2024-10-27',
-        val: 750000000,
+        val: 369000000,
         accn: '0001045810-25-000003',
         fy: 2025,
         fp: 'Q3',
@@ -76,14 +85,13 @@ describe('SecEdgarCapexScraper', () => {
       },
       {
         end: '2025-01-26',
-        val: 1100000000,
+        val: 1069000000,
         accn: '0001045810-25-000004',
         fy: 2025,
-        fp: 'Q4',
-        form: '10-Q',
+        fp: 'FY',
+        form: '10-K',
         filed: '2025-02-26',
       },
-      ...fixture.units.USD,
     ];
 
     vi.mocked(fetch).mockResolvedValue({
@@ -95,8 +103,8 @@ describe('SecEdgarCapexScraper', () => {
     const records = await scraper.fetch();
 
     expect(records.length).toBe(5);
-    expect(records.find(r => r.entity.id === 'nvidia')!.value).toBe(1100000000);
-    expect(records.find(r => r.entity.id === 'nvidia')!.timestamp).toBe('2025-01-26T00:00:00Z');
+    expect(records.find(r => r.entity.id === 'nvidia')!.value).toBe(1450000000);
+    expect(records.find(r => r.entity.id === 'nvidia')!.timestamp).toBe('2025-10-26T00:00:00Z');
   });
 
   it('sets User-Agent header with SEC_EDGAR_EMAIL', async () => {

@@ -85,20 +85,42 @@ class SecEdgarCapexScraper implements Scraper {
       return this.capexResult(Math.abs(latest.val), latest.end);
     }
 
-    const ttm = this.computeQuarterlyTTM(sorted.filter(filing => filing.form === '10-Q'));
+    const ttm = this.computeQuarterlyTTM(
+      sorted.filter(filing => filing.form === '10-Q'),
+      sorted,
+    );
     if (ttm) return ttm;
     if (!latestAnnual) return null;
 
     return this.capexResult(Math.abs(latestAnnual.val), latestAnnual.end);
   }
 
-  private computeQuarterlyTTM(facts: XBRLFact[]): { value: number; timestamp: string } | null {
+  private computeQuarterlyTTM(facts: XBRLFact[], allFilings: XBRLFact[]): { value: number; timestamp: string } | null {
+    const quarterly = facts
+      .filter(fact => fact.fy !== undefined && fact.fp !== undefined)
+      .sort((a, b) => b.end.localeCompare(a.end));
+    const latest = quarterly[0];
+    if (!latest?.fy || !latest.fp) return null;
+
+    const currentYtd = Math.abs(latest.val);
+    const priorSameQuarter = quarterly.find(fact =>
+      fact.fy === latest.fy! - 1 && fact.fp === latest.fp,
+    );
+    const priorAnnual = allFilings
+      .filter(fact => fact.form === '10-K' && fact.fy === latest.fy! - 1)
+      .sort((a, b) => b.end.localeCompare(a.end))[0];
+
+    if (priorSameQuarter && priorAnnual) {
+      const priorRemainder = Math.abs(priorAnnual.val) - Math.abs(priorSameQuarter.val);
+      if (priorRemainder < 0) return null;
+      return this.capexResult(currentYtd + priorRemainder, latest.end);
+    }
+
     const byFiscalYear = new Map<number, XBRLFact[]>();
-    for (const fact of facts) {
-      if (fact.fy === undefined) continue;
-      const yearFacts = byFiscalYear.get(fact.fy) ?? [];
+    for (const fact of quarterly) {
+      const yearFacts = byFiscalYear.get(fact.fy!) ?? [];
       yearFacts.push(fact);
-      byFiscalYear.set(fact.fy, yearFacts);
+      byFiscalYear.set(fact.fy!, yearFacts);
     }
 
     const standalone: Array<{ value: number; end: string }> = [];
