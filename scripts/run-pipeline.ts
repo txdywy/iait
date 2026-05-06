@@ -65,43 +65,49 @@ async function run(): Promise<void> {
   console.log('[pipeline] Starting...');
   const meta = await loadMeta();
 
-  // 1. Discover and run scrapers
   await discoverScrapers();
   const scrapers = getScrapers();
-  let written = 0;
-  let skipped = 0;
+  const allRecords = new Map<string, NormalizedRecord[]>();
+  let totalRecords = 0;
 
   for (const scraper of scrapers) {
     console.log(`[pipeline] Running scraper: ${scraper.name}`);
-    const records = await scraper.fetch();
+    try {
+      const records = await scraper.fetch();
+      totalRecords += records.length;
 
-    // 2. Group records by entity
-    const byEntity = groupByEntity(records);
-
-    // 3. Write entity files (with hash check)
-    for (const [entityId, entityRecords] of byEntity) {
-      if (entityRecords.length === 0) continue;
-      const entityType = entityRecords[0].entity.type;
-      const changed = await writeEntityIfChanged(entityId, entityType, entityRecords, meta);
-      if (changed) written++;
-      else skipped++;
+      for (const [entityId, entityRecords] of groupByEntity(records)) {
+        const existing = allRecords.get(entityId) ?? [];
+        existing.push(...entityRecords);
+        allRecords.set(entityId, existing);
+      }
+    } catch (err) {
+      console.error(`[pipeline] Scraper ${scraper.name} failed: ${err}`);
     }
   }
 
-  // 4. Guard against empty compile
+  let written = 0;
+  let skipped = 0;
+
+  for (const [entityId, records] of allRecords) {
+    if (records.length === 0) continue;
+    const entityType = records[0].entity.type;
+    const changed = await writeEntityIfChanged(entityId, entityType, records, meta);
+    if (changed) written++;
+    else skipped++;
+  }
+
   if (written === 0 && Object.keys(meta.entities).length === 0) {
     console.warn('[pipeline] No data produced and no existing entities. Skipping compile.');
     return;
   }
 
-  // 5. Compile aggregate outputs
   await compile(DATA_DIR);
 
-  // 6. Write pipeline metadata
   meta.lastRun = new Date().toISOString();
   await fs.writeFile(META_PATH, JSON.stringify(meta, null, 2));
 
-  console.log(`[pipeline] Done. Written: ${written}, Skipped: ${skipped}`);
+  console.log(`[pipeline] Done. Records: ${totalRecords}, Written: ${written}, Skipped: ${skipped}`);
 }
 
 run().catch((err) => {

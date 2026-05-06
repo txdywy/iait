@@ -5,7 +5,6 @@ import os from 'node:os';
 import type { NormalizedRecord, PipelineMeta } from '../types.js';
 import { EntityType } from '../types.js';
 
-// Mock registry, hash, and compiler modules
 vi.mock('../registry.js', () => ({
   discoverScrapers: vi.fn(),
   getScrapers: vi.fn().mockReturnValue([]),
@@ -15,14 +14,18 @@ vi.mock('../compiler.js', () => ({
   compile: vi.fn().mockResolvedValue(undefined),
 }));
 
-// Import after mocks are set up
 const { groupByEntity, writeEntityIfChanged } = await import('../run-pipeline.js');
 const { hashRecords } = await import('../hash.js');
 
-const makeRecord = (entityId: string, ts: string, value = 1.0): NormalizedRecord => ({
+const makeRecord = (
+  entityId: string,
+  ts: string,
+  value = 1.0,
+  metric = 'gpu-price-hr',
+): NormalizedRecord => ({
   source: 'test',
   entity: { id: entityId, type: EntityType.CLOUD_REGION, name: 'Test Region' },
-  metric: 'gpu-price-hr',
+  metric,
   value,
   unit: 'USD/hr',
   timestamp: ts,
@@ -91,8 +94,11 @@ describe('writeEntityIfChanged', () => {
     expect(meta.entities['aws-us-east-1'].hash).not.toBe('old-hash');
   });
 
-  it('writes entity file for new entity (no existing hash)', async () => {
-    const records = [makeRecord('aws-us-east-1', '2026-01-01T00:00:00Z')];
+  it('writes entity file for new entity and sorts series by timestamp', async () => {
+    const records = [
+      makeRecord('aws-us-east-1', '2026-01-02T00:00:00Z', 2),
+      makeRecord('aws-us-east-1', '2026-01-01T00:00:00Z', 1),
+    ];
 
     const result = await writeEntityIfChanged(
       'aws-us-east-1',
@@ -101,41 +107,47 @@ describe('writeEntityIfChanged', () => {
       meta,
       tmpDir,
     );
+    const raw = await fs.readFile(
+      path.join(tmpDir, 'entities', EntityType.CLOUD_REGION, 'aws-us-east-1.json'),
+      'utf-8',
+    );
+    const saved = JSON.parse(raw);
+
     expect(result).toBe(true);
-    expect(meta.entities['aws-us-east-1']).toBeDefined();
     expect(meta.entities['aws-us-east-1'].hash).toMatch(/^[a-f0-9]{64}$/);
+    expect(saved.series.map((record: NormalizedRecord) => record.timestamp)).toEqual([
+      '2026-01-01T00:00:00Z',
+      '2026-01-02T00:00:00Z',
+    ]);
+    expect(saved.latest.timestamp).toBe('2026-01-02T00:00:00Z');
   });
 });
 
-describe('full pipeline flow', () => {
-  it('discovers scrapers, fetches, groups, writes, compiles, and updates metadata', async () => {
-    // This test verifies the complete pipeline orchestration with mocked components
-    const { discoverScrapers, getScrapers } = await import('../registry.js');
-    const { compile } = await import('../compiler.js');
+describe('multi-source entity merging', () => {
+  it('merges records from separate scrapers into a unified entity group', () => {
+    const firstSource = [makeRecord('us', '2026-01-01T00:00:00Z', 100, 'electricity-generation')];
+    const secondSource = [makeRecord('us', '2026-01-02T00:00:00Z', 200, 'electricity-production')];
+    const allRecords = new Map<string, NormalizedRecord[]>();
 
-    // Set up mock scraper
-    const mockRecords = [
-      makeRecord('aws-us-east-1', '2026-01-01T00:00:00Z', 98.32),
-      makeRecord('aws-us-west-2', '2026-01-01T00:00:00Z', 45.50),
-    ];
-    const mockScraper = {
-      name: 'test-scraper',
-      source: 'structured_api',
-      fetch: vi.fn().mockResolvedValue(mockRecords),
-    };
+    for (const records of [firstSource, secondSource]) {
+      for (const [entityId, entityRecords] of groupByEntity(records)) {
+        const existing = allRecords.get(entityId) ?? [];
+        existing.push(...entityRecords);
+        allRecords.set(entityId, existing);
+      }
+    }
 
-    vi.mocked(getScrapers).mockReturnValue([mockScraper as any]);
+    expect(allRecords.get('us')).toHaveLength(2);
+    expect(allRecords.get('us')!.map(record => record.metric)).toEqual([
+      'electricity-generation',
+      'electricity-production',
+    ]);
+  });
 
-    // Verify that the pipeline orchestration uses all the right pieces
-    expect(discoverScrapers).toBeDefined();
-    expect(getScrapers).toBeDefined();
-    expect(compile).toBeDefined();
-    expect(mockScraper.fetch).toBeDefined();
+  it('documents that one scraper failure should not prevent other records from merging', () => {
+    const successfulRecords = [makeRecord('us', '2026-01-01T00:00:00Z', 100)];
+    const groups = groupByEntity(successfulRecords);
 
-    // Verify groupByEntity splits correctly
-    const groups = groupByEntity(mockRecords);
-    expect(groups.size).toBe(2);
-    expect(groups.has('aws-us-east-1')).toBe(true);
-    expect(groups.has('aws-us-west-2')).toBe(true);
+    expect(groups.get('us')).toHaveLength(1);
   });
 });

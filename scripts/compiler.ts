@@ -1,9 +1,23 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {
+  aggregateToCities,
+  aggregateToCountries,
+  computeCompositeScore,
+  computeConfidence,
+  computeFactors,
+  normalizeFactors,
+  riskForEntity,
+} from './index-model.js';
 import { EntityType } from './types.js';
-import type { EntityFile, CompiledEntity } from './types.js';
+import type {
+  CompiledEntity,
+  EntityCrossRef,
+  EntityFile,
+  ExportControlTiers,
+  IndexConfig,
+} from './types.js';
 
-/** Map EntityType to rankings output key */
 const TYPE_KEY_MAP: Record<EntityType, string> = {
   [EntityType.COUNTRY]: 'countries',
   [EntityType.CITY]: 'cities',
@@ -11,9 +25,17 @@ const TYPE_KEY_MAP: Record<EntityType, string> = {
   [EntityType.COMPANY]: 'companies',
 };
 
-/**
- * Recursively find all .json files under a directory.
- */
+interface ScoredEntity {
+  entity: EntityFile;
+  score: number;
+  factors: Record<string, number>;
+  factorBreakdown: Record<string, { raw: number; normalized: number; weight: number }>;
+  confidence: number;
+  riskTier: string;
+  riskMultiplier: number;
+  dataCompleteness: 'full' | 'partial';
+}
+
 async function findJsonFiles(dir: string): Promise<string[]> {
   const entries = await fs.readdir(dir, { withFileTypes: true });
   const files: string[] = [];
@@ -28,10 +50,11 @@ async function findJsonFiles(dir: string): Promise<string[]> {
   return files;
 }
 
-/**
- * Load all entity files from the entities subdirectory.
- * Reads recursively. Files without required fields are logged and skipped.
- */
+async function loadJsonFile<T>(filePath: string): Promise<T> {
+  const raw = await fs.readFile(filePath, 'utf-8');
+  return JSON.parse(raw) as T;
+}
+
 async function loadAllEntities(dataDir: string): Promise<Map<string, EntityFile>> {
   const entitiesDir = path.join(dataDir, 'entities');
   const entities = new Map<string, EntityFile>();
@@ -40,51 +63,178 @@ async function loadAllEntities(dataDir: string): Promise<Map<string, EntityFile>
     const files = await findJsonFiles(entitiesDir);
     for (const file of files) {
       try {
-        const raw = await fs.readFile(file, 'utf-8');
-        const entity = JSON.parse(raw) as EntityFile;
+        const entity = await loadJsonFile<EntityFile>(file);
         if (entity.id && entity.type && entity.latest) {
           entities.set(entity.id, entity);
         } else {
           console.warn(`[compiler] Skipping malformed entity file: ${file}`);
         }
-      } catch (err) {
+      } catch {
         console.warn(`[compiler] Skipping unreadable entity file: ${file}`);
       }
     }
   } catch (err) {
-    // entities directory may not exist on first run
     if ((err as NodeJS.ErrnoException).code !== 'ENOENT') throw err;
   }
 
   return entities;
 }
 
-/**
- * Write latest.json with current snapshot of all entities.
- * Phase 1: score = raw value (placeholder per D-16).
- */
-async function writeLatest(
+function virtualEntity(
+  id: string,
+  type: EntityType,
+  name: string,
+  factors: Record<string, number>,
+): EntityFile {
+  const timestamp = new Date().toISOString();
+  const firstFactor = Object.entries(factors)[0] ?? ['virtual', 0];
+  const record = {
+    source: 'aggregate',
+    entity: { id, type, name },
+    metric: firstFactor[0],
+    value: firstFactor[1],
+    unit: 'index-factor',
+    timestamp,
+    confidence: 4,
+  };
+
+  return {
+    id,
+    type,
+    latest: record,
+    series: [record],
+    _hash: '',
+    _updatedAt: timestamp,
+  };
+}
+
+function buildFactorBreakdown(
+  raw: Record<string, number>,
+  normalized: Record<string, number>,
+  config: IndexConfig,
+): Record<string, { raw: number; normalized: number; weight: number }> {
+  const breakdown: Record<string, { raw: number; normalized: number; weight: number }> = {};
+  for (const [factor, normalizedValue] of Object.entries(normalized)) {
+    breakdown[factor] = {
+      raw: raw[factor] ?? normalizedValue,
+      normalized: normalizedValue,
+      weight: config.factors[factor]?.weight ?? 0,
+    };
+  }
+  return breakdown;
+}
+
+function validateWeights(config: IndexConfig): void {
+  const sum = Object.values(config.factors).reduce((total, factor) => total + factor.weight, 0);
+  if (!Number.isFinite(sum) || Math.abs(sum - 1) > 0.001) {
+    console.warn(`[compiler] index-config weights sum to ${sum}, expected 1.0`);
+  }
+}
+
+function computeAllScores(
   entities: Map<string, EntityFile>,
+  config: IndexConfig,
+  crossRef: EntityCrossRef,
+  riskTiers: ExportControlTiers,
+): Map<string, ScoredEntity> {
+  validateWeights(config);
+
+  const allEntities = new Map(entities);
+  const rawFactors = new Map<string, Record<string, number>>();
+  const entityTypes = new Map<string, EntityType>();
+
+  for (const [id, entity] of entities) {
+    rawFactors.set(id, computeFactors(entity, crossRef));
+    entityTypes.set(id, entity.type);
+  }
+
+  for (const [countryId, factors] of aggregateToCountries(entities, crossRef)) {
+    const existing = rawFactors.get(countryId) ?? {};
+    rawFactors.set(countryId, { ...factors, ...existing });
+    if (!allEntities.has(countryId)) {
+      allEntities.set(countryId, virtualEntity(
+        countryId,
+        EntityType.COUNTRY,
+        crossRef.countries[countryId]?.name ?? countryId,
+        factors,
+      ));
+      entityTypes.set(countryId, EntityType.COUNTRY);
+    }
+  }
+
+  for (const [cityId, factors] of aggregateToCities(entities, crossRef)) {
+    rawFactors.set(cityId, factors);
+    allEntities.set(cityId, virtualEntity(
+      cityId,
+      EntityType.CITY,
+      crossRef.cities[cityId]?.name ?? cityId,
+      factors,
+    ));
+    entityTypes.set(cityId, EntityType.CITY);
+  }
+
+  const normalized = new Map<string, Record<string, number>>();
+  for (const type of Object.values(EntityType)) {
+    for (const [id, factors] of normalizeFactors(rawFactors, entityTypes, type)) {
+      normalized.set(id, factors);
+    }
+  }
+
+  const weights = Object.fromEntries(
+    Object.entries(config.factors).map(([factor, details]) => [factor, details.weight]),
+  );
+  const scored = new Map<string, ScoredEntity>();
+
+  for (const [id, entity] of allEntities) {
+    const entityRawFactors = rawFactors.get(id) ?? {};
+    const entityNormalized = normalized.get(id) ?? {};
+    const { riskTier, riskMultiplier } = riskForEntity(entity, crossRef, riskTiers);
+    const { score } = computeCompositeScore(entityNormalized, weights, riskMultiplier);
+    const { confidence, dataCompleteness } = computeConfidence(
+      entity,
+      Object.keys(entityRawFactors),
+      config,
+    );
+
+    scored.set(id, {
+      entity,
+      score,
+      factors: entityRawFactors,
+      factorBreakdown: buildFactorBreakdown(entityRawFactors, entityNormalized, config),
+      confidence,
+      riskTier,
+      riskMultiplier,
+      dataCompleteness,
+    });
+  }
+
+  return scored;
+}
+
+async function writeLatest(
+  scoredEntities: Map<string, ScoredEntity>,
   dataDir: string,
 ): Promise<void> {
   const latest: Record<string, CompiledEntity> = {};
-  for (const [id, entity] of entities) {
+  for (const [id, scored] of scoredEntities) {
     latest[id] = {
-      type: entity.type,
-      name: entity.latest.entity.name,
-      score: entity.latest.value,
-      factors: { [entity.latest.metric]: entity.latest.value },
-      confidence: entity.latest.confidence,
-      lastUpdated: entity._updatedAt,
+      type: scored.entity.type,
+      name: scored.entity.latest.entity.name,
+      score: scored.score,
+      factors: scored.factors,
+      confidence: scored.confidence,
+      lastUpdated: scored.entity._updatedAt,
+      riskTier: scored.riskTier,
+      riskMultiplier: scored.riskMultiplier,
+      factorBreakdown: scored.factorBreakdown,
+      dataCompleteness: scored.dataCompleteness,
     };
   }
 
-  const output = JSON.stringify(
-    { generated: new Date().toISOString(), entities: latest },
-    null,
-    2,
+  await fs.writeFile(
+    path.join(dataDir, 'latest.json'),
+    JSON.stringify({ generated: new Date().toISOString(), entities: latest }, null, 2),
   );
-  await fs.writeFile(path.join(dataDir, 'latest.json'), output);
 }
 
 interface RankingEntry {
@@ -94,22 +244,17 @@ interface RankingEntry {
   confidence: number;
 }
 
-/**
- * Write rankings.json with entities grouped by type, sorted by score descending.
- */
 async function writeRankings(
-  entities: Map<string, EntityFile>,
+  scoredEntities: Map<string, ScoredEntity>,
   dataDir: string,
 ): Promise<void> {
-  // Group by type
   const groups = new Map<EntityType, Array<{ id: string; score: number; confidence: number }>>();
-  for (const [id, entity] of entities) {
-    const group = groups.get(entity.type) ?? [];
-    group.push({ id, score: entity.latest.value, confidence: entity.latest.confidence });
-    groups.set(entity.type, group);
+  for (const [id, scored] of scoredEntities) {
+    const group = groups.get(scored.entity.type) ?? [];
+    group.push({ id, score: scored.score, confidence: scored.confidence });
+    groups.set(scored.entity.type, group);
   }
 
-  // Build byType object
   const byType: Record<string, RankingEntry[]> = {};
   for (const [type, key] of Object.entries(TYPE_KEY_MAP)) {
     const group = groups.get(type as EntityType) ?? [];
@@ -122,44 +267,45 @@ async function writeRankings(
     }));
   }
 
-  const output = JSON.stringify(
-    { generated: new Date().toISOString(), byType },
-    null,
-    2,
+  await fs.writeFile(
+    path.join(dataDir, 'rankings.json'),
+    JSON.stringify({ generated: new Date().toISOString(), byType }, null, 2),
   );
-  await fs.writeFile(path.join(dataDir, 'rankings.json'), output);
 }
 
-/**
- * Write history.json with per-entity time-series data.
- */
 async function writeHistory(
-  entities: Map<string, EntityFile>,
+  scoredEntities: Map<string, ScoredEntity>,
   dataDir: string,
 ): Promise<void> {
-  const history: Record<string, { type: EntityType; name: string; series: Array<{ timestamp: string; score: number; factors: Record<string, number> }> }> = {};
+  const history: Record<string, {
+    type: EntityType;
+    name: string;
+    series: Array<{ timestamp: string; score: number; factors: Record<string, number> }>;
+  }> = {};
 
-  for (const [id, entity] of entities) {
+  for (const [id, scored] of scoredEntities) {
     history[id] = {
-      type: entity.type,
-      name: entity.latest.entity.name,
-      series: entity.series.map(record => ({
-        timestamp: record.timestamp,
-        score: record.value,
-        factors: { [record.metric]: record.value },
-      })),
+      type: scored.entity.type,
+      name: scored.entity.latest.entity.name,
+      series: [{
+        timestamp: scored.entity._updatedAt,
+        score: scored.score,
+        factors: scored.factors,
+      }],
     };
   }
 
-  const output = JSON.stringify(history, null, 2);
-  await fs.writeFile(path.join(dataDir, 'history.json'), output);
+  await fs.writeFile(path.join(dataDir, 'history.json'), JSON.stringify(history, null, 2));
 }
 
-// Compile all entity files into aggregate outputs.
-// dataDir: base data directory (default: 'public/data')
 export async function compile(dataDir = 'public/data'): Promise<void> {
   const entities = await loadAllEntities(dataDir);
-  await writeLatest(entities, dataDir);
-  await writeRankings(entities, dataDir);
-  await writeHistory(entities, dataDir);
+  const config = await loadJsonFile<IndexConfig>(path.join(dataDir, 'index-config.json'));
+  const crossRef = await loadJsonFile<EntityCrossRef>('scripts/mappings/entity-crossref.json');
+  const riskTiers = await loadJsonFile<ExportControlTiers>('scripts/mappings/export-control-tiers.json');
+  const scoredEntities = computeAllScores(entities, config, crossRef, riskTiers);
+
+  await writeLatest(scoredEntities, dataDir);
+  await writeRankings(scoredEntities, dataDir);
+  await writeHistory(scoredEntities, dataDir);
 }
