@@ -20,6 +20,8 @@ interface XBRLFact {
   val: number;
   form: string;
   filed: string;
+  fp?: string;
+  fy?: number;
 }
 
 interface CompanyConceptResponse {
@@ -78,15 +80,54 @@ class SecEdgarCapexScraper implements Scraper {
     const sorted = Array.from(byPeriod.values()).sort((a, b) => b.end.localeCompare(a.end));
     const latest = sorted[0];
     const latestAnnual = sorted.find(filing => filing.form === '10-K');
-    const selected = latest.form === '10-K' ? latest : latestAnnual;
-    if (!selected) return null;
 
-    const value = Math.abs(selected.val);
+    if (latest.form === '10-K') {
+      return this.capexResult(Math.abs(latest.val), latest.end);
+    }
+
+    const ttm = this.computeQuarterlyTTM(sorted.filter(filing => filing.form === '10-Q'));
+    if (ttm) return ttm;
+    if (!latestAnnual) return null;
+
+    return this.capexResult(Math.abs(latestAnnual.val), latestAnnual.end);
+  }
+
+  private computeQuarterlyTTM(facts: XBRLFact[]): { value: number; timestamp: string } | null {
+    const byFiscalYear = new Map<number, XBRLFact[]>();
+    for (const fact of facts) {
+      if (fact.fy === undefined) continue;
+      const yearFacts = byFiscalYear.get(fact.fy) ?? [];
+      yearFacts.push(fact);
+      byFiscalYear.set(fact.fy, yearFacts);
+    }
+
+    const standalone: Array<{ value: number; end: string }> = [];
+    for (const yearFacts of byFiscalYear.values()) {
+      const sortedYearFacts = yearFacts.sort((a, b) => a.end.localeCompare(b.end));
+      let previousYtd = 0;
+      for (const fact of sortedYearFacts) {
+        const value = Math.abs(fact.val) - previousYtd;
+        if (value < 0) return null;
+        standalone.push({ value, end: fact.end });
+        previousYtd = Math.abs(fact.val);
+      }
+    }
+
+    const latestQuarters = standalone.sort((a, b) => b.end.localeCompare(a.end)).slice(0, 4);
+    if (latestQuarters.length < 4) return null;
+
+    return this.capexResult(
+      latestQuarters.reduce((sum, quarter) => sum + quarter.value, 0),
+      latestQuarters[0].end,
+    );
+  }
+
+  private capexResult(value: number, end: string): { value: number; timestamp: string } {
     if (value < MIN_CAPEX || value > MAX_CAPEX) {
       console.warn(`[sec-edgar-capex] TTM CapEx $${(value / 1e9).toFixed(2)}B outside expected range`);
     }
 
-    return { value, timestamp: `${selected.end}T00:00:00Z` };
+    return { value, timestamp: `${end}T00:00:00Z` };
   }
 
   private normalize(
