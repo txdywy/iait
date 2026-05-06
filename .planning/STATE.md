@@ -11,8 +11,8 @@ See: .planning/PROJECT.md (updated 2026-05-06)
 
 Phase: 1 of 4 (Pipeline Skeleton)
 Plan: 0 of 2 in current phase
-Status: Ready to plan
-Last activity: 2026-05-06 -- Roadmap created
+Status: Context gathered, ready to plan
+Last activity: 2026-05-06 -- Phase 1 context captured
 
 Progress: [░░░░░░░░░░] 0%
 
@@ -74,5 +74,5 @@ Items acknowledged and carried forward from previous milestone close:
 ## Session Continuity
 
 Last session: 2026-05-06
-Stopped at: Roadmap created, ready for Phase 1 planning
-Resume file: None
+Stopped at: Phase 1 context gathered
+Resume file: .planning/phases/01-pipeline-skeleton/01-CONTEXT.md
