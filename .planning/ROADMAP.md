@@ -46,12 +46,18 @@ Plans:
   3. Each factor is normalized to 0-100 via percentile ranking, with weights configurable in a JSON config file
   4. Every data point carries a confidence score (1-5) based on source reliability, and the index degrades gracefully under sparse data
   5. Export control risk adjustment applies country-tier lookup table to index scores; MVP covers 10 countries, 20 cities, 5 cloud providers
-**Plans**: TBD
+**Plans**: 4 plans in 3 waves
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
-- [ ] 02-03: TBD
+**Wave 1**
+- [ ] 02-01-PLAN.md -- Bug fixes (CR-01/CR-02), types extension, and config files
+
+**Wave 2** *(blocked on Wave 1 completion)*
+- [ ] 02-02-PLAN.md -- Azure GPU pricing scraper
+- [ ] 02-03-PLAN.md -- OWID energy, World Bank energy, and SEC EDGAR CapEx scrapers
+
+**Wave 3** *(blocked on Wave 2 completion)*
+- [ ] 02-04-PLAN.md -- Composite index model, compiler upgrade, and pipeline integration
 
 ### Phase 3: Frontend Visualization
 **Goal**: Users can explore the compute index through an interactive map, rankings, trends, and detail pages with a Bloomberg Terminal aesthetic
@@ -94,7 +100,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Pipeline Skeleton | 0/4 | In Progress | - |
-| 2. Data Sources + Index Model | 0/3 | Not started | - |
+| 1. Pipeline Skeleton | 4/4 | Complete | - |
+| 2. Data Sources + Index Model | 0/4 | Planning complete | - |
 | 3. Frontend Visualization | 0/3 | Not started | - |
 | 4. Automation + Deployment | 0/1 | Not started | - |
