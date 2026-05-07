@@ -9,6 +9,7 @@ const canvasContext = {
   beginPath: vi.fn(),
   bezierCurveTo: vi.fn(),
   clearRect: vi.fn(),
+  clip: vi.fn(),
   closePath: vi.fn(),
   createLinearGradient: vi.fn(() => canvasGradient),
   createPattern: vi.fn(() => canvasPattern),
