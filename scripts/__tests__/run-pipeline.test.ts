@@ -199,7 +199,7 @@ describe('runPipeline data directory behavior', () => {
   });
 
   it('defaults to public/data when no data directory is provided', async () => {
-    const records = [makeRecord('aws-us-east-1', '2026-01-01T00:00:00Z')];
+    const records = [makeRecord('default-path-entity', '2026-01-01T00:00:00Z')];
     vi.mocked(getScrapers).mockReturnValue([makeScraper(records)]);
 
     await runPipeline();
