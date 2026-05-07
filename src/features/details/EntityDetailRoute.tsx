@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { useParams } from 'react-router-dom';
 import { CompletenessBadge, ConfidenceBadge, FreshnessBadge, RiskBadge } from '../../components/StatusBadges';
 import { useCrossRef, useEntitySourceSummary, useHistory, useIndexConfig, useLatestIndex } from '../../data/queries';
@@ -5,6 +6,8 @@ import { EntityType } from '../../data/types';
 import type { EntityLevel } from '../../data/types';
 import { resolveClusterDetail } from '../map/drilldown';
 import { FactorBreakdown } from './FactorBreakdown';
+
+const TrendChart = lazy(() => import('../trends/TrendChart'));
 
 const realEntityTypes = [EntityType.COUNTRY, EntityType.CITY, EntityType.CLOUD_REGION, EntityType.COMPANY] as const;
 
@@ -163,9 +166,13 @@ function RealEntityDetail({ type, id }: { type: EntityType; id: string }) {
           <FactorBreakdown entity={entity} config={config.data} />
         </div>
 
-        <div className="rounded-2xl border border-white/10 bg-white/[0.035] p-3 text-xs leading-5 text-[var(--ca-muted)]">
-          {historyEntry?.series?.length ? `Historical trend points available: ${historyEntry.series.length}` : 'No recent history'}
-        </div>
+        {historyEntry?.series?.length ? (
+          <Suspense fallback={<div className="font-mono text-sm text-[var(--ca-cyan)]">Loading trend chart...</div>}>
+            <TrendChart historyEntry={historyEntry} />
+          </Suspense>
+        ) : (
+          <div className="rounded-2xl border border-white/10 bg-white/[0.035] p-3 text-xs leading-5 text-[var(--ca-muted)]">No recent history</div>
+        )}
       </div>
     </DetailShell>
   );
