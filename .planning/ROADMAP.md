@@ -109,8 +109,8 @@ Plans:
 - [x] 04-01-PLAN.md -- Pipeline staging, validation, and dated snapshot safety primitives
 
 **Wave 2** *(blocked on Wave 1 completion)*
-- [ ] 04-02-PLAN.md -- Scheduled 4x/day data workflow with staged validation and data-only commits
-- [ ] 04-03-PLAN.md -- GitHub Pages deploy workflow with data validation and least-privilege Pages permissions
+- [x] 04-02-PLAN.md -- Scheduled 4x/day data workflow with staged validation and data-only commits
+- [x] 04-03-PLAN.md -- GitHub Pages deploy workflow with data validation and least-privilege Pages permissions
 
 ## Progress
 
