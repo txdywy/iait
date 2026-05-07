@@ -5,13 +5,11 @@ type GeoJsonFeature = {
   type: 'Feature';
   properties?: Record<string, unknown> | null;
   geometry?: unknown;
-  [key: string]: unknown;
 };
 
 type GeoJsonFeatureCollection<TFeature extends GeoJsonFeature = GeoJsonFeature> = {
   type: 'FeatureCollection';
   features: TFeature[];
-  [key: string]: unknown;
 };
 
 const propertyKeys = [

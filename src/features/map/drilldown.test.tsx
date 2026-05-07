@@ -1,7 +1,10 @@
-import { cleanup, fireEvent, render, screen } from '@testing-library/react';
-import { afterEach, describe, expect, it, vi } from 'vitest';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { EntityType } from '../../data/types';
 import type { EntityCrossRef, LatestIndex } from '../../data/types';
+import { useExplorerStore } from '../../store/explorer-store';
+import { ComputeMap } from './ComputeMap';
 import {
   childrenForSelection,
   companyOverlays,
@@ -31,10 +34,94 @@ const crossRef: EntityCrossRef = {
 
 const latest: LatestIndex = {
   generated: '2026-05-07T00:00:00Z',
-  entities: {},
+  entities: {
+    us: {
+      type: EntityType.COUNTRY,
+      name: 'United States',
+      score: 87,
+      factors: {},
+      confidence: 4,
+      lastUpdated: '2026-05-07T00:00:00Z',
+      dataCompleteness: 'partial',
+    },
+  },
 };
 
-afterEach(() => cleanup());
+declare global {
+  var __computeMapEvents: string[] | undefined;
+}
+
+const countryGeometry = {
+  type: 'FeatureCollection' as const,
+  features: [
+    {
+      type: 'Feature' as const,
+      properties: { ISO_A2: 'US', ISO_A3: 'USA', name: 'United States' },
+      geometry: { type: 'Polygon' as const, coordinates: [] },
+    },
+  ],
+};
+
+vi.mock('react-map-gl/maplibre', async () => {
+  const React = await import('react');
+
+  return {
+    default: React.forwardRef(function MockMap(
+      { children, onClick, interactiveLayerIds }: { children: React.ReactNode; onClick?: (event: unknown) => void; interactiveLayerIds?: string[] },
+      ref: React.ForwardedRef<{ flyTo: (options: unknown) => void }>,
+    ) {
+      React.useImperativeHandle(ref, () => ({ flyTo: vi.fn(() => globalThis.__computeMapEvents?.push('camera')) }));
+      return (
+        <div data-testid="mock-map" data-interactive-layer-ids={interactiveLayerIds?.join(',')}>
+          <button
+            type="button"
+            onClick={() => onClick?.({ features: [{ properties: { computeAtlasId: 'us' } }] })}
+          >
+            mock country click
+          </button>
+          {children}
+        </div>
+      );
+    }),
+    Source: ({ id, children }: { id: string; children: React.ReactNode }) => <div data-source-id={id}>{children}</div>,
+    Layer: ({ id }: { id: string }) => <div data-layer-id={id} />,
+    Marker: ({ children }: { children: React.ReactNode }) => <div data-testid="mock-marker">{children}</div>,
+  };
+});
+
+vi.mock('maplibre-gl/dist/maplibre-gl.css', () => ({}));
+
+afterEach(() => {
+  cleanup();
+  vi.restoreAllMocks();
+});
+
+beforeEach(() => {
+  useExplorerStore.setState({
+    level: EntityType.COUNTRY,
+    selectedId: null,
+    hoveredId: null,
+    rankingScope: EntityType.COUNTRY,
+    viewportIntent: { type: 'global' },
+  });
+  window.location.hash = '';
+  globalThis.fetch = vi.fn(async (input: RequestInfo | URL) => {
+    const url = String(input);
+    if (url.endsWith('data/latest.json')) return Response.json(latest);
+    if (url.endsWith('data/entity-crossref.json')) return Response.json(crossRef);
+    if (url.endsWith('data/geo/countries-110m.json')) return Response.json(countryGeometry);
+    return new Response(null, { status: 404 });
+  }) as typeof fetch;
+});
+
+function renderComputeMap() {
+  const client = new QueryClient({ defaultOptions: { queries: { retry: false } } });
+  return render(
+    <QueryClientProvider client={client}>
+      <ComputeMap />
+    </QueryClientProvider>,
+  );
+}
 
 describe('drill-down hierarchy helpers', () => {
   it('returns city and cloud-region children for a selected country', () => {
@@ -127,5 +214,55 @@ describe('drill-down hierarchy helpers', () => {
     expect(nvidia?.description).toContain('AI CapEx signal');
     expect(nvidia?.description).toContain('not an exact facility location');
     expect(nvidia?.label).not.toContain('facility location');
+  });
+});
+
+describe('ComputeMap MapLibre interaction shell', () => {
+  it('renders MapLibre countries source and country-score-fill layer when data is available', async () => {
+    renderComputeMap();
+
+    expect(await screen.findByTestId('mock-map')).toHaveAttribute('data-interactive-layer-ids', 'country-score-fill');
+    expect(document.querySelector('[data-source-id="countries"]')).toBeInTheDocument();
+    expect(document.querySelector('[data-layer-id="country-score-fill"]')).toBeInTheDocument();
+  });
+
+  it('performs country click zoom-first camera intent before selected entity state is exposed', async () => {
+    globalThis.__computeMapEvents = [];
+
+    renderComputeMap();
+    fireEvent.click(await screen.findByRole('button', { name: /mock country click/i }));
+
+    expect(useExplorerStore.getState().viewportIntent).toEqual({ type: 'fit-country', id: 'us' });
+    expect(useExplorerStore.getState().selectedId).toBe('us');
+    expect(globalThis.__computeMapEvents).toEqual(['camera']);
+  });
+
+  it('shows selected country breadcrumb and city/cloud-region next-step labels', async () => {
+    useExplorerStore.setState({ level: EntityType.COUNTRY, selectedId: 'us' });
+    renderComputeMap();
+
+    expect(await screen.findByText('Global / Country')).toBeInTheDocument();
+    expect(screen.getAllByRole('button', { name: /Ashburn, VA/i })[0]).toBeInTheDocument();
+    expect(screen.getAllByRole('button', { name: /aws-us-east-1/i })[0]).toBeInTheDocument();
+  });
+
+  it('exposes a visible selectable modeled cluster proxy for a selected cloud region', async () => {
+    useExplorerStore.setState({ level: EntityType.CLOUD_REGION, selectedId: 'aws-us-east-1' });
+    renderComputeMap();
+
+    const clusterButtons = await screen.findAllByRole('button', { name: /modeled cluster proxy|AWS ashburn data center cluster/i });
+    expect(clusterButtons.length).toBeGreaterThan(0);
+    expect(screen.getByText(/not a verified facility/i)).toBeInTheDocument();
+
+    fireEvent.click(screen.getByRole('button', { name: /AWS ashburn data center cluster/i }));
+    expect(useExplorerStore.getState().level).toBe('data-center-cluster');
+    expect(useExplorerStore.getState().selectedId).toBe('aws-us-east-1-cluster');
+  });
+
+  it('renders symbolic company overlay copy without implying exact facilities', async () => {
+    renderComputeMap();
+
+    await waitFor(() => expect(screen.getAllByText(/AI CapEx signal/i).length).toBeGreaterThan(0));
+    expect(screen.getAllByText(/not an exact facility location/i).length).toBeGreaterThan(0);
   });
 });
