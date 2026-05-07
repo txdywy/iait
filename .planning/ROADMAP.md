@@ -8,7 +8,7 @@ ComputeAtlas delivers a pure-frontend AI compute index platform in four phases. 
 
 - [ ] **Phase 1: Pipeline Skeleton** - End-to-end data pipeline with AWS pricing, scraper registry, normalized storage, and data compiler
 - [ ] **Phase 2: Data Sources + Index Model** - All remaining scrapers (Azure, OWID, World Bank, SEC EDGAR) plus composite compute index with configurable scoring
-- [ ] **Phase 3: Frontend Visualization** - MapLibre heatmap, drill-down navigation, rankings, trend charts, detail pages, and Bloomberg-style HUD theme
+- [ ] **Phase 3: Frontend Visualization** - MapLibre heatmap, drill-down navigation, rankings, trends, detail pages, and Bloomberg-style HUD theme
 - [ ] **Phase 4: Automation + Deployment** - GitHub Actions 4x/day pipeline, deployment, data versioning, and resilience
 
 ## Phase Details
@@ -70,20 +70,26 @@ Plans:
   4. User can view historical trend charts (ECharts) for any entity
   5. Entity detail pages show index factor breakdown, contributing data sources, confidence score, risk analysis, and data freshness indicators
   6. App uses HashRouter for GitHub Pages compatibility, dark Bloomberg HUD theme (Tailwind CSS 4), and code-split initial bundle under 300KB
-**Plans**: 4 plans in 4 waves
+**Plans**: 6 plans in 6 waves
 
 Plans:
 **Wave 1**
-- [ ] 03-01-PLAN.md -- Frontend toolchain, executable boot shell, aggregate/static data assets, geography asset, and bundle gate
+- [x] 03-01-PLAN.md -- Frontend package/scripts/Vite/Tailwind/Vitest and minimal map-first boot shell
 
 **Wave 2** *(blocked on Wave 1 completion)*
-- [ ] 03-02-PLAN.md -- HUD app shell, status badges, loading states, and ranking rail
+- [ ] 03-02-PLAN.md -- Static JSON types, base-path fetchers, React Query hooks, and derived cluster contract
 
 **Wave 3** *(blocked on Wave 2 completion)*
-- [ ] 03-03-PLAN.md -- MapLibre choropleth, zoom-first drill-down, derived cluster proxies, hierarchy state, and symbolic company overlays
+- [ ] 03-03-PLAN.md -- Public geo/crossref/aggregate asset materialization and 300KB bundle gate
 
 **Wave 4** *(blocked on Wave 3 completion)*
-- [ ] 03-04-PLAN.md -- Persistent map-first HashRouter detail routes, source metadata, factor breakdown, and lazy ECharts trend charts
+- [ ] 03-04-PLAN.md -- HUD app shell, status badges, loading states, and ranking rail
+
+**Wave 5** *(blocked on Wave 4 completion)*
+- [ ] 03-05-PLAN.md -- MapLibre choropleth, zoom-first drill-down, visible/selectable derived cluster proxies, hierarchy state, and symbolic company overlays
+
+**Wave 6** *(blocked on Wave 5 completion)*
+- [ ] 03-06-PLAN.md -- Persistent HashRouter detail routes, cluster detail support, source metadata, factor breakdown, and lazy ECharts trend charts
 **UI hint**: yes
 
 ### Phase 4: Automation + Deployment
@@ -110,5 +116,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Pipeline Skeleton | 4/4 | Complete | - |
 | 2. Data Sources + Index Model | 0/4 | Planning complete | - |
-| 3. Frontend Visualization | 0/4 | Planning complete | - |
+| 3. Frontend Visualization | 0/6 | Planning complete | - |
 | 4. Automation + Deployment | 0/1 | Not started | - |
