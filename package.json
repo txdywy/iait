@@ -16,6 +16,7 @@
     "pipeline": "tsx scripts/run-pipeline.ts",
     "data:validate": "tsx scripts/validate-data.ts public/data",
     "data:validate:dir": "tsx scripts/validate-data.ts",
+    "data:snapshot": "tsx scripts/snapshot-data.ts public/data",
     "test": "vitest run",
     "test:scripts": "vitest run scripts/"
   },
