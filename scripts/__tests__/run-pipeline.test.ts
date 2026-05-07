@@ -198,13 +198,26 @@ describe('runPipeline data directory behavior', () => {
     });
   });
 
-  it('defaults to public/data when no data directory is provided', async () => {
+  it('uses COMPUTEATLAS_DATA_DIR as the default when no data directory is provided', async () => {
+    const previousDataDir = process.env.COMPUTEATLAS_DATA_DIR;
+    process.env.COMPUTEATLAS_DATA_DIR = tmpDir;
     const records = [makeRecord('default-path-entity', '2026-01-01T00:00:00Z')];
     vi.mocked(getScrapers).mockReturnValue([makeScraper(records)]);
 
-    await runPipeline();
+    try {
+      await runPipeline();
+    } finally {
+      if (previousDataDir === undefined) {
+        delete process.env.COMPUTEATLAS_DATA_DIR;
+      } else {
+        process.env.COMPUTEATLAS_DATA_DIR = previousDataDir;
+      }
+    }
 
-    expect(compile).toHaveBeenCalledWith('public/data');
+    await expect(fs.readFile(path.join(tmpDir, '_pipeline-meta.json'), 'utf-8')).resolves.toContain(
+      'default-path-entity',
+    );
+    expect(compile).toHaveBeenCalledWith(tmpDir);
   });
 
   it('fails closed without compiling or updating metadata when all scrapers fail', async () => {

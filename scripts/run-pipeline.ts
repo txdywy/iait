@@ -7,10 +7,11 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const DATA_DIR = process.env.COMPUTEATLAS_DATA_DIR ?? 'public/data';
-const META_PATH = path.join(DATA_DIR, '_pipeline-meta.json');
+function resolveDataDir(): string {
+  return process.env.COMPUTEATLAS_DATA_DIR ?? 'public/data';
+}
 
-export async function loadMeta(metaPath = META_PATH): Promise<PipelineMeta> {
+export async function loadMeta(metaPath = path.join(resolveDataDir(), '_pipeline-meta.json')): Promise<PipelineMeta> {
   try {
     const raw = await fs.readFile(metaPath, 'utf-8');
     return JSON.parse(raw) as PipelineMeta;
@@ -51,7 +52,7 @@ export async function writeEntityIfChanged(
   entityType: EntityType,
   records: NormalizedRecord[],
   meta: PipelineMeta,
-  dataDir = DATA_DIR,
+  dataDir = resolveDataDir(),
 ): Promise<boolean> {
   assertSafePathSegment('entity id', entityId);
   assertEntityType(entityType);
@@ -89,7 +90,7 @@ export async function writeEntityIfChanged(
   return true;
 }
 
-export async function runPipeline(dataDir = DATA_DIR): Promise<void> {
+export async function runPipeline(dataDir = resolveDataDir()): Promise<void> {
   console.log('[pipeline] Starting...');
   const metaPath = path.join(dataDir, '_pipeline-meta.json');
   const meta = await loadMeta(metaPath);
