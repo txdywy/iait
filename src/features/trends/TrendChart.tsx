@@ -3,8 +3,20 @@ import * as echarts from 'echarts/core';
 import { LineChart } from 'echarts/charts';
 import { GridComponent, TooltipComponent } from 'echarts/components';
 import { CanvasRenderer } from 'echarts/renderers';
+import type { ComponentType } from 'react';
 import type { HistoryEntry } from '../../data/types';
 import { buildTrendOption } from './trend-options';
+
+export function resolveReactEChartsCore(module: unknown) {
+  if (typeof module === 'function') return module as ComponentType<Record<string, unknown>>;
+
+  const maybeDefault = (module as { default?: unknown }).default;
+  if (typeof maybeDefault === 'function') return maybeDefault as ComponentType<Record<string, unknown>>;
+
+  return module as ComponentType<Record<string, unknown>>;
+}
+
+const EChartsCore = resolveReactEChartsCore(ReactEChartsCore);
 
 echarts.use([LineChart, GridComponent, TooltipComponent, CanvasRenderer]);
 
@@ -25,7 +37,7 @@ export default function TrendChart({ historyEntry }: TrendChartProps) {
 
   return (
     <div className="rounded-2xl border border-white/10 bg-white/[0.035] p-3">
-      <ReactEChartsCore echarts={echarts} option={option} notMerge lazyUpdate style={{ height: 220, width: '100%' }} />
+      <EChartsCore echarts={echarts} option={option} notMerge lazyUpdate style={{ height: 220, width: '100%' }} />
     </div>
   );
 }
