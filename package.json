@@ -7,15 +7,45 @@
     "node": "^20.19.0"
   },
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.json --noEmit",
+    "prepare:geo": "tsx scripts/prepare-geo.ts",
+    "bundle:check": "node scripts/check-initial-bundle.mjs",
     "pipeline": "tsx scripts/run-pipeline.ts",
     "test": "vitest run",
     "test:scripts": "vitest run scripts/"
   },
   "devDependencies": {
-    "typescript": "~5.9.3",
-    "tsx": "~4.21.0",
-    "vitest": "~4.1.5",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/topojson-client": "^3.1.5",
+    "@vitejs/plugin-react": "^6.0.1",
     "glob": "~13.0.6",
-    "@types/node": "^20.0.0"
+    "jsdom": "^29.1.1",
+    "tsx": "~4.21.0",
+    "typescript": "~5.9.3",
+    "vitest": "~4.1.5"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "@tanstack/react-query": "^5.100.9",
+    "echarts": "^6.0.0",
+    "echarts-for-react": "^3.0.6",
+    "lucide-react": "^1.14.0",
+    "maplibre-gl": "^5.24.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-map-gl": "^8.1.1",
+    "react-router-dom": "^7.15.0",
+    "tailwindcss": "^4.2.4",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2",
+    "zustand": "^5.0.13"
   }
 }
