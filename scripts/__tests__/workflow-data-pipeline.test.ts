@@ -4,6 +4,9 @@ import { join } from 'node:path';
 
 const workflowPath = join(process.cwd(), '.github/workflows/data-pipeline.yml');
 const workflow = readFileSync(workflowPath, 'utf-8');
+const pinnedActionPatternDescription = 'uses:.*@[0-9a-f]{40}';
+const mutableMajorActionPatternDescription = 'actions/.*@v[0-9]';
+const globalSuppressionPatternDescription = '[skip ci]|[ci skip]|[skip actions]';
 
 function pushPathsBlock(): string {
   const match = workflow.match(/push:\n(?<block>(?: {4}.+\n| {6}.+\n| {8}.+\n)+)/);
