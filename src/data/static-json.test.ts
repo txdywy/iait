@@ -1,7 +1,10 @@
 import { describe, expect, it, vi } from 'vitest';
 import { dataUrl, fetchStaticJson } from './static-json';
 import { queryKeys } from './queries';
+import { EntityType } from './types';
 import type { DerivedClusterNode, EntityLevel } from './types';
+
+vi.stubEnv('BASE_URL', '/iait/');
 
 describe('static JSON helpers', () => {
   it('prefixes paths with the Vite base URL without double slashes', () => {
@@ -40,7 +43,7 @@ describe('static JSON helpers', () => {
     expect(queryKeys.indexConfig).toEqual(['data', 'data/index-config.json']);
     expect(queryKeys.crossRef).toEqual(['data', 'data/entity-crossref.json']);
     expect(queryKeys.countryGeometry).toEqual(['data', 'data/geo/countries-110m.json']);
-    expect(queryKeys.entitySourceSummary('cloud-region', 'aws-us-east-1')).toEqual([
+    expect(queryKeys.entitySourceSummary(EntityType.CLOUD_REGION, 'aws-us-east-1')).toEqual([
       'data',
       'data/entities/cloud-region/aws-us-east-1.json',
     ]);
@@ -50,10 +53,10 @@ describe('static JSON helpers', () => {
 describe('frontend data contracts', () => {
   it('accepts data-center-cluster as a routable entity level', () => {
     const levels = [
-      'country',
-      'city',
-      'cloud-region',
-      'company',
+      EntityType.COUNTRY,
+      EntityType.CITY,
+      EntityType.CLOUD_REGION,
+      EntityType.COMPANY,
       'data-center-cluster',
     ] satisfies EntityLevel[];
 
