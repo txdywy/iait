@@ -150,7 +150,7 @@ describe('EntityDetailRoute', () => {
     expect(screen.getByText('Confidence 4/5')).toBeInTheDocument();
     expect(screen.getByText('Full factors')).toBeInTheDocument();
     expect(screen.getByText(/Updated|Stale/)).toBeInTheDocument();
-    expect(screen.getByText(/Risk adjustment/i)).toBeInTheDocument();
+    expect(screen.getAllByText(/Risk adjustment/i).length).toBeGreaterThan(0);
   });
 
   it('renders factor breakdown headings', async () => {
@@ -165,7 +165,7 @@ describe('EntityDetailRoute', () => {
   it('frames risk as a modeling assumption without verdict language', async () => {
     route('/entity/country/us');
 
-    expect(await screen.findByText(/Modeling assumption/i)).toBeInTheDocument();
+    expect((await screen.findAllByText(/Modeling assumption/i)).length).toBeGreaterThan(0);
     const text = document.body.textContent ?? '';
     expect(text).not.toMatch(/legal risk|compliance verdict|sanctioned/i);
   });
