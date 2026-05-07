@@ -32,6 +32,19 @@ export function groupByEntity(records: NormalizedRecord[]): Map<string, Normaliz
   return groups;
 }
 
+export function assertSafePathSegment(label: string, value: string): void {
+  const trimmed = value.trim();
+  if (trimmed.length === 0 || trimmed === '.' || trimmed === '..' || !/^[A-Za-z0-9_-]+$/.test(trimmed)) {
+    throw new Error(`Unsafe ${label}: ${value}`);
+  }
+}
+
+export function assertEntityType(entityType: EntityType): void {
+  if (!Object.values(EntityType).includes(entityType)) {
+    throw new Error(`Unsafe entity type: ${entityType}`);
+  }
+}
+
 export async function writeEntityIfChanged(
   entityId: string,
   entityType: EntityType,
@@ -39,6 +52,9 @@ export async function writeEntityIfChanged(
   meta: PipelineMeta,
   dataDir = DATA_DIR,
 ): Promise<boolean> {
+  assertSafePathSegment('entity id', entityId);
+  assertEntityType(entityType);
+
   const newHash = hashRecords(records);
   const existingHash = meta.entities[entityId]?.hash;
 
@@ -48,6 +64,13 @@ export async function writeEntityIfChanged(
   }
 
   const filePath = path.join(dataDir, 'entities', entityType, `${entityId}.json`);
+  const entitiesRoot = path.resolve(dataDir, 'entities');
+  const resolvedFile = path.resolve(filePath);
+  const relative = path.relative(entitiesRoot, resolvedFile);
+  if (relative === '' || relative.startsWith('..') || path.isAbsolute(relative)) {
+    throw new Error(`Unsafe entity path for ${entityId}`);
+  }
+
   await fs.mkdir(path.dirname(filePath), { recursive: true });
 
   const sortedByTime = [...records].sort((a, b) => a.timestamp.localeCompare(b.timestamp));
@@ -73,13 +96,16 @@ export async function runPipeline(dataDir = DATA_DIR): Promise<void> {
   await discoverScrapers();
   const scrapers = getScrapers();
   const allRecords = new Map<string, NormalizedRecord[]>();
-  let totalRecords = 0;
+  let failedScrapers = 0;
+  let successfulScrapers = 0;
+  let freshRecords = 0;
 
   for (const scraper of scrapers) {
     console.log(`[pipeline] Running scraper: ${scraper.name}`);
     try {
       const records = await scraper.fetch();
-      totalRecords += records.length;
+      successfulScrapers++;
+      freshRecords += records.length;
 
       for (const [entityId, entityRecords] of groupByEntity(records)) {
         const existing = allRecords.get(entityId) ?? [];
@@ -87,8 +113,13 @@ export async function runPipeline(dataDir = DATA_DIR): Promise<void> {
         allRecords.set(entityId, existing);
       }
     } catch (err) {
+      failedScrapers++;
       console.error(`[pipeline] Scraper ${scraper.name} failed: ${err}`);
     }
+  }
+
+  if (successfulScrapers === 0 || freshRecords === 0) {
+    throw new Error(`No fresh records produced. Successful scrapers: ${successfulScrapers}, failed scrapers: ${failedScrapers}`);
   }
 
   let written = 0;
@@ -97,14 +128,16 @@ export async function runPipeline(dataDir = DATA_DIR): Promise<void> {
   for (const [entityId, records] of allRecords) {
     if (records.length === 0) continue;
     const entityType = records[0].entity.type;
+    if (records.some(record => record.entity.type !== entityType)) {
+      throw new Error(`Conflicting entity types for ${entityId}`);
+    }
     const changed = await writeEntityIfChanged(entityId, entityType, records, meta, dataDir);
     if (changed) written++;
     else skipped++;
   }
 
-  if (written === 0 && Object.keys(meta.entities).length === 0) {
-    console.warn('[pipeline] No data produced and no existing entities. Skipping compile.');
-    return;
+  if (written === 0) {
+    throw new Error(`No fresh records produced. Written: ${written}, skipped: ${skipped}`);
   }
 
   await compile(dataDir);
@@ -112,7 +145,7 @@ export async function runPipeline(dataDir = DATA_DIR): Promise<void> {
   meta.lastRun = new Date().toISOString();
   await fs.writeFile(metaPath, JSON.stringify(meta, null, 2));
 
-  console.log(`[pipeline] Done. Records: ${totalRecords}, Written: ${written}, Skipped: ${skipped}`);
+  console.log(`[pipeline] Done. Records: ${freshRecords}, Written: ${written}, Skipped: ${skipped}`);
 }
 
 if (fileURLToPath(import.meta.url) === process.argv[1]) {
