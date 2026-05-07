@@ -5,8 +5,9 @@ import type { NormalizedRecord, PipelineMeta, EntityFile } from './types.js';
 import { EntityType } from './types.js';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const DATA_DIR = 'public/data';
+const DATA_DIR = process.env.COMPUTEATLAS_DATA_DIR ?? 'public/data';
 const META_PATH = path.join(DATA_DIR, '_pipeline-meta.json');
 
 export async function loadMeta(metaPath = META_PATH): Promise<PipelineMeta> {
@@ -64,9 +65,10 @@ export async function writeEntityIfChanged(
   return true;
 }
 
-async function run(): Promise<void> {
+export async function runPipeline(dataDir = DATA_DIR): Promise<void> {
   console.log('[pipeline] Starting...');
-  const meta = await loadMeta();
+  const metaPath = path.join(dataDir, '_pipeline-meta.json');
+  const meta = await loadMeta(metaPath);
 
   await discoverScrapers();
   const scrapers = getScrapers();
@@ -95,7 +97,7 @@ async function run(): Promise<void> {
   for (const [entityId, records] of allRecords) {
     if (records.length === 0) continue;
     const entityType = records[0].entity.type;
-    const changed = await writeEntityIfChanged(entityId, entityType, records, meta);
+    const changed = await writeEntityIfChanged(entityId, entityType, records, meta, dataDir);
     if (changed) written++;
     else skipped++;
   }
@@ -105,15 +107,17 @@ async function run(): Promise<void> {
     return;
   }
 
-  await compile(DATA_DIR);
+  await compile(dataDir);
 
   meta.lastRun = new Date().toISOString();
-  await fs.writeFile(META_PATH, JSON.stringify(meta, null, 2));
+  await fs.writeFile(metaPath, JSON.stringify(meta, null, 2));
 
   console.log(`[pipeline] Done. Records: ${totalRecords}, Written: ${written}, Skipped: ${skipped}`);
 }
 
-run().catch((err) => {
-  console.error('[pipeline] Fatal error:', err);
-  process.exit(1);
-});
+if (fileURLToPath(import.meta.url) === process.argv[1]) {
+  runPipeline().catch((err) => {
+    console.error('[pipeline] Fatal error:', err);
+    process.exit(1);
+  });
+}
