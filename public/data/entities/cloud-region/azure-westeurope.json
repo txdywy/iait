@@ -1,0 +1,3661 @@
+{
+  "id": "azure-westeurope",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-westeurope",
+      "type": "cloud-region",
+      "name": "EU West"
+    },
+    "metric": "gpu-price-hr",
+    "value": 2.3965,
+    "unit": "USD/hr",
+    "timestamp": "2026-05-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.03,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.606,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.95,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.58,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.286,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.426,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.954,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.85,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.14,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.7908,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.57,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.978,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.908,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.5816,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.1632,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.7,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.505,
+      "unit": "USD/hr",
+      "timestamp": "2020-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 29.366,
+      "unit": "USD/hr",
+      "timestamp": "2020-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.746,
+      "unit": "USD/hr",
+      "timestamp": "2020-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 27.526,
+      "unit": "USD/hr",
+      "timestamp": "2020-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.94,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.188,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.132,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.896,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.842,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.354,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.301,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.308,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.337,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.44,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.523,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.241,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.384,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.658,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.505,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.088,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.382,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.278,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.819,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.095,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.191,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.639,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 39.773,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.071,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 35.357,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.909,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.165,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.38,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.233,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.582,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.33,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.95,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.19,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.76,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.475,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.901,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.802,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.521,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.116,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.291,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.466,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0582,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 35.357,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.071,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 39.773,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.909,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.192,
+      "unit": "USD/hr",
+      "timestamp": "2021-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 40.962,
+      "unit": "USD/hr",
+      "timestamp": "2021-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 45.378,
+      "unit": "USD/hr",
+      "timestamp": "2021-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.151,
+      "unit": "USD/hr",
+      "timestamp": "2021-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.059,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.369,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.791,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.582,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.265,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.515,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.163,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.03,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.236,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.476,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.832,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.695,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.693,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.788,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.326,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.163,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.416,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.908,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.18,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.532,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.816,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.715,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.16,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.175,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.013,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.732,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.866,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.08,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.346,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.118,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.876,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.59,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.91,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.43,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.703,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.406,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.798,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.82,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.877,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.879,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.286,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.86,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.572,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.55,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.438,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.775,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.758,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.352,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.72,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.955,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.192,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 19.1,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.596,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.719,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.516,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.144,
+      "unit": "USD/hr",
+      "timestamp": "2022-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.192,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 40.962,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 45.378,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.151,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 47.78,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 132.232,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 25.563,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 127.816,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.007,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 52.893,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.816,
+      "unit": "USD/hr",
+      "timestamp": "2024-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.632,
+      "unit": "USD/hr",
+      "timestamp": "2024-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.16,
+      "unit": "USD/hr",
+      "timestamp": "2024-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.84,
+      "unit": "USD/hr",
+      "timestamp": "2024-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.368,
+      "unit": "USD/hr",
+      "timestamp": "2024-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.92,
+      "unit": "USD/hr",
+      "timestamp": "2024-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.08,
+      "unit": "USD/hr",
+      "timestamp": "2024-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.736,
+      "unit": "USD/hr",
+      "timestamp": "2024-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.78,
+      "unit": "USD/hr",
+      "timestamp": "2024-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.296,
+      "unit": "USD/hr",
+      "timestamp": "2024-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.9,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.74,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.77854,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.75006,
+      "unit": "USD/hr",
+      "timestamp": "2025-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.77854,
+      "unit": "USD/hr",
+      "timestamp": "2025-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.75006,
+      "unit": "USD/hr",
+      "timestamp": "2025-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.65012,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.79828,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.79828,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.65012,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.741,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.247,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.3,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.235,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.624,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.494,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.704,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.763,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.433,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0867,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.408,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.173,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.6,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.852,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.617,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.52,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.26,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.12,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.482,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.867,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.34225,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.263525,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.24024,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.461398,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.080018,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.160222,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.228228,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.365534,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.576576,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.48048,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.114022,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.52668,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.684499,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.814598,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.730699,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.05336,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.057056,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.33227,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.528528,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.329082,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.664541,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.264264,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.086805,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.426837,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.331944,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.50196,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.351305,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.430584,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.107554,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.053777,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.70261,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.215292,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.17556,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.08778,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.620397,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.436474,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.029981,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.984752,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.036,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.364,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.646,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.108521,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.823,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.198,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.279,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.214,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.765,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.412981,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.058,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.396,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.558,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.099,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.51499,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.292,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.529,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.821,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.825962,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.333053,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.70649,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.64,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.64472,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.757495,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.81045,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.6209,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.080138,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.904288,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.609271,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.344,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.828,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.172,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.946469,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.674638,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.621588,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.472247,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.553981,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 19.656,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.27699,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.066662,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.905225,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.638495,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.422864,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.591196,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.119947,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.239894,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.176058,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.845728,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.182393,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.194591,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.531256,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.352116,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.723171,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westeurope",
+        "type": "cloud-region",
+        "name": "EU West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.3965,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "e67d2b1e02acdf62be2cdc2539964be1969d2d35862cb314617a91b2cbb68975",
+  "_updatedAt": "2026-05-07T10:42:07.122Z"
+}

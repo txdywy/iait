@@ -1,0 +1,801 @@
+{
+  "id": "azure-qatarcentral",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-qatarcentral",
+      "type": "cloud-region",
+      "name": "QA Central"
+    },
+    "metric": "gpu-price-hr",
+    "value": 0.842,
+    "unit": "USD/hr",
+    "timestamp": "2026-01-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.915,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.054,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.37,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.246,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.26,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.865,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.324,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.458,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.12,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.464,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.74,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.493,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.116,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.232,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.576,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.248,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.298,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.649,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.293,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.636,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.925,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.85,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.288,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.13,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.575837,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.23987,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.422822,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.34188,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.17094,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.723075,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.151674,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.845645,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.335133,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.119935,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.194547,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.500576,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.411,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.666432,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.607,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.777084,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.821,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.682,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.804,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.364,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.419354,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.214,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.509,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.833263,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.554353,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.503,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.205,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.666526,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.108521,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.333053,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.7,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.935,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.036,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 19.84,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.018,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-qatarcentral",
+        "type": "cloud-region",
+        "name": "QA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.842,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "72c6097269d19218313847dc5379a7f1162f355ea7a62289e65dd146e72b4d50",
+  "_updatedAt": "2026-05-07T10:42:07.139Z"
+}

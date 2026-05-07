@@ -1,0 +1,2205 @@
+{
+  "id": "azure-canadacentral",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-canadacentral",
+      "type": "cloud-region",
+      "name": "CA Central"
+    },
+    "metric": "gpu-price-hr",
+    "value": 4.929486,
+    "unit": "USD/hr",
+    "timestamp": "2026-05-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.464,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.559,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.709,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.927,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.185,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.742,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.447,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.854,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.237,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.224,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.112,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.371,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.28,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.118,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.484,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0559,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.424,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.657,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.218,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.099,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.824,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.109,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.198,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.328,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.136,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.642,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.545,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.768,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.832,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.84,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.92,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.748,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.821,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.384,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.09,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.454,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.496,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.085,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.565,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.08,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 17.496,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 43.74,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 39.324,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.865,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 17.496,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.865,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 39.324,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 43.74,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.106,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.834,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.82,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.307,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.267,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.481,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.117,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.768,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.336,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.584,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.202,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.072,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.167,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.964,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.829,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.764,
+      "unit": "USD/hr",
+      "timestamp": "2023-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.526,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.023,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.763,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.408,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.815,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.205,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.882,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.046,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 17.63,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.819,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.409,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.512,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 117.984,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 122.4,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 48.96,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.597,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.3724,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.22424,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.3724,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.22424,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.16936,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.24186,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.3978,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.38744,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.50783,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.342619,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.17131,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.445875,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.151721,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.709632,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.413398,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.015661,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.100716,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.002355,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.085747,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.103303,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.201432,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.308384,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.057933,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.206606,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.354816,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.051744,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.685423,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.303442,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 62.016,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.61952,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.803443,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 57.6,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 62.016,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.52,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 57.6,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.806,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.806,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.52,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.284,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.172,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.244074,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.622037,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.736888,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.366,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.693,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.346083,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.940907,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 17.18,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.568,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.43,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.914,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.457,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.673,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.436,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 13.464,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.718,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.59,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.732,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.914,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.366,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.642,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.488147,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 20.86,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.827,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.692166,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.962,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.81,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.346,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.344,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.673042,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.460557,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.460557,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.64448,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.64448,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.25156,
+      "unit": "USD/hr",
+      "timestamp": "2026-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.60088,
+      "unit": "USD/hr",
+      "timestamp": "2026-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.34858,
+      "unit": "USD/hr",
+      "timestamp": "2026-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.22272,
+      "unit": "USD/hr",
+      "timestamp": "2026-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.746347,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.120419,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.240838,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.492694,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.971034,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.985629,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.232483,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.942068,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.464743,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-canadacentral",
+        "type": "cloud-region",
+        "name": "CA Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.929486,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "8ff92a40de5148b8c57bf95f505820a98bdb241b1e38b14bcc60fa391d2f6572",
+  "_updatedAt": "2026-05-07T10:42:07.121Z"
+}

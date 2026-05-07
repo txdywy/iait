@@ -1,0 +1,99 @@
+{
+  "id": "azure-southafricawest",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-southafricawest",
+      "type": "cloud-region",
+      "name": "ZA West"
+    },
+    "metric": "gpu-price-hr",
+    "value": 35.301235,
+    "unit": "USD/hr",
+    "timestamp": "2025-10-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southafricawest",
+        "type": "cloud-region",
+        "name": "ZA West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 37.322,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southafricawest",
+        "type": "cloud-region",
+        "name": "ZA West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 191.024,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southafricawest",
+        "type": "cloud-region",
+        "name": "ZA West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 186.608,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southafricawest",
+        "type": "cloud-region",
+        "name": "ZA West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 76.41,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southafricawest",
+        "type": "cloud-region",
+        "name": "ZA West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 34.485158,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southafricawest",
+        "type": "cloud-region",
+        "name": "ZA West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 35.301235,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "6fc56638365d88d87cfd18d9de8785f1ea6ac163ddbda832bfc5879b53772e92",
+  "_updatedAt": "2026-05-07T10:42:07.148Z"
+}

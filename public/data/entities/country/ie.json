@@ -1,0 +1,86 @@
+{
+  "id": "ie",
+  "type": "country",
+  "latest": {
+    "source": "owid-energy",
+    "entity": {
+      "id": "ie",
+      "type": "country",
+      "name": "Ireland"
+    },
+    "metric": "renewables-share-elec",
+    "value": 48.142,
+    "unit": "%",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "ie",
+        "type": "country",
+        "name": "Ireland"
+      },
+      "metric": "electricity-renewable-production",
+      "value": 10864740000,
+      "unit": "kWh",
+      "timestamp": "2021-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "ie",
+        "type": "country",
+        "name": "Ireland"
+      },
+      "metric": "electricity-per-capita",
+      "value": 6298.24363068244,
+      "unit": "kWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "ie",
+        "type": "country",
+        "name": "Ireland"
+      },
+      "metric": "primary-energy-consumption",
+      "value": 181.792,
+      "unit": "TWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "ie",
+        "type": "country",
+        "name": "Ireland"
+      },
+      "metric": "electricity-generation",
+      "value": 30.95,
+      "unit": "TWh",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "ie",
+        "type": "country",
+        "name": "Ireland"
+      },
+      "metric": "renewables-share-elec",
+      "value": 48.142,
+      "unit": "%",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "07b6abb9676bb7d441d2a6b0f08e0fc2baf03ed60cbee30e9ae99cd8b532af4e",
+  "_updatedAt": "2026-05-07T10:42:07.104Z"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "us",
+  "type": "country",
+  "latest": {
+    "source": "owid-energy",
+    "entity": {
+      "id": "us",
+      "type": "country",
+      "name": "United States"
+    },
+    "metric": "renewables-share-elec",
+    "value": 25.638,
+    "unit": "%",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "us",
+        "type": "country",
+        "name": "United States"
+      },
+      "metric": "electricity-renewable-production",
+      "value": 612795580000,
+      "unit": "kWh",
+      "timestamp": "2021-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "us",
+        "type": "country",
+        "name": "United States"
+      },
+      "metric": "electricity-per-capita",
+      "value": 12835.2954006884,
+      "unit": "kWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "us",
+        "type": "country",
+        "name": "United States"
+      },
+      "metric": "primary-energy-consumption",
+      "value": 26528.611,
+      "unit": "TWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "us",
+        "type": "country",
+        "name": "United States"
+      },
+      "metric": "electricity-generation",
+      "value": 4519.79,
+      "unit": "TWh",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "us",
+        "type": "country",
+        "name": "United States"
+      },
+      "metric": "renewables-share-elec",
+      "value": 25.638,
+      "unit": "%",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "e0e768eca32540ab901fd0014674b2b7526ee635b8568df27067b087101b3c99",
+  "_updatedAt": "2026-05-07T10:42:07.106Z"
+}

@@ -1,0 +1,229 @@
+{
+  "id": "azure-uaecentral",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-uaecentral",
+      "type": "cloud-region",
+      "name": "AE Central"
+    },
+    "metric": "gpu-price-hr",
+    "value": 201.16,
+    "unit": "USD/hr",
+    "timestamp": "2025-08-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.184,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.184,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 60.919,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 26.134,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 65.335,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 65.335,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 26.134,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 60.919,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 201.16,
+      "unit": "USD/hr",
+      "timestamp": "2025-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 207.048,
+      "unit": "USD/hr",
+      "timestamp": "2025-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.83894,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.9871,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.83894,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.9871,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 207.048,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-uaecentral",
+        "type": "cloud-region",
+        "name": "AE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 201.16,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "c7008c15776576aaee2182672d915b15b8caa6e5ed5206acc93fa5fb1cba1ef2",
+  "_updatedAt": "2026-05-07T10:42:07.149Z"
+}

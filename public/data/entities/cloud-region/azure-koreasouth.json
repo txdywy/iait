@@ -1,0 +1,905 @@
+{
+  "id": "azure-koreasouth",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-koreasouth",
+      "type": "cloud-region",
+      "name": "KR South"
+    },
+    "metric": "gpu-price-hr",
+    "value": 11.088,
+    "unit": "USD/hr",
+    "timestamp": "2026-01-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.462,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.337,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.131,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.227,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.65,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.262,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.15,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.306,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.8,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.675,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.135,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.828,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.843,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.13,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.585,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.922,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.656,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.113,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.687,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.567,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.4,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.63,
+      "unit": "USD/hr",
+      "timestamp": "2023-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.725,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.565,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 17.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.13,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 106,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 106,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 124.4,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 130.288,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 130.288,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.88,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 26.0576,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 124.4,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.61238,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.904824,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.22476,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.952412,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 124.4,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 130.288,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.104782,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.7392,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.155786,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.209748,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3696,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.350149,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.311758,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.522614,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.50612,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.045229,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.118178,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.04412,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 25.766,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 64.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 25.766,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 64.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 60,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 60,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.904077,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.088,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.904077,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-koreasouth",
+        "type": "cloud-region",
+        "name": "KR South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.088,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "476f02dfadb81a8dd79079d990acd55099f52c3ae63933f27a83e620b16c7b59",
+  "_updatedAt": "2026-05-07T10:42:07.140Z"
+}

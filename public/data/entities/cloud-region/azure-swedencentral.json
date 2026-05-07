@@ -1,0 +1,2205 @@
+{
+  "id": "azure-swedencentral",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-swedencentral",
+      "type": "cloud-region",
+      "name": "SE Central"
+    },
+    "metric": "gpu-price-hr",
+    "value": 4.15998,
+    "unit": "USD/hr",
+    "timestamp": "2026-05-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.24,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-08T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.549,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-08T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.448,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-08T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.872,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-08T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.695,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.832,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.866,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.476,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.788,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.08,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.532,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.732,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.876,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.175,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.908,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.59,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.693,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.16,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.715,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.816,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.163,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.326,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.346,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.236,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.118,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.013,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.18,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.416,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.019,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.466,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 19.1,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.921,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.796,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.164,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.159,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.297,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.558,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.406,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.91,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.255,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.55,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.012,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.516,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.805,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.276,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.879,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.955,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.775,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.603,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.742,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.758,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.112,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.703,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.82,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.547,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.352,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 47.78,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 132.232,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 52.893,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 127.816,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 25.563,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.007,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.731,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.828,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.63,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.074,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.815,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.148,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.366,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.914,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.151,
+      "unit": "USD/hr",
+      "timestamp": "2024-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.192,
+      "unit": "USD/hr",
+      "timestamp": "2024-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.192,
+      "unit": "USD/hr",
+      "timestamp": "2024-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.151,
+      "unit": "USD/hr",
+      "timestamp": "2024-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 40.962,
+      "unit": "USD/hr",
+      "timestamp": "2024-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 40.962,
+      "unit": "USD/hr",
+      "timestamp": "2024-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 45.378,
+      "unit": "USD/hr",
+      "timestamp": "2024-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 45.378,
+      "unit": "USD/hr",
+      "timestamp": "2024-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 127.816,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 132.232,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.272,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.272,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 114.688,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 114.688,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.51,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.041,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.326,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.02,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.61,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.082,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.652,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.305,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.65012,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.65012,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.79828,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.79828,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.411546,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.403212,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.083521,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.196104,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.322672,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.109917,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.775008,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.094699,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.579079,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.387504,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.161336,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.54176,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.219834,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.436474,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 71.616,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 71.616,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 28.646,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 67.2,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 13.44,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.620397,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 13.44,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.620397,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.436474,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 28.646,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 67.2,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.261952,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.33487,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.23084,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.16182,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.37004,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.094248,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.377177,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.12049,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.188496,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.754354,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.482328,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.241164,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.060245,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.58348,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.21518,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.33756,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.18863,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.41856,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.41856,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 13.234637,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 13.234637,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.520488,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.286464,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.572928,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.453248,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.226624,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.880122,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.31996,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.07999,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.760244,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-swedencentral",
+        "type": "cloud-region",
+        "name": "SE Central"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.15998,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "16dd208c2458eb40fd87d1b39913a818f0a32f7cdf556335d6850062fff44836",
+  "_updatedAt": "2026-05-07T10:42:07.124Z"
+}

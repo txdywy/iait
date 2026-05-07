@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T09:43:25.733Z",
+  "generated": "2026-05-07T10:42:07.185Z",
   "entities": {
     "aws-ap-northeast-1": {
       "type": "cloud-region",
@@ -9,7 +9,7 @@
         "gpu_supply": 3.413435281267067
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.712Z",
+      "lastUpdated": "2026-05-07T10:42:07.151Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -29,7 +29,7 @@
         "gpu_supply": 3.2467532467532467
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.712Z",
+      "lastUpdated": "2026-05-07T10:42:07.151Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -49,7 +49,7 @@
         "gpu_supply": 3.9586714698547167
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.712Z",
+      "lastUpdated": "2026-05-07T10:42:07.151Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -69,7 +69,7 @@
         "gpu_supply": 3.937007874015748
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.712Z",
+      "lastUpdated": "2026-05-07T10:42:07.151Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -89,7 +89,7 @@
         "gpu_supply": 2.9123951537744643
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.713Z",
+      "lastUpdated": "2026-05-07T10:42:07.152Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -109,7 +109,7 @@
         "gpu_supply": 4.9504950495049505
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.711Z",
+      "lastUpdated": "2026-05-07T10:42:07.150Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -129,7 +129,7 @@
         "gpu_supply": 4.9504950495049505
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.711Z",
+      "lastUpdated": "2026-05-07T10:42:07.150Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -149,7 +149,7 @@
         "gpu_supply": 12.254901960784313
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.706Z",
+      "lastUpdated": "2026-05-07T10:42:07.140Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -169,7 +169,7 @@
         "gpu_supply": 14.57725947521866
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.703Z",
+      "lastUpdated": "2026-05-07T10:42:07.133Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -189,7 +189,7 @@
         "gpu_supply": 7.2992700729927
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.706Z",
+      "lastUpdated": "2026-05-07T10:42:07.142Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -209,7 +209,7 @@
         "gpu_supply": 14.619883040935672
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.705Z",
+      "lastUpdated": "2026-05-07T10:42:07.138Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -229,7 +229,7 @@
         "gpu_supply": 16.00973391822228
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.694Z",
+      "lastUpdated": "2026-05-07T10:42:07.117Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -249,7 +249,7 @@
         "gpu_supply": 0.08052463409606267
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.709Z",
+      "lastUpdated": "2026-05-07T10:42:07.147Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -269,7 +269,7 @@
         "gpu_supply": 5.959546597694847
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.696Z",
+      "lastUpdated": "2026-05-07T10:42:07.120Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -289,7 +289,7 @@
         "gpu_supply": 19.325912183055042
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.697Z",
+      "lastUpdated": "2026-05-07T10:42:07.121Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -309,7 +309,7 @@
         "gpu_supply": 0.12714558169103624
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "lastUpdated": "2026-05-07T10:42:07.144Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -329,7 +329,7 @@
         "gpu_supply": 16.598887874512407
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.696Z",
+      "lastUpdated": "2026-05-07T10:42:07.119Z",
       "riskTier": "restricted",
       "riskMultiplier": 0.7,
       "factorBreakdown": {
@@ -349,7 +349,7 @@
         "gpu_supply": 9.697627960200935
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.702Z",
+      "lastUpdated": "2026-05-07T10:42:07.131Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -369,7 +369,7 @@
         "gpu_supply": 16.598887874512407
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "lastUpdated": "2026-05-07T10:42:07.149Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -389,7 +389,7 @@
         "gpu_supply": 7.686454161830606
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.705Z",
+      "lastUpdated": "2026-05-07T10:42:07.138Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -409,7 +409,7 @@
         "gpu_supply": 23.224487900041805
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.691Z",
+      "lastUpdated": "2026-05-07T10:42:07.114Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -429,7 +429,7 @@
         "gpu_supply": 23.224487900041805
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.690Z",
+      "lastUpdated": "2026-05-07T10:42:07.113Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -449,7 +449,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.704Z",
+      "lastUpdated": "2026-05-07T10:42:07.135Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -469,7 +469,7 @@
         "gpu_supply": 0.09389671361502347
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "lastUpdated": "2026-05-07T10:42:07.148Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -489,7 +489,7 @@
         "gpu_supply": 0.09028530155290718
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.709Z",
+      "lastUpdated": "2026-05-07T10:42:07.148Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -509,7 +509,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.689Z",
+      "lastUpdated": "2026-05-07T10:42:07.112Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -529,7 +529,7 @@
         "gpu_supply": 9.732454817078512
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.703Z",
+      "lastUpdated": "2026-05-07T10:42:07.133Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -549,7 +549,7 @@
         "gpu_supply": 8.337849668570476
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.706Z",
+      "lastUpdated": "2026-05-07T10:42:07.142Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -569,7 +569,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.692Z",
+      "lastUpdated": "2026-05-07T10:42:07.116Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -589,7 +589,7 @@
         "gpu_supply": 16.00973391822228
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.702Z",
+      "lastUpdated": "2026-05-07T10:42:07.131Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -609,7 +609,7 @@
         "gpu_supply": 4.489942528735632
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.707Z",
+      "lastUpdated": "2026-05-07T10:42:07.143Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -629,7 +629,7 @@
         "gpu_supply": 1.572327044025157
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.707Z",
+      "lastUpdated": "2026-05-07T10:42:07.143Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -649,7 +649,7 @@
         "gpu_supply": 1.572327044025157
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.705Z",
+      "lastUpdated": "2026-05-07T10:42:07.137Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -669,7 +669,7 @@
         "gpu_supply": 17.178588607160037
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.701Z",
+      "lastUpdated": "2026-05-07T10:42:07.130Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -689,7 +689,7 @@
         "gpu_supply": 9.543623904869158
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.706Z",
+      "lastUpdated": "2026-05-07T10:42:07.140Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -709,7 +709,7 @@
         "gpu_supply": 10.190667386807162
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.704Z",
+      "lastUpdated": "2026-05-07T10:42:07.134Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -729,7 +729,7 @@
         "gpu_supply": 21.137627089982878
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "lastUpdated": "2026-05-07T10:42:07.147Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -749,7 +749,7 @@
         "gpu_supply": 19.325912183055042
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.692Z",
+      "lastUpdated": "2026-05-07T10:42:07.115Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -769,7 +769,7 @@
         "gpu_supply": 19.325912183055042
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.694Z",
+      "lastUpdated": "2026-05-07T10:42:07.118Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -789,7 +789,7 @@
         "gpu_supply": 3.451060510894998
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "lastUpdated": "2026-05-07T10:42:07.146Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -809,7 +809,7 @@
         "gpu_supply": 2.6551821189415383
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.711Z",
+      "lastUpdated": "2026-05-07T10:42:07.150Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -829,7 +829,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.696Z",
+      "lastUpdated": "2026-05-07T10:42:07.120Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -849,7 +849,7 @@
         "gpu_supply": 8.337849668570476
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.705Z",
+      "lastUpdated": "2026-05-07T10:42:07.139Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -869,7 +869,7 @@
         "gpu_supply": 3.8819875776397517
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.707Z",
+      "lastUpdated": "2026-05-07T10:42:07.143Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -889,7 +889,7 @@
         "gpu_supply": 8.16179951355675
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "lastUpdated": "2026-05-07T10:42:07.149Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -909,7 +909,7 @@
         "gpu_supply": 0.02899798226239822
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "lastUpdated": "2026-05-07T10:42:07.148Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -929,7 +929,7 @@
         "gpu_supply": 19.325912183055042
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.693Z",
+      "lastUpdated": "2026-05-07T10:42:07.117Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -949,7 +949,7 @@
         "gpu_supply": 0.053602058319039456
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.709Z",
+      "lastUpdated": "2026-05-07T10:42:07.148Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -969,7 +969,7 @@
         "gpu_supply": 17.859056327463655
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.703Z",
+      "lastUpdated": "2026-05-07T10:42:07.132Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -989,7 +989,7 @@
         "gpu_supply": 0.04704048770072353
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "lastUpdated": "2026-05-07T10:42:07.146Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1009,7 +1009,7 @@
         "gpu_supply": 6.756756756756757
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.691Z",
+      "lastUpdated": "2026-05-07T10:42:07.114Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1029,7 +1029,7 @@
         "gpu_supply": 17.859056327463655
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.704Z",
+      "lastUpdated": "2026-05-07T10:42:07.133Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1049,7 +1049,7 @@
         "gpu_supply": 16.598887874512407
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.700Z",
+      "lastUpdated": "2026-05-07T10:42:07.124Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1069,7 +1069,7 @@
         "gpu_supply": 8.337849668570476
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.700Z",
+      "lastUpdated": "2026-05-07T10:42:07.126Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1089,7 +1089,7 @@
         "gpu_supply": 0.08207485226526592
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.707Z",
+      "lastUpdated": "2026-05-07T10:42:07.144Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1109,7 +1109,7 @@
         "gpu_supply": 0.08207485226526592
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "lastUpdated": "2026-05-07T10:42:07.149Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1129,7 +1129,7 @@
         "gpu_supply": 8.337849668570476
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.692Z",
+      "lastUpdated": "2026-05-07T10:42:07.115Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1149,7 +1149,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.695Z",
+      "lastUpdated": "2026-05-07T10:42:07.119Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1169,7 +1169,7 @@
         "gpu_supply": 0.11646866992778943
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "lastUpdated": "2026-05-07T10:42:07.144Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1189,7 +1189,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.699Z",
+      "lastUpdated": "2026-05-07T10:42:07.123Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1209,7 +1209,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.701Z",
+      "lastUpdated": "2026-05-07T10:42:07.130Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1229,7 +1229,7 @@
         "gpu_supply": 0.09394540644540644
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.709Z",
+      "lastUpdated": "2026-05-07T10:42:07.147Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1249,7 +1249,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.698Z",
+      "lastUpdated": "2026-05-07T10:42:07.122Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1269,7 +1269,7 @@
         "gpu_supply": 12.497188132670148
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.699Z",
+      "lastUpdated": "2026-05-07T10:42:07.123Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1289,7 +1289,7 @@
         "gpu_supply": 23.224487900041805
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.697Z",
+      "lastUpdated": "2026-05-07T10:42:07.121Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1309,7 +1309,7 @@
         "gpu_supply": 23.224487900041805
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.700Z",
+      "lastUpdated": "2026-05-07T10:42:07.128Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1429,7 +1429,7 @@
         "ai_capex": 115109000000
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "lastUpdated": "2026-05-07T10:42:07.108Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1449,7 +1449,7 @@
         "ai_capex": 9470000000
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "lastUpdated": "2026-05-07T10:42:07.109Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1469,7 +1469,7 @@
         "ai_capex": 82288000000
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.689Z",
+      "lastUpdated": "2026-05-07T10:42:07.110Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1489,7 +1489,7 @@
         "ai_capex": 114093000000
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "lastUpdated": "2026-05-07T10:42:07.107Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1509,7 +1509,7 @@
         "ai_capex": 138735000
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "lastUpdated": "2026-05-07T10:42:07.107Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1531,7 +1531,7 @@
         "energy_capacity": 652.44
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.683Z",
+      "lastUpdated": "2026-05-07T10:42:07.101Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1562,7 +1562,7 @@
         "cloud_region_density": 1
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.684Z",
+      "lastUpdated": "2026-05-07T10:42:07.102Z",
       "riskTier": "sanctioned",
       "riskMultiplier": 0.3,
       "factorBreakdown": {
@@ -1589,7 +1589,7 @@
         "energy_capacity": 500.47
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.684Z",
+      "lastUpdated": "2026-05-07T10:42:07.103Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1621,7 +1621,7 @@
         "energy_capacity": 292.31
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.685Z",
+      "lastUpdated": "2026-05-07T10:42:07.103Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1653,7 +1653,7 @@
         "energy_capacity": 30.95
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.685Z",
+      "lastUpdated": "2026-05-07T10:42:07.104Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1685,7 +1685,7 @@
         "energy_capacity": 2081.6
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.685Z",
+      "lastUpdated": "2026-05-07T10:42:07.104Z",
       "riskTier": "restricted",
       "riskMultiplier": 0.7,
       "factorBreakdown": {
@@ -1717,7 +1717,7 @@
         "energy_capacity": 1029.86
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.686Z",
+      "lastUpdated": "2026-05-07T10:42:07.104Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1749,7 +1749,7 @@
         "energy_capacity": 134.96
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.686Z",
+      "lastUpdated": "2026-05-07T10:42:07.104Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1781,7 +1781,7 @@
         "energy_capacity": 60.15
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.687Z",
+      "lastUpdated": "2026-05-07T10:42:07.105Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1813,7 +1813,7 @@
         "energy_capacity": 4519.79
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "lastUpdated": "2026-05-07T10:42:07.106Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {

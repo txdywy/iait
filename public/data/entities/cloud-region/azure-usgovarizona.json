@@ -1,0 +1,1646 @@
+{
+  "id": "azure-usgovarizona",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-usgovarizona",
+      "type": "cloud-region",
+      "name": "US Gov AZ"
+    },
+    "metric": "gpu-price-hr",
+    "value": 1.04412,
+    "unit": "USD/hr",
+    "timestamp": "2026-04-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.508,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 29.379,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 27.54,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.752,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.163,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.85,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.791,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.7,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.582,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.57,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.285,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.954,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.425,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.977,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.908,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.14,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.38,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.475,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.291,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.901,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.116,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.582,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0582,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.802,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.33,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.521,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.19,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.165,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.76,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.95,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.466,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.233,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.901,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.475,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.751,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.195,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.502,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.95,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.091,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.192,
+      "unit": "USD/hr",
+      "timestamp": "2024-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 40.962,
+      "unit": "USD/hr",
+      "timestamp": "2024-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 45.378,
+      "unit": "USD/hr",
+      "timestamp": "2024-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.151,
+      "unit": "USD/hr",
+      "timestamp": "2024-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.026,
+      "unit": "USD/hr",
+      "timestamp": "2025-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 127.316,
+      "unit": "USD/hr",
+      "timestamp": "2025-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.61,
+      "unit": "USD/hr",
+      "timestamp": "2025-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 122.9,
+      "unit": "USD/hr",
+      "timestamp": "2025-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.65012,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.79828,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.089392,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.429239,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.256805,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 20.440728,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.527997,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.71192,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.053777,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.17556,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.05336,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.351305,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.26334,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.107554,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.70261,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.215292,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.461398,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.08778,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.730699,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.36535,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.52668,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.430584,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 106,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 106,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 106,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 106,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.285005,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.734,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.469,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.985814,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.678586,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.672,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.986368,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.16,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.493184,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.746592,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.357171,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.231,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.157,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 17.776,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.938,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.688,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.04,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.464,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.714342,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.11,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.616,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.344,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.232,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.08,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.462,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.15,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.135,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.687,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.567,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.828,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.656,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.306,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.65,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.843,
+      "unit": "USD/hr",
+      "timestamp": "2026-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.50612,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.7392,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.155786,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.350149,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.045229,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.118178,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.104782,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.311758,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3696,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.522614,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.209748,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovarizona",
+        "type": "cloud-region",
+        "name": "US Gov AZ"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.04412,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "9d487ae70c4020bf21354136cbd5012a28d834d7ba1218a260acf3df213dc9d9",
+  "_updatedAt": "2026-05-07T10:42:07.123Z"
+}
