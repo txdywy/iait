@@ -102,10 +102,15 @@ Plans:
   3. When the pipeline fails, the site continues serving the last valid dataset without interruption
   4. Each run commits a dated snapshot for versioning and rollback
   5. Pipeline completes within 15 minutes per run
-**Plans**: TBD
+**Plans**: 3 plans in 2 waves
 
 Plans:
-- [ ] 04-01: TBD
+**Wave 1**
+- [ ] 04-01-PLAN.md -- Pipeline staging, validation, and dated snapshot safety primitives
+
+**Wave 2** *(blocked on Wave 1 completion)*
+- [ ] 04-02-PLAN.md -- Scheduled 4x/day data workflow with staged validation and data-only commits
+- [ ] 04-03-PLAN.md -- GitHub Pages deploy workflow with data validation and least-privilege Pages permissions
 
 ## Progress
 
@@ -117,4 +122,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | 1. Pipeline Skeleton | 4/4 | Complete | - |
 | 2. Data Sources + Index Model | 0/4 | Planning complete | - |
 | 3. Frontend Visualization | 0/6 | Planning complete | - |
-| 4. Automation + Deployment | 0/1 | Not started | - |
+| 4. Automation + Deployment | 0/3 | Planning complete | - |
