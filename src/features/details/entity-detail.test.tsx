@@ -204,6 +204,12 @@ describe('EntityDetailRoute', () => {
     expect(calls.some((url) => url.includes('data/entities/data-center-cluster'))).toBe(false);
   });
 
+  it('does not crash on malformed encoded route ids', async () => {
+    expect(() => route('/entity/country/%E0%A4%A')).not.toThrow();
+
+    expect(await screen.findByText('No compute signals found')).toBeInTheDocument();
+  });
+
   it('includes a return affordance to the map', async () => {
     route('/entity/country/us');
 

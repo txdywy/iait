@@ -1,4 +1,6 @@
 import { describe, expect, it, vi } from 'vitest';
+import crossRefFixture from '../../public/data/entity-crossref.json';
+import latestFixture from '../../public/data/latest.json';
 import { dataUrl, fetchStaticJson } from './static-json';
 import { queryKeys } from './queries';
 import { EntityType } from './types';
@@ -47,6 +49,14 @@ describe('static JSON helpers', () => {
       'data',
       'data/entities/cloud-region/aws-us-east-1.json',
     ]);
+  });
+
+  it('has cross-reference aliases for every emitted country entity', () => {
+    const countryIds = Object.entries(latestFixture.entities)
+      .filter(([, entity]) => entity.type === EntityType.COUNTRY)
+      .map(([id]) => id);
+
+    expect(countryIds.filter((id) => !crossRefFixture.countries[id as keyof typeof crossRefFixture.countries])).toEqual([]);
   });
 });
 

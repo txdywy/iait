@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { EntityType } from '../../data/types';
 import type { EntityCrossRef, LatestIndex } from '../../data/types';
-import { countryIdForFeature, joinCountryScores } from './country-join';
+import { countryIdForFeature, joinCountryScores, topologyToCountryCollection } from './country-join';
 
 const crossRef: EntityCrossRef = {
   countries: {
@@ -82,5 +82,28 @@ describe('country score joining', () => {
       hasComputeSignal: false,
     });
     expect(joined.features[0].properties?.computeAtlasId).toBeUndefined();
+  });
+
+  it('converts world-atlas TopoJSON into joinable country GeoJSON', () => {
+    const countries = topologyToCountryCollection({
+      type: 'Topology',
+      objects: {
+        countries: {
+          type: 'GeometryCollection',
+          geometries: [
+            { type: 'Polygon', arcs: [], properties: { ISO_A2: 'US' } },
+          ],
+        },
+      },
+      arcs: [],
+    });
+
+    const joined = joinCountryScores(countries, crossRef, latest);
+
+    expect(joined.features[0].properties).toMatchObject({
+      computeAtlasId: 'us',
+      score: 87.5,
+      hasComputeSignal: true,
+    });
   });
 });

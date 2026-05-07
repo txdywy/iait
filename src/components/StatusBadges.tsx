@@ -34,6 +34,10 @@ function clampConfidence(value: number) {
     return 1;
   }
 
+  if (value >= 0 && value <= 1) {
+    return Math.min(5, Math.max(1, Math.round(value * 5)));
+  }
+
   return Math.min(5, Math.max(1, Math.round(value)));
 }
 

@@ -7,7 +7,7 @@ import { EntityType } from '../../data/types';
 import type { EntityCrossRef, EntityLevel } from '../../data/types';
 import { useCountryGeometry, useCrossRef, useLatestIndex } from '../../data/queries';
 import { useExplorerStore } from '../../store/explorer-store';
-import { joinCountryScores } from './country-join';
+import { joinCountryScores, topologyToCountryCollection } from './country-join';
 import { childrenForSelection, companyOverlays } from './drilldown';
 import type { DrilldownChild } from './drilldown';
 
@@ -15,6 +15,7 @@ const mapStyle = 'https://demotiles.maplibre.org/style.json';
 
 type CountryFeature = Feature<Geometry, Record<string, unknown>>;
 type CountryCollection = FeatureCollection<Geometry, Record<string, unknown>>;
+type CountriesTopology = Parameters<typeof topologyToCountryCollection>[0];
 
 const entityCoordinates: Record<string, { longitude: number; latitude: number }> = {
   us: { longitude: -98, latitude: 39 },
@@ -117,12 +118,12 @@ export function ComputeMap() {
   const mapRef = useRef<MapRef>(null);
   const latest = useLatestIndex();
   const crossRef = useCrossRef();
-  const countryGeometry = useCountryGeometry<CountryCollection>();
+  const countryGeometry = useCountryGeometry<CountriesTopology>();
   const { level, selectedId, setSelection, setViewportIntent } = useExplorerStore();
 
   const joinedCountries = useMemo(() => {
     if (!countryGeometry.data || !crossRef.data || !latest.data) return null;
-    return joinCountryScores(countryGeometry.data, crossRef.data, latest.data) as CountryCollection;
+    return joinCountryScores(topologyToCountryCollection(countryGeometry.data), crossRef.data, latest.data) as CountryCollection;
   }, [countryGeometry.data, crossRef.data, latest.data]);
 
   const nextSteps = useMemo(() => {

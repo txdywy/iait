@@ -59,6 +59,13 @@ describe('AppRouter', () => {
     await waitFor(() => expect(screen.getByText(/Loading detail/i)).toBeInTheDocument());
   });
 
+  it('does not crash on malformed encoded route ids', () => {
+    window.location.hash = '#/entity/country/%E0%A4%A';
+
+    expect(() => render(<AppRouter />)).not.toThrow();
+    expect(screen.getByTestId('map-shell')).toBeInTheDocument();
+  });
+
   it('does not eagerly import ECharts from the route module', () => {
     expect(routerSource).not.toMatch(/echarts|echarts-for-react/i);
   });

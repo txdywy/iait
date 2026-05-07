@@ -19,6 +19,16 @@ function isEntityLevel(type: string | undefined): type is EntityLevel {
   return isRealEntityType(type) || type === 'data-center-cluster';
 }
 
+function safeDecodeRouteParam(value: string | undefined) {
+  if (!value) return null;
+
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return null;
+  }
+}
+
 function DetailShell({ children }: { children: React.ReactNode }) {
   return (
     <section aria-label="Entity detail rail" className="rounded-2xl border border-[var(--ca-border)] bg-[rgba(11,17,32,0.82)] p-4 font-mono text-sm text-[var(--ca-text)]">
@@ -180,7 +190,7 @@ function RealEntityDetail({ type, id }: { type: EntityType; id: string }) {
 
 export default function EntityDetailRoute() {
   const { type, id } = useParams();
-  const decodedId = id ? decodeURIComponent(id) : '';
+  const decodedId = safeDecodeRouteParam(id);
 
   if (!isEntityLevel(type) || !decodedId) {
     return (

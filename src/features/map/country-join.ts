@@ -1,3 +1,4 @@
+import { feature } from 'topojson-client';
 import { EntityType } from '../../data/types';
 import type { CompiledEntity, EntityCrossRef, LatestIndex } from '../../data/types';
 
@@ -5,6 +6,14 @@ type GeoJsonFeature = {
   type: 'Feature';
   properties?: Record<string, unknown> | null;
   geometry?: unknown;
+};
+
+type CountriesTopology = {
+  type: 'Topology';
+  objects: {
+    countries: unknown;
+  };
+  arcs?: unknown;
 };
 
 type GeoJsonFeatureCollection<TFeature extends GeoJsonFeature = GeoJsonFeature> = {
@@ -45,6 +54,14 @@ function countryIndex(crossRef: EntityCrossRef) {
   });
 
   return index;
+}
+
+export function topologyToCountryCollection(geometry: CountriesTopology | GeoJsonFeatureCollection): GeoJsonFeatureCollection {
+  if (geometry.type === 'FeatureCollection') {
+    return geometry;
+  }
+
+  return feature(geometry as never, geometry.objects.countries as never) as unknown as GeoJsonFeatureCollection;
 }
 
 export function countryIdForFeature(feature: GeoJsonFeature, crossRef: EntityCrossRef) {

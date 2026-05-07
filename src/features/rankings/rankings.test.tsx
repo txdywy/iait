@@ -106,7 +106,7 @@ describe('RankingRail', () => {
 
     expect(within(rows[0]).getByText('United States')).toBeInTheDocument();
     expect(within(rows[1]).getByText('Sparse Country')).toBeInTheDocument();
-    expect(screen.getByText('Confidence 1/5')).toBeInTheDocument();
+    expect(screen.getByText('Confidence 5/5')).toBeInTheDocument();
   });
 
   it('renders rank, entity name, one-decimal score, confidence, completeness, and freshness', () => {

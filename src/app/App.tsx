@@ -20,11 +20,21 @@ function isRouteLevel(value: string | undefined): value is EntityLevel {
     || value === 'data-center-cluster';
 }
 
+function safeDecodeRouteParam(value: string | undefined) {
+  if (!value) return null;
+
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return null;
+  }
+}
+
 export function App() {
   const { type, id } = useParams();
   const { setSelection, setViewportIntent } = useExplorerStore();
   const routeType = isRouteLevel(type) ? type : null;
-  const routeId = id ? decodeURIComponent(id) : null;
+  const routeId = safeDecodeRouteParam(id);
   const shouldShowDetail = Boolean(routeType && routeId);
 
   useEffect(() => {

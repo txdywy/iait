@@ -25,6 +25,12 @@ describe('HUD primitives', () => {
     expect(screen.getByText('Confidence 4/5')).toBeInTheDocument();
   });
 
+  it('normalizes pipeline confidence ratios to the 1-5 display scale', () => {
+    render(<ConfidenceBadge value={1} />);
+
+    expect(screen.getByText('Confidence 5/5')).toBeInTheDocument();
+  });
+
   it('renders explicit completeness labels for partial and full factors', () => {
     render(
       <div>
