@@ -1,7 +1,7 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { fireEvent, render, screen, within } from '@testing-library/react';
+import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
 import type { ReactNode } from 'react';
-import { describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { RankingRail } from './RankingRail';
 import { queryKeys } from '../../data/queries';
 import { EntityType } from '../../data/types';
@@ -75,6 +75,10 @@ const latest: LatestIndex = {
     },
   },
 };
+
+afterEach(() => {
+  cleanup();
+});
 
 function renderRankingRail(ui: ReactNode) {
   const queryClient = new QueryClient({

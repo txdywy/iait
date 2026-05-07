@@ -1,8 +1,4 @@
-const signalCards = [
-  { label: 'Coverage', value: '10 countries', tone: 'cyan' },
-  { label: 'Update mode', value: 'Static JSON', tone: 'green' },
-  { label: 'Signal type', value: 'Trend index', tone: 'amber' },
-];
+import { RankingRail } from '../features/rankings/RankingRail';
 
 export function App() {
   return (
@@ -37,30 +33,8 @@ export function App() {
             </div>
           </section>
 
-          <aside className="ca-panel flex flex-col justify-between rounded-3xl p-6">
-            <div>
-              <p className="font-mono text-xs uppercase tracking-[0.08em] text-[var(--ca-muted)]">
-                Ranking rail slot
-              </p>
-              <h2 className="mt-3 text-2xl font-semibold text-[var(--ca-text)]">Explore Index</h2>
-              <p className="mt-3 text-sm leading-6 text-[var(--ca-muted)]">
-                Rankings connect here after the tested rail component is created. Until then, this
-                inert slot preserves the map-first shell proportions.
-              </p>
-            </div>
-
-            <dl className="mt-8 grid gap-3">
-              {signalCards.map((card) => (
-                <div className="rounded-2xl border border-white/10 bg-white/[0.035] p-4" key={card.label}>
-                  <dt className="font-mono text-xs uppercase tracking-[0.08em] text-[var(--ca-muted)]">
-                    {card.label}
-                  </dt>
-                  <dd className={`ca-tabular mt-2 font-mono text-xl ca-tone-${card.tone}`}>
-                    {card.value}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+          <aside className="ca-panel flex flex-col rounded-3xl p-6">
+            <RankingRail />
           </aside>
         </div>
       </section>
