@@ -80,7 +80,7 @@ Plans:
 - [x] 03-02-PLAN.md -- Static JSON types, base-path fetchers, React Query hooks, and derived cluster contract
 
 **Wave 3** *(blocked on Wave 2 completion)*
-- [ ] 03-03-PLAN.md -- Public geo/crossref/aggregate asset materialization and 300KB bundle gate
+- [x] 03-03-PLAN.md -- Public geo/crossref/aggregate asset materialization and 300KB bundle gate
 
 **Wave 4** *(blocked on Wave 3 completion)*
 - [ ] 03-04-PLAN.md -- HUD app shell, status badges, loading states, and ranking rail
