@@ -1,6 +1,7 @@
 import { cleanup, render, screen, waitFor } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 
 import { AppRouter } from './router';
 
@@ -17,7 +18,7 @@ vi.mock('../features/details/EntityDetailRoute', () => ({
 }));
 
 function routerSource() {
-  return readFileSync(new URL('./router.tsx', import.meta.url), 'utf8');
+  return readFileSync(join(process.cwd(), 'src/app/router.tsx'), 'utf8');
 }
 
 describe('AppRouter', () => {

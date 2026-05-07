@@ -1,15 +1,40 @@
+import { lazy, Suspense, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import { EntityType } from '../data/types';
 import type { EntityLevel } from '../data/types';
 import { ComputeMap } from '../features/map/ComputeMap';
 import { RankingRail } from '../features/rankings/RankingRail';
 import { useExplorerStore } from '../store/explorer-store';
 
+const EntityDetailRoute = lazy(() => import('../features/details/EntityDetailRoute'));
+
 function updateHashRoute(level: EntityLevel, id: string) {
   window.location.hash = `/entity/${level}/${encodeURIComponent(id)}`;
 }
 
+function isRouteLevel(value: string | undefined): value is EntityLevel {
+  return value === EntityType.COUNTRY
+    || value === EntityType.CITY
+    || value === EntityType.CLOUD_REGION
+    || value === EntityType.COMPANY
+    || value === 'data-center-cluster';
+}
+
 export function App() {
+  const { type, id } = useParams();
   const { setSelection, setViewportIntent } = useExplorerStore();
+  const routeType = isRouteLevel(type) ? type : null;
+  const routeId = id ? decodeURIComponent(id) : null;
+  const shouldShowDetail = Boolean(routeType && routeId);
+
+  useEffect(() => {
+    if (!routeType || !routeId) {
+      return;
+    }
+
+    setViewportIntent(routeType === EntityType.COUNTRY ? { type: 'fit-country', id: routeId } : { type: 'focus-entity', id: routeId });
+    setSelection(routeType, routeId);
+  }, [routeId, routeType, setSelection, setViewportIntent]);
 
   function handleRankingSelect(type: EntityType, id: string) {
     setViewportIntent(type === EntityType.COUNTRY ? { type: 'fit-country', id } : { type: 'focus-entity', id });
@@ -31,7 +56,12 @@ export function App() {
             <ComputeMap />
           </section>
 
-          <aside className="ca-panel flex flex-col rounded-3xl p-6">
+          <aside className="ca-panel flex flex-col gap-5 rounded-3xl p-6">
+            {shouldShowDetail ? (
+              <Suspense fallback={<div className="font-mono text-sm text-[var(--ca-cyan)]">Loading detail...</div>}>
+                <EntityDetailRoute />
+              </Suspense>
+            ) : null}
             <RankingRail onSelect={handleRankingSelect} />
           </aside>
         </div>
