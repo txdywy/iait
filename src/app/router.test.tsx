@@ -1,8 +1,7 @@
 import { cleanup, render, screen, waitFor } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
 
+import routerSource from './router.tsx?raw';
 import { AppRouter } from './router';
 
 vi.mock('../features/map/ComputeMap', () => ({
@@ -17,10 +16,6 @@ vi.mock('../features/details/EntityDetailRoute', () => ({
   default: () => <section aria-label="Entity detail rail">Loading detail route panel</section>,
 }));
 
-function routerSource() {
-  return readFileSync(join(process.cwd(), 'src/app/router.tsx'), 'utf8');
-}
-
 describe('AppRouter', () => {
   beforeEach(() => {
     window.location.hash = '#/';
@@ -32,10 +27,8 @@ describe('AppRouter', () => {
   });
 
   it('uses HashRouter and not BrowserRouter for static hosting', () => {
-    const source = routerSource();
-
-    expect(source).toContain('HashRouter');
-    expect(source).not.toContain('BrowserRouter');
+    expect(routerSource).toContain('HashRouter');
+    expect(routerSource).not.toContain('BrowserRouter');
   });
 
   it('renders the map-first App shell at the root route', () => {
@@ -67,6 +60,6 @@ describe('AppRouter', () => {
   });
 
   it('does not eagerly import ECharts from the route module', () => {
-    expect(routerSource()).not.toMatch(/echarts|echarts-for-react/i);
+    expect(routerSource).not.toMatch(/echarts|echarts-for-react/i);
   });
 });

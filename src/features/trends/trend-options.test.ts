@@ -1,11 +1,11 @@
-import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 
+import { EntityType } from '../../data/types';
+import trendChartSource from './TrendChart.tsx?raw';
 import { buildTrendOption } from './trend-options';
 
 const historyEntry = {
-  type: 'country' as const,
+  type: EntityType.COUNTRY,
   name: 'United States',
   series: [
     { timestamp: '2026-05-06T00:00:00.000Z', score: 72.5, factors: { gpu_supply: 5 } },
@@ -40,14 +40,12 @@ describe('buildTrendOption', () => {
   });
 
   it('TrendChart uses only ECharts core imports and selected modules', () => {
-    const source = readFileSync(join(process.cwd(), 'src/features/trends/TrendChart.tsx'), 'utf8');
-
-    expect(source).toContain("echarts-for-react/lib/core");
-    expect(source).toContain("echarts/core");
-    expect(source).toContain('LineChart');
-    expect(source).toContain('GridComponent');
-    expect(source).toContain('TooltipComponent');
-    expect(source).toContain('CanvasRenderer');
-    expect(source).not.toMatch(/BarChart|PieChart|SVGRenderer|DataZoomComponent/);
+    expect(trendChartSource).toContain("echarts-for-react/lib/core");
+    expect(trendChartSource).toContain("echarts/core");
+    expect(trendChartSource).toContain('LineChart');
+    expect(trendChartSource).toContain('GridComponent');
+    expect(trendChartSource).toContain('TooltipComponent');
+    expect(trendChartSource).toContain('CanvasRenderer');
+    expect(trendChartSource).not.toMatch(/BarChart|PieChart|SVGRenderer|DataZoomComponent/);
   });
 });
