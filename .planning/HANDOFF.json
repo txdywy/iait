@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-05-07T15:41:02.525Z",
+  "phase": "04",
+  "phase_name": "automation-deployment",
+  "phase_dir": ".planning/phases/04-automation-deployment",
+  "plan": "04-04",
+  "task": 0,
+  "total_tasks": 3,
+  "status": "paused",
+  "completed_tasks": [
+    {
+      "id": "04-01",
+      "name": "Pipeline safety primitives",
+      "status": "done",
+      "commit": "d45b5a9"
+    },
+    {
+      "id": "04-02",
+      "name": "Scheduled data pipeline workflow",
+      "status": "done",
+      "commit": "6760ee5"
+    },
+    {
+      "id": "04-03",
+      "name": "GitHub Pages deployment workflow",
+      "status": "done",
+      "commit": "8f930dc"
+    },
+    {
+      "id": "04-review",
+      "name": "Phase code review report",
+      "status": "done",
+      "commit": "0d512a9"
+    },
+    {
+      "id": "04-verification",
+      "name": "Phase verification report",
+      "status": "done",
+      "commit": "3150ddc"
+    },
+    {
+      "id": "04-04-plan",
+      "name": "Gap closure plan",
+      "status": "done",
+      "commit": "eb32a54"
+    }
+  ],
+  "remaining_tasks": [
+    {
+      "id": 1,
+      "name": "Execute 04-04 Task 1: push generated data commits",
+      "status": "not_started"
+    },
+    {
+      "id": 2,
+      "name": "Execute 04-04 Task 2: fail closed on stale/no-fresh pipeline runs and unsafe entity paths/types",
+      "status": "not_started"
+    },
+    {
+      "id": 3,
+      "name": "Execute 04-04 Task 3: harden snapshot retention and aggregate validation",
+      "status": "not_started"
+    }
+  ],
+  "blockers": [
+    {
+      "description": "Phase 04 verification has gaps_found until 04-04 is executed and verifier reruns cleanly.",
+      "type": "technical",
+      "workaround": "Run /gsd-execute-phase 04 --gaps-only, then rerun verification through the normal execute-phase workflow."
+    },
+    {
+      "description": "Current session paused due to context exhaustion at roughly 75% usage.",
+      "type": "technical",
+      "workaround": "Resume in a fresh session with /gsd-resume-work."
+    }
+  ],
+  "human_actions_pending": [],
+  "decisions": [
+    {
+      "decision": "Use one gap-closure plan, 04-04, instead of editing completed plans 04-01 through 04-03.",
+      "rationale": "The remaining issues are tightly coupled automation safety gaps, and preserving completed plan history keeps GSD resume/execution semantics clean.",
+      "phase": "04"
+    },
+    {
+      "decision": "Record cwd drift into an agent worktree as a blocking anti-pattern.",
+      "rationale": "During Wave 2 merge/test handling, shell cwd drifted into a worktree, causing a merge command and a test command to initially target the wrong checkout.",
+      "phase": "04"
+    }
+  ],
+  "uncommitted_files": [
+    ".planning/STATE.md",
+    ".planning/config.json",
+    "public/data/_pipeline-meta.json",
+    ".claude/",
+    ".omc/",
+    ".playwright-mcp/"
+  ],
+  "next_action": "Run /gsd-execute-phase 04 --gaps-only from the repository root, and ensure main-workspace commands use git -C /Users/yiwei/ics/iait or npm --prefix /Users/yiwei/ics/iait.",
+  "context_notes": "Phase 04 original execution completed but verifier found blockers. Gap plan 04-04 was created and checker-approved. Do not mark Phase 04 complete until 04-04 executes and verification passes."
+}
