@@ -21,6 +21,12 @@ function nonCommentUsesLines(): string[] {
     .filter((line) => /\buses:\s*\S+/.test(line));
 }
 
+function commitGeneratedDataStepBody(): string {
+  const match = workflow.match(/- name: Commit generated data\n\s+run: \|\n(?<body>(?:\s{10}.+\n?)+)/);
+  expect(match?.groups?.body).toBeDefined();
+  return match?.groups?.body ?? '';
+}
+
 describe('data pipeline workflow contract', () => {
   it('is named and triggered for schedule, manual dispatch, and source/config pushes only', () => {
     expect(workflow).toContain('name: Data Pipeline');
@@ -61,12 +67,26 @@ describe('data pipeline workflow contract', () => {
     expect(workflow).toContain('npm run bundle:check');
   });
 
-  it('commits only generated public data with deploy-compatible commit text', () => {
+  it('commits and pushes only generated public data from the successful commit branch', () => {
     expect(workflow).toContain('git add public/data');
     expect(workflow).not.toMatch(/git add \./);
     expect(workflow).not.toMatch(/git add -A/);
     expect(workflow).toContain('data: refresh automated snapshot');
     expect(workflow).not.toMatch(/\[skip ci\]|\[ci skip\]|\[skip actions\]/);
+
+    const stepBody = commitGeneratedDataStepBody();
+    const noChangeIndex = stepBody.indexOf('No generated data changes to commit');
+    const elseIndex = stepBody.indexOf('else');
+    const commitIndex = stepBody.indexOf('git commit -m "data: refresh automated snapshot"');
+    const pushIndex = stepBody.indexOf('git push');
+    const fiIndex = stepBody.indexOf('fi');
+
+    expect(noChangeIndex).toBeGreaterThan(-1);
+    expect(elseIndex).toBeGreaterThan(noChangeIndex);
+    expect(stepBody.slice(noChangeIndex, elseIndex)).not.toContain('git push');
+    expect(commitIndex).toBeGreaterThan(elseIndex);
+    expect(pushIndex).toBeGreaterThan(commitIndex);
+    expect(pushIndex).toBeLessThan(fiIndex);
   });
 
   it('pins every action use to an immutable full commit SHA and rejects mutable action refs', () => {

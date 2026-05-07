@@ -26,7 +26,16 @@ const validFiles = {
     },
   },
   'history.json': {
-    'aws-us-east-1': { type: 'cloud-region', name: 'US East', series: [] },
+    'aws-us-east-1': {
+      type: 'cloud-region',
+      name: 'US East',
+      series: [{
+        timestamp: '2026-05-07T12:00:00.000Z',
+        score: 42,
+        confidence: 5,
+        factors: { gpu_supply: 42 },
+      }],
+    },
   },
   '_pipeline-meta.json': {
     lastRun: '2026-05-07T12:00:00.000Z',
@@ -106,8 +115,64 @@ describe('validateDataDir', () => {
       'latest.json entity broken score must be finite',
       'latest.json entity broken confidence must be 1-5',
       'latest.json entity broken name must be non-empty',
-      'latest.json entity broken lastUpdated must be non-empty',
+      'latest.json entity broken lastUpdated must be an ISO timestamp',
     ]));
+  });
+
+  it('fails malformed latest entity lastUpdated timestamps', async () => {
+    await writeFixture(tmpDir, {
+      'latest.json': {
+        generated: '2026-05-07T12:00:00.000Z',
+        entities: {
+          broken: { name: 'Broken', score: 1, confidence: 3, lastUpdated: 'not-a-date' },
+        },
+      },
+    });
+
+    const result = await validateDataDir(tmpDir);
+
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain('latest.json entity broken lastUpdated must be an ISO timestamp');
+  });
+
+  it.each([
+    {
+      name: 'entity object',
+      history: { 'aws-us-east-1': null },
+      error: 'history.json entity aws-us-east-1 must be an object',
+    },
+    {
+      name: 'series array',
+      history: { 'aws-us-east-1': { type: 'cloud-region', name: 'US East' } },
+      error: 'history.json entity aws-us-east-1 series must be an array',
+    },
+    {
+      name: 'series timestamp',
+      history: { 'aws-us-east-1': { series: [{ timestamp: 'bad-date', score: 1, confidence: 5, factors: {} }] } },
+      error: 'history.json entity aws-us-east-1 series[0].timestamp must be an ISO timestamp',
+    },
+    {
+      name: 'series score',
+      history: { 'aws-us-east-1': { series: [{ timestamp: '2026-05-07T12:00:00.000Z', score: 'NaN', confidence: 5, factors: {} }] } },
+      error: 'history.json entity aws-us-east-1 series[0].score must be finite',
+    },
+    {
+      name: 'series confidence',
+      history: { 'aws-us-east-1': { series: [{ timestamp: '2026-05-07T12:00:00.000Z', score: 1, confidence: 9, factors: {} }] } },
+      error: 'history.json entity aws-us-east-1 series[0].confidence must be 1-5',
+    },
+    {
+      name: 'series factors',
+      history: { 'aws-us-east-1': { series: [{ timestamp: '2026-05-07T12:00:00.000Z', score: 1, confidence: 5, factors: null }] } },
+      error: 'history.json entity aws-us-east-1 series[0].factors must be an object',
+    },
+  ])('fails malformed history $name before promotion', async ({ history, error }) => {
+    await writeFixture(tmpDir, { 'history.json': history });
+
+    const result = await validateDataDir(tmpDir);
+
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain(error);
   });
 
   it('fails malformed ranking rows before promotion', async () => {

@@ -129,6 +129,33 @@ describe('writeEntityIfChanged', () => {
     ]);
     expect(saved.latest.timestamp).toBe('2026-01-02T00:00:00Z');
   });
+
+  it.each(['../escape', 'nested/path', 'nested\\path', '', '   ', 'bad:id'])(
+    'rejects unsafe entity id %j before writing files',
+    async (entityId) => {
+      const records = [makeRecord('aws-us-east-1', '2026-01-01T00:00:00Z')];
+
+      await expect(writeEntityIfChanged(
+        entityId,
+        EntityType.CLOUD_REGION,
+        records,
+        meta,
+        tmpDir,
+      )).rejects.toThrow('Unsafe entity id');
+    },
+  );
+
+  it('rejects unsafe entity type before writing files', async () => {
+    const records = [makeRecord('aws-us-east-1', '2026-01-01T00:00:00Z')];
+
+    await expect(writeEntityIfChanged(
+      'aws-us-east-1',
+      'not-a-type' as EntityType,
+      records,
+      meta,
+      tmpDir,
+    )).rejects.toThrow('Unsafe entity type');
+  });
 });
 
 describe('runPipeline data directory behavior', () => {
@@ -172,9 +199,71 @@ describe('runPipeline data directory behavior', () => {
   });
 
   it('defaults to public/data when no data directory is provided', async () => {
+    const records = [makeRecord('default-path-entity', '2026-01-01T00:00:00Z')];
+    vi.mocked(getScrapers).mockReturnValue([makeScraper(records)]);
+
     await runPipeline();
 
     expect(compile).toHaveBeenCalledWith('public/data');
+  });
+
+  it('fails closed without compiling or updating metadata when all scrapers fail', async () => {
+    const originalLastRun = '2026-01-01T00:00:00.000Z';
+    const metaPath = path.join(tmpDir, '_pipeline-meta.json');
+    await fs.writeFile(metaPath, JSON.stringify({
+      lastRun: originalLastRun,
+      entities: { existing: { hash: 'abc', updatedAt: originalLastRun } },
+    }, null, 2));
+    vi.mocked(getScrapers).mockReturnValue([{ ...makeScraper([]), fetch: vi.fn().mockRejectedValue(new Error('boom')) }]);
+
+    await expect(runPipeline(tmpDir)).rejects.toThrow('No fresh records produced');
+
+    expect(compile).not.toHaveBeenCalled();
+    const stored = JSON.parse(await fs.readFile(metaPath, 'utf-8'));
+    expect(stored.lastRun).toBe(originalLastRun);
+  });
+
+  it('fails closed without compiling or updating metadata when all scrapers return zero records', async () => {
+    const originalLastRun = '2026-01-01T00:00:00.000Z';
+    const metaPath = path.join(tmpDir, '_pipeline-meta.json');
+    await fs.writeFile(metaPath, JSON.stringify({
+      lastRun: originalLastRun,
+      entities: { existing: { hash: 'abc', updatedAt: originalLastRun } },
+    }, null, 2));
+    vi.mocked(getScrapers).mockReturnValue([makeScraper([])]);
+
+    await expect(runPipeline(tmpDir)).rejects.toThrow('No fresh records produced');
+
+    expect(compile).not.toHaveBeenCalled();
+    const stored = JSON.parse(await fs.readFile(metaPath, 'utf-8'));
+    expect(stored.lastRun).toBe(originalLastRun);
+  });
+
+  it('succeeds after partial scraper failure when another scraper writes changed records', async () => {
+    const records = [makeRecord('aws-us-east-1', '2026-01-01T00:00:00Z')];
+    vi.mocked(getScrapers).mockReturnValue([
+      { ...makeScraper([]), name: 'failing-scraper', fetch: vi.fn().mockRejectedValue(new Error('boom')) },
+      { ...makeScraper(records), name: 'successful-scraper' },
+    ]);
+
+    await runPipeline(tmpDir);
+
+    await expect(fs.readFile(path.join(tmpDir, '_pipeline-meta.json'), 'utf-8')).resolves.toContain(
+      'aws-us-east-1',
+    );
+    expect(compile).toHaveBeenCalledWith(tmpDir);
+  });
+
+  it('rejects conflicting entity types for the same entity id before compile', async () => {
+    const country = makeRecord('us', '2026-01-01T00:00:00Z');
+    country.entity.type = EntityType.COUNTRY;
+    const city = makeRecord('us', '2026-01-02T00:00:00Z');
+    city.entity.type = EntityType.CITY;
+    vi.mocked(getScrapers).mockReturnValue([makeScraper([country, city])]);
+
+    await expect(runPipeline(tmpDir)).rejects.toThrow('Conflicting entity types for us');
+
+    expect(compile).not.toHaveBeenCalled();
   });
 });
 

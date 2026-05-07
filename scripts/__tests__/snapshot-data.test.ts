@@ -71,6 +71,21 @@ describe('createSnapshot', () => {
     await expect(fs.stat(path.join(tmpDir, 'snapshots', snapshotId))).resolves.toBeTruthy();
   });
 
+  it.each([{ keep: 0 }, { keep: -1 }, { keep: Number.NaN }])(
+    'rejects invalid retention $keep before creating snapshots',
+    async ({ keep }) => {
+      await expect(createSnapshot({
+        dataDir: tmpDir,
+        snapshotId: 'invalid-keep',
+        keep,
+      })).rejects.toThrow('Snapshot keep must be a positive integer');
+
+      await expect(fs.stat(path.join(tmpDir, 'snapshots', 'invalid-keep'))).rejects.toMatchObject({
+        code: 'ENOENT',
+      });
+    },
+  );
+
   it('prunes only old snapshot directories listed in manifest and keeps root data files', async () => {
     await createSnapshot({ dataDir: tmpDir, snapshotId: 'snap-1', keep: 2 });
     await createSnapshot({ dataDir: tmpDir, snapshotId: 'snap-2', keep: 2 });

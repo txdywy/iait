@@ -64,8 +64,11 @@ async function removeSnapshotDir(snapshotsDir: string, snapshotId: string): Prom
 
 export async function createSnapshot(options: SnapshotOptions = {}): Promise<string> {
   const dataDir = options.dataDir ?? 'public/data';
-  const snapshotId = sanitizeSnapshotId(options.snapshotId ?? defaultSnapshotId());
   const keep = options.keep ?? 30;
+  if (!Number.isInteger(keep) || keep <= 0) {
+    throw new Error('Snapshot keep must be a positive integer');
+  }
+  const snapshotId = sanitizeSnapshotId(options.snapshotId ?? defaultSnapshotId());
   const snapshotsDir = path.join(dataDir, 'snapshots');
   const snapshotDir = path.join(snapshotsDir, snapshotId);
   const manifestPath = path.join(snapshotsDir, 'manifest.json');
