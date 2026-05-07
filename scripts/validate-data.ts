@@ -33,9 +33,15 @@ function isConfidence(value: unknown): value is number {
 }
 
 function isIsoDate(value: unknown): value is string {
-  return isNonEmptyString(value)
-    && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(value)
-    && Number.isFinite(Date.parse(value));
+  if (!isNonEmptyString(value) || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(value)) {
+    return false;
+  }
+  const parsed = new Date(value);
+  if (!Number.isFinite(parsed.getTime())) return false;
+  const canonical = value.includes('.')
+    ? parsed.toISOString()
+    : parsed.toISOString().replace('.000Z', 'Z');
+  return canonical === value;
 }
 
 const VALID_ENTITY_TYPES = new Set(['country', 'city', 'cloud-region', 'company']);
@@ -117,6 +123,28 @@ function validateRankings(value: unknown, errors: string[]): void {
   }
 }
 
+function validateEntityRecord(value: unknown, context: string, errors: string[]): void {
+  if (!isRecord(value)) {
+    errors.push(`${context} must be an object`);
+    return;
+  }
+  if (!isNonEmptyString(value.source)) errors.push(`${context}.source must be non-empty`);
+  if (!isRecord(value.entity)) {
+    errors.push(`${context}.entity must be an object`);
+  } else {
+    if (!isNonEmptyString(value.entity.id)) errors.push(`${context}.entity.id must be non-empty`);
+    if (!isNonEmptyString(value.entity.type) || !VALID_ENTITY_TYPES.has(value.entity.type)) {
+      errors.push(`${context}.entity.type must be a valid entity type`);
+    }
+    if (!isNonEmptyString(value.entity.name)) errors.push(`${context}.entity.name must be non-empty`);
+  }
+  if (!isNonEmptyString(value.metric)) errors.push(`${context}.metric must be non-empty`);
+  if (!isFiniteNumber(value.value)) errors.push(`${context}.value must be finite`);
+  if (!isNonEmptyString(value.unit)) errors.push(`${context}.unit must be non-empty`);
+  if (!isIsoDate(value.timestamp)) errors.push(`${context}.timestamp must be an ISO timestamp`);
+  if (!isConfidence(value.confidence)) errors.push(`${context}.confidence must be 1-5`);
+}
+
 function validateHistory(value: unknown, errors: string[]): void {
   if (!isRecord(value)) {
     errors.push('history.json must be an object');
@@ -156,6 +184,52 @@ function validateHistory(value: unknown, errors: string[]): void {
       if (!isRecord(point.factors)) {
         errors.push(`history.json entity ${entityId} series[${index}].factors must be an object`);
       }
+    }
+  }
+}
+
+function validateEntityFile(value: unknown, relativePath: string, entityType: string, entityId: string, errors: string[]): void {
+  if (!isRecord(value)) {
+    errors.push(`${relativePath} must be an object`);
+    return;
+  }
+  if (!VALID_ENTITY_TYPES.has(entityType)) {
+    errors.push(`${relativePath} type directory must be a valid entity type`);
+  }
+  if (value.id !== entityId) errors.push(`${relativePath} id must match file name`);
+  if (value.type !== entityType) errors.push(`${relativePath} type must match directory`);
+  validateEntityRecord(value.latest, `${relativePath} latest`, errors);
+  if (!Array.isArray(value.series) || value.series.length === 0) {
+    errors.push(`${relativePath} series must be a non-empty array`);
+    return;
+  }
+  for (const [index, point] of value.series.entries()) {
+    validateEntityRecord(point, `${relativePath} series[${index}]`, errors);
+  }
+  if (!isIsoDate(value._updatedAt)) errors.push(`${relativePath} _updatedAt must be an ISO timestamp`);
+}
+
+async function validateEntityFiles(dataDir: string, errors: string[]): Promise<void> {
+  const entitiesRoot = path.join(dataDir, 'entities');
+  let typeEntries: import('node:fs').Dirent[];
+  try {
+    typeEntries = await fs.readdir(entitiesRoot, { withFileTypes: true });
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return;
+    throw err;
+  }
+
+  for (const typeEntry of typeEntries) {
+    if (!typeEntry.isDirectory()) continue;
+    const entityType = typeEntry.name;
+    const typeDir = path.join(entitiesRoot, entityType);
+    const fileEntries = await fs.readdir(typeDir, { withFileTypes: true });
+    for (const fileEntry of fileEntries) {
+      if (!fileEntry.isFile() || !fileEntry.name.endsWith('.json')) continue;
+      const entityId = fileEntry.name.slice(0, -'.json'.length);
+      const relativePath = `entities/${entityType}/${fileEntry.name}`;
+      const parsed = await readJson(dataDir, relativePath, errors);
+      if (parsed !== undefined) validateEntityFile(parsed, relativePath, entityType, entityId, errors);
     }
   }
 }
@@ -216,6 +290,7 @@ export async function validateDataDir(dataDir = 'public/data'): Promise<Validati
   if (files.get('_pipeline-meta.json') !== undefined) validateMeta(files.get('_pipeline-meta.json'), errors);
   if (files.get('index-config.json') !== undefined) validateIndexConfig(files.get('index-config.json'), errors);
   if (files.get('entity-crossref.json') !== undefined) validateCrossRef(files.get('entity-crossref.json'), errors);
+  await validateEntityFiles(dataDir, errors);
 
   return { ok: errors.length === 0, errors };
 }

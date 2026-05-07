@@ -29,7 +29,21 @@ function defaultSnapshotId(date = new Date()): string {
 }
 
 function sanitizeSnapshotId(snapshotId: string): string {
-  return snapshotId.replace(/[^A-Za-z0-9_-]/g, '-');
+  const sanitized = snapshotId.replace(/[^A-Za-z0-9_-]/g, '-').replace(/^-+|-+$/g, '');
+  if (sanitized.length === 0 || sanitized === '.' || sanitized === '..') {
+    throw new Error(`Unsafe snapshot id: ${snapshotId}`);
+  }
+  return sanitized;
+}
+
+async function pathExists(filePath: string): Promise<boolean> {
+  try {
+    await fs.stat(filePath);
+    return true;
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return false;
+    throw err;
+  }
 }
 
 async function readManifest(manifestPath: string): Promise<SnapshotManifestEntry[]> {
@@ -73,7 +87,11 @@ export async function createSnapshot(options: SnapshotOptions = {}): Promise<str
   const snapshotDir = path.join(snapshotsDir, snapshotId);
   const manifestPath = path.join(snapshotsDir, 'manifest.json');
 
-  await fs.mkdir(snapshotDir, { recursive: true });
+  await fs.mkdir(snapshotsDir, { recursive: true });
+  if (await pathExists(snapshotDir)) {
+    throw new Error(`Snapshot already exists: ${snapshotId}`);
+  }
+  await fs.mkdir(snapshotDir, { recursive: false });
 
   try {
     for (const fileName of SNAPSHOT_FILES) {

@@ -84,6 +84,32 @@ describe('createSnapshot', () => {
     });
   });
 
+  it('rejects duplicate snapshot IDs before copying so existing snapshots are preserved', async () => {
+    await createSnapshot({ dataDir: tmpDir, snapshotId: 'duplicate-snapshot' });
+    const existingHistory = await fs.readFile(
+      path.join(tmpDir, 'snapshots', 'duplicate-snapshot', 'history.json'),
+      'utf-8',
+    );
+    await fs.rm(path.join(tmpDir, 'history.json'));
+
+    await expect(createSnapshot({
+      dataDir: tmpDir,
+      snapshotId: 'duplicate-snapshot',
+    })).rejects.toThrow('Snapshot already exists: duplicate-snapshot');
+
+    await expect(fs.readFile(
+      path.join(tmpDir, 'snapshots', 'duplicate-snapshot', 'history.json'),
+      'utf-8',
+    )).resolves.toBe(existingHistory);
+  });
+
+  it.each(['', '   ', '...', '///', '***'])(
+    'rejects snapshot ID %j when sanitization leaves no safe path segment',
+    async (snapshotId) => {
+      await expect(createSnapshot({ dataDir: tmpDir, snapshotId })).rejects.toThrow('Unsafe snapshot id');
+    },
+  );
+
   it.each([{ keep: 0 }, { keep: -1 }, { keep: Number.NaN }])(
     'rejects invalid retention $keep before creating snapshots',
     async ({ keep }) => {

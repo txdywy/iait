@@ -72,6 +72,38 @@ async function writeFixture(dataDir: string, overrides: Record<string, unknown |
   }
 }
 
+const validEntityFile = {
+  id: 'aws-us-east-1',
+  type: 'cloud-region',
+  latest: {
+    source: 'test',
+    entity: { id: 'aws-us-east-1', type: 'cloud-region', name: 'US East' },
+    metric: 'gpu-price-hr',
+    value: 42,
+    unit: 'USD/hr',
+    timestamp: '2026-05-07T12:00:00.000Z',
+    confidence: 5,
+  },
+  series: [{
+    source: 'test',
+    entity: { id: 'aws-us-east-1', type: 'cloud-region', name: 'US East' },
+    metric: 'gpu-price-hr',
+    value: 42,
+    unit: 'USD/hr',
+    timestamp: '2026-05-07T12:00:00.000Z',
+    confidence: 5,
+  }],
+  _hash: 'hash',
+  _updatedAt: '2026-05-07T12:00:00.000Z',
+};
+
+async function writeEntityFile(dataDir: string, entityType = 'cloud-region', entityId = 'aws-us-east-1', value: unknown = validEntityFile) {
+  const dir = path.join(dataDir, 'entities', entityType);
+  await fs.mkdir(dir, { recursive: true });
+  const content = typeof value === 'string' ? value : JSON.stringify(value, null, 2);
+  await fs.writeFile(path.join(dir, `${entityId}.json`), content);
+}
+
 describe('validateDataDir', () => {
   let tmpDir: string;
 
@@ -267,5 +299,51 @@ describe('validateDataDir', () => {
       'entity-crossref.json cloudRegions must be an object',
       'entity-crossref.json companies must be an object',
     ]));
+  });
+
+  it.each(['2026-02-31T12:00:00.000Z', '2026-05-07T25:00:00.000Z'])(
+    'fails impossible ISO timestamp %j',
+    async (lastUpdated) => {
+      await writeFixture(tmpDir, {
+        'latest.json': {
+          generated: '2026-05-07T12:00:00.000Z',
+          entities: {
+            broken: { type: 'cloud-region', name: 'Broken', score: 1, confidence: 3, lastUpdated },
+          },
+        },
+      });
+
+      const result = await validateDataDir(tmpDir);
+
+      expect(result.ok).toBe(false);
+      expect(result.errors).toContain('latest.json entity broken lastUpdated must be an ISO timestamp');
+    },
+  );
+
+  it('validates entity detail JSON files under entities directories', async () => {
+    await writeFixture(tmpDir);
+    await writeEntityFile(tmpDir);
+
+    await expect(validateDataDir(tmpDir)).resolves.toEqual({ ok: true, errors: [] });
+  });
+
+  it.each([
+    { name: 'invalid json', entityType: 'cloud-region', entityId: 'aws-us-east-1', file: '{', error: 'Invalid JSON in entities/cloud-region/aws-us-east-1.json: Expected property name or' },
+    { name: 'id mismatch', entityType: 'cloud-region', entityId: 'aws-us-east-1', file: { ...validEntityFile, id: 'other' }, error: 'entities/cloud-region/aws-us-east-1.json id must match file name' },
+    { name: 'type mismatch', entityType: 'cloud-region', entityId: 'aws-us-east-1', file: { ...validEntityFile, type: 'city' }, error: 'entities/cloud-region/aws-us-east-1.json type must match directory' },
+    { name: 'invalid type directory', entityType: 'regions', entityId: 'aws-us-east-1', file: { ...validEntityFile, type: 'regions' }, error: 'entities/regions/aws-us-east-1.json type directory must be a valid entity type' },
+    { name: 'missing latest', entityType: 'cloud-region', entityId: 'aws-us-east-1', file: { ...validEntityFile, latest: null }, error: 'entities/cloud-region/aws-us-east-1.json latest must be an object' },
+    { name: 'empty series', entityType: 'cloud-region', entityId: 'aws-us-east-1', file: { ...validEntityFile, series: [] }, error: 'entities/cloud-region/aws-us-east-1.json series must be a non-empty array' },
+    { name: 'bad series timestamp', entityType: 'cloud-region', entityId: 'aws-us-east-1', file: { ...validEntityFile, series: [{ ...validEntityFile.series[0], timestamp: '2026-02-31T12:00:00.000Z' }] }, error: 'entities/cloud-region/aws-us-east-1.json series[0].timestamp must be an ISO timestamp' },
+    { name: 'bad value', entityType: 'cloud-region', entityId: 'aws-us-east-1', file: { ...validEntityFile, latest: { ...validEntityFile.latest, value: Number.NaN } }, error: 'entities/cloud-region/aws-us-east-1.json latest.value must be finite' },
+    { name: 'bad confidence', entityType: 'cloud-region', entityId: 'aws-us-east-1', file: { ...validEntityFile, latest: { ...validEntityFile.latest, confidence: 6 } }, error: 'entities/cloud-region/aws-us-east-1.json latest.confidence must be 1-5' },
+  ])('fails malformed entity detail data: $name', async ({ entityType, entityId, file, error }) => {
+    await writeFixture(tmpDir);
+    await writeEntityFile(tmpDir, entityType, entityId, file);
+
+    const result = await validateDataDir(tmpDir);
+
+    expect(result.ok).toBe(false);
+    expect(result.errors.some(message => message.includes(error))).toBe(true);
   });
 });

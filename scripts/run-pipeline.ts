@@ -34,8 +34,7 @@ export function groupByEntity(records: NormalizedRecord[]): Map<string, Normaliz
 }
 
 export function assertSafePathSegment(label: string, value: string): void {
-  const trimmed = value.trim();
-  if (trimmed.length === 0 || trimmed === '.' || trimmed === '..' || !/^[A-Za-z0-9_-]+$/.test(trimmed)) {
+  if (value.length === 0 || value !== value.trim() || value === '.' || value === '..' || !/^[A-Za-z0-9_-]+$/.test(value)) {
     const prefix = label === 'entity id' ? 'Unsafe entity id' : `Unsafe ${label}`;
     throw new Error(`${prefix}: ${value}`);
   }
