@@ -70,12 +70,20 @@ Plans:
   4. User can view historical trend charts (ECharts) for any entity
   5. Entity detail pages show index factor breakdown, contributing data sources, confidence score, risk analysis, and data freshness indicators
   6. App uses HashRouter for GitHub Pages compatibility, dark Bloomberg HUD theme (Tailwind CSS 4), and code-split initial bundle under 300KB
-**Plans**: TBD
+**Plans**: 4 plans in 4 waves
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
-- [ ] 03-03: TBD
+**Wave 1**
+- [ ] 03-01-PLAN.md -- Frontend toolchain, executable boot shell, aggregate/static data assets, geography asset, and bundle gate
+
+**Wave 2** *(blocked on Wave 1 completion)*
+- [ ] 03-02-PLAN.md -- HUD app shell, status badges, loading states, and ranking rail
+
+**Wave 3** *(blocked on Wave 2 completion)*
+- [ ] 03-03-PLAN.md -- MapLibre choropleth, zoom-first drill-down, derived cluster proxies, hierarchy state, and symbolic company overlays
+
+**Wave 4** *(blocked on Wave 3 completion)*
+- [ ] 03-04-PLAN.md -- Persistent map-first HashRouter detail routes, source metadata, factor breakdown, and lazy ECharts trend charts
 **UI hint**: yes
 
 ### Phase 4: Automation + Deployment
@@ -102,5 +110,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Pipeline Skeleton | 4/4 | Complete | - |
 | 2. Data Sources + Index Model | 0/4 | Planning complete | - |
-| 3. Frontend Visualization | 0/3 | Not started | - |
+| 3. Frontend Visualization | 0/4 | Planning complete | - |
 | 4. Automation + Deployment | 0/1 | Not started | - |
