@@ -1,0 +1,2307 @@
+{
+  "generated": "2026-05-07T09:43:25.733Z",
+  "entities": {
+    "aws-ap-northeast-1": {
+      "type": "cloud-region",
+      "name": "Asia Pacific (Tokyo)",
+      "score": 30.98591549295774,
+      "factors": {
+        "gpu_supply": 3.413435281267067
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.712Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 3.413435281267067,
+          "normalized": 30.985915492957744,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "aws-ap-southeast-1": {
+      "type": "cloud-region",
+      "name": "Asia Pacific (Singapore)",
+      "score": 29.577464788732396,
+      "factors": {
+        "gpu_supply": 3.2467532467532467
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.712Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 3.2467532467532467,
+          "normalized": 29.577464788732392,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "aws-eu-central-1": {
+      "type": "cloud-region",
+      "name": "EU (Frankfurt)",
+      "score": 36.61971830985916,
+      "factors": {
+        "gpu_supply": 3.9586714698547167
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.712Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 3.9586714698547167,
+          "normalized": 36.61971830985916,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "aws-eu-west-1": {
+      "type": "cloud-region",
+      "name": "EU (Ireland)",
+      "score": 35.2112676056338,
+      "factors": {
+        "gpu_supply": 3.937007874015748
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.712Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 3.937007874015748,
+          "normalized": 35.2112676056338,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "aws-sa-east-1": {
+      "type": "cloud-region",
+      "name": "South America (Sao Paulo)",
+      "score": 28.16901408450704,
+      "factors": {
+        "gpu_supply": 2.9123951537744643
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.713Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 2.9123951537744643,
+          "normalized": 28.169014084507044,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "aws-us-east-1": {
+      "type": "cloud-region",
+      "name": "US East (N. Virginia)",
+      "score": 40.845070422535215,
+      "factors": {
+        "gpu_supply": 4.9504950495049505
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.711Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 4.9504950495049505,
+          "normalized": 40.845070422535215,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "aws-us-west-2": {
+      "type": "cloud-region",
+      "name": "US West (Oregon)",
+      "score": 40.845070422535215,
+      "factors": {
+        "gpu_supply": 4.9504950495049505
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.711Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 4.9504950495049505,
+          "normalized": 40.845070422535215,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-attatlanta1": {
+      "type": "cloud-region",
+      "name": "ATT Atlanta 1",
+      "score": 60.56338028169014,
+      "factors": {
+        "gpu_supply": 12.254901960784313
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.706Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 12.254901960784313,
+          "normalized": 60.56338028169014,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-attdallas1": {
+      "type": "cloud-region",
+      "name": "ATT Dallas 1",
+      "score": 63.38028169014084,
+      "factors": {
+        "gpu_supply": 14.57725947521866
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.703Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 14.57725947521866,
+          "normalized": 63.38028169014085,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-australiacentral": {
+      "type": "cloud-region",
+      "name": "AU Central",
+      "score": 45.07042253521127,
+      "factors": {
+        "gpu_supply": 7.2992700729927
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.706Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 7.2992700729927,
+          "normalized": 45.07042253521127,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-australiacentral2": {
+      "type": "cloud-region",
+      "name": "AU Central 2",
+      "score": 64.7887323943662,
+      "factors": {
+        "gpu_supply": 14.619883040935672
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.705Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 14.619883040935672,
+          "normalized": 64.7887323943662,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-australiaeast": {
+      "type": "cloud-region",
+      "name": "AU East",
+      "score": 67.6056338028169,
+      "factors": {
+        "gpu_supply": 16.00973391822228
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.694Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 16.00973391822228,
+          "normalized": 67.6056338028169,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-australiasoutheast": {
+      "type": "cloud-region",
+      "name": "AU Southeast",
+      "score": 5.633802816901409,
+      "factors": {
+        "gpu_supply": 0.08052463409606267
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.709Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.08052463409606267,
+          "normalized": 5.633802816901409,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-brazilsouth": {
+      "type": "cloud-region",
+      "name": "BR South",
+      "score": 42.25352112676056,
+      "factors": {
+        "gpu_supply": 5.959546597694847
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.696Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 5.959546597694847,
+          "normalized": 42.25352112676056,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-canadacentral": {
+      "type": "cloud-region",
+      "name": "CA Central",
+      "score": 92.95774647887323,
+      "factors": {
+        "gpu_supply": 19.325912183055042
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.697Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 19.325912183055042,
+          "normalized": 92.95774647887323,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-canadaeast": {
+      "type": "cloud-region",
+      "name": "CA East",
+      "score": 15.49295774647887,
+      "factors": {
+        "gpu_supply": 0.12714558169103624
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.12714558169103624,
+          "normalized": 15.492957746478872,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-centralindia": {
+      "type": "cloud-region",
+      "name": "IN Central",
+      "score": 50.28169014084507,
+      "factors": {
+        "gpu_supply": 16.598887874512407
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.696Z",
+      "riskTier": "restricted",
+      "riskMultiplier": 0.7,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 16.598887874512407,
+          "normalized": 71.83098591549296,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-centralus": {
+      "type": "cloud-region",
+      "name": "US Central",
+      "score": 56.33802816901408,
+      "factors": {
+        "gpu_supply": 9.697627960200935
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.702Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 9.697627960200935,
+          "normalized": 56.33802816901409,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-chilecentral": {
+      "type": "cloud-region",
+      "name": "CL Central",
+      "score": 71.83098591549296,
+      "factors": {
+        "gpu_supply": 16.598887874512407
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 16.598887874512407,
+          "normalized": 71.83098591549296,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-eastasia": {
+      "type": "cloud-region",
+      "name": "AP East",
+      "score": 46.478873239436616,
+      "factors": {
+        "gpu_supply": 7.686454161830606
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.705Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 7.686454161830606,
+          "normalized": 46.478873239436616,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-eastus": {
+      "type": "cloud-region",
+      "name": "US East",
+      "score": 100,
+      "factors": {
+        "gpu_supply": 23.224487900041805
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.691Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 23.224487900041805,
+          "normalized": 100,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-eastus2": {
+      "type": "cloud-region",
+      "name": "US East 2",
+      "score": 100,
+      "factors": {
+        "gpu_supply": 23.224487900041805
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.690Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 23.224487900041805,
+          "normalized": 100,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-francecentral": {
+      "type": "cloud-region",
+      "name": "FR Central",
+      "score": 87.32394366197182,
+      "factors": {
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.704Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 87.32394366197182,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-francesouth": {
+      "type": "cloud-region",
+      "name": "FR South",
+      "score": 11.267605633802818,
+      "factors": {
+        "gpu_supply": 0.09389671361502347
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.09389671361502347,
+          "normalized": 11.267605633802818,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-germanynorth": {
+      "type": "cloud-region",
+      "name": "DE North",
+      "score": 9.859154929577464,
+      "factors": {
+        "gpu_supply": 0.09028530155290718
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.709Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.09028530155290718,
+          "normalized": 9.859154929577464,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-germanywestcentral": {
+      "type": "cloud-region",
+      "name": "DE West Central",
+      "score": 87.32394366197182,
+      "factors": {
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.689Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 87.32394366197182,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-indonesiacentral": {
+      "type": "cloud-region",
+      "name": "ID Central",
+      "score": 57.74647887323944,
+      "factors": {
+        "gpu_supply": 9.732454817078512
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.703Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 9.732454817078512,
+          "normalized": 57.74647887323944,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-israelcentral": {
+      "type": "cloud-region",
+      "name": "IL Central",
+      "score": 53.52112676056338,
+      "factors": {
+        "gpu_supply": 8.337849668570476
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.706Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 8.337849668570476,
+          "normalized": 53.52112676056338,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-italynorth": {
+      "type": "cloud-region",
+      "name": "IT North",
+      "score": 87.32394366197182,
+      "factors": {
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.692Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 87.32394366197182,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-japaneast": {
+      "type": "cloud-region",
+      "name": "JA East",
+      "score": 67.6056338028169,
+      "factors": {
+        "gpu_supply": 16.00973391822228
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.702Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 16.00973391822228,
+          "normalized": 67.6056338028169,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-japanwest": {
+      "type": "cloud-region",
+      "name": "JA West",
+      "score": 38.028169014084504,
+      "factors": {
+        "gpu_supply": 4.489942528735632
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.707Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 4.489942528735632,
+          "normalized": 38.028169014084504,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-jioindiacentral": {
+      "type": "cloud-region",
+      "name": "IN Central Jio",
+      "score": 25.352112676056336,
+      "factors": {
+        "gpu_supply": 1.572327044025157
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.707Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 1.572327044025157,
+          "normalized": 25.352112676056336,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-jioindiawest": {
+      "type": "cloud-region",
+      "name": "IN West Jio",
+      "score": 25.352112676056336,
+      "factors": {
+        "gpu_supply": 1.572327044025157
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.705Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 1.572327044025157,
+          "normalized": 25.352112676056336,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-koreacentral": {
+      "type": "cloud-region",
+      "name": "KR Central",
+      "score": 73.23943661971832,
+      "factors": {
+        "gpu_supply": 17.178588607160037
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.701Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 17.178588607160037,
+          "normalized": 73.23943661971832,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-koreasouth": {
+      "type": "cloud-region",
+      "name": "KR South",
+      "score": 54.929577464788736,
+      "factors": {
+        "gpu_supply": 9.543623904869158
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.706Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 9.543623904869158,
+          "normalized": 54.929577464788736,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-malaysiawest": {
+      "type": "cloud-region",
+      "name": "MY West",
+      "score": 59.15492957746479,
+      "factors": {
+        "gpu_supply": 10.190667386807162
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.704Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 10.190667386807162,
+          "normalized": 59.154929577464785,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-mexicocentral": {
+      "type": "cloud-region",
+      "name": "MX Central",
+      "score": 94.36619718309859,
+      "factors": {
+        "gpu_supply": 21.137627089982878
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 21.137627089982878,
+          "normalized": 94.36619718309859,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-northcentralus": {
+      "type": "cloud-region",
+      "name": "US North Central",
+      "score": 92.95774647887323,
+      "factors": {
+        "gpu_supply": 19.325912183055042
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.692Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 19.325912183055042,
+          "normalized": 92.95774647887323,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-northeurope": {
+      "type": "cloud-region",
+      "name": "EU North",
+      "score": 92.95774647887323,
+      "factors": {
+        "gpu_supply": 19.325912183055042
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.694Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 19.325912183055042,
+          "normalized": 92.95774647887323,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-norwayeast": {
+      "type": "cloud-region",
+      "name": "NO East",
+      "score": 32.3943661971831,
+      "factors": {
+        "gpu_supply": 3.451060510894998
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 3.451060510894998,
+          "normalized": 32.3943661971831,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-norwaywest": {
+      "type": "cloud-region",
+      "name": "NO West",
+      "score": 26.76056338028169,
+      "factors": {
+        "gpu_supply": 2.6551821189415383
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.711Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 2.6551821189415383,
+          "normalized": 26.76056338028169,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-polandcentral": {
+      "type": "cloud-region",
+      "name": "PL Central",
+      "score": 87.32394366197182,
+      "factors": {
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.696Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 87.32394366197182,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-qatarcentral": {
+      "type": "cloud-region",
+      "name": "QA Central",
+      "score": 53.52112676056338,
+      "factors": {
+        "gpu_supply": 8.337849668570476
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.705Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 8.337849668570476,
+          "normalized": 53.52112676056338,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-sgxsingapore1": {
+      "type": "cloud-region",
+      "name": "SGX Singapore 1",
+      "score": 33.80281690140845,
+      "factors": {
+        "gpu_supply": 3.8819875776397517
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.707Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 3.8819875776397517,
+          "normalized": 33.80281690140845,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-southafricanorth": {
+      "type": "cloud-region",
+      "name": "ZA North",
+      "score": 47.88732394366197,
+      "factors": {
+        "gpu_supply": 8.16179951355675
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 8.16179951355675,
+          "normalized": 47.88732394366197,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-southafricawest": {
+      "type": "cloud-region",
+      "name": "ZA West",
+      "score": 1.4084507042253522,
+      "factors": {
+        "gpu_supply": 0.02899798226239822
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.02899798226239822,
+          "normalized": 1.4084507042253522,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-southcentralus": {
+      "type": "cloud-region",
+      "name": "US South Central",
+      "score": 92.95774647887323,
+      "factors": {
+        "gpu_supply": 19.325912183055042
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.693Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 19.325912183055042,
+          "normalized": 92.95774647887323,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-southcentralus2": {
+      "type": "cloud-region",
+      "name": "US South Central 2",
+      "score": 4.225352112676056,
+      "factors": {
+        "gpu_supply": 0.053602058319039456
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.709Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.053602058319039456,
+          "normalized": 4.225352112676056,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-southeastasia": {
+      "type": "cloud-region",
+      "name": "AP Southeast",
+      "score": 76.05633802816901,
+      "factors": {
+        "gpu_supply": 17.859056327463655
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.703Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 17.859056327463655,
+          "normalized": 76.05633802816901,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-southeastus": {
+      "type": "cloud-region",
+      "name": "US Southeast",
+      "score": 2.8169014084507045,
+      "factors": {
+        "gpu_supply": 0.04704048770072353
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.04704048770072353,
+          "normalized": 2.8169014084507045,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-southindia": {
+      "type": "cloud-region",
+      "name": "IN South",
+      "score": 43.66197183098591,
+      "factors": {
+        "gpu_supply": 6.756756756756757
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.691Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 6.756756756756757,
+          "normalized": 43.66197183098591,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-spaincentral": {
+      "type": "cloud-region",
+      "name": "ES Central",
+      "score": 76.05633802816901,
+      "factors": {
+        "gpu_supply": 17.859056327463655
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.704Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 17.859056327463655,
+          "normalized": 76.05633802816901,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-swedencentral": {
+      "type": "cloud-region",
+      "name": "SE Central",
+      "score": 71.83098591549296,
+      "factors": {
+        "gpu_supply": 16.598887874512407
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.700Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 16.598887874512407,
+          "normalized": 71.83098591549296,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-switzerlandnorth": {
+      "type": "cloud-region",
+      "name": "CH North",
+      "score": 53.52112676056338,
+      "factors": {
+        "gpu_supply": 8.337849668570476
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.700Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 8.337849668570476,
+          "normalized": 53.52112676056338,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-switzerlandwest": {
+      "type": "cloud-region",
+      "name": "CH West",
+      "score": 8.450704225352112,
+      "factors": {
+        "gpu_supply": 0.08207485226526592
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.707Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.08207485226526592,
+          "normalized": 8.450704225352112,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-uaecentral": {
+      "type": "cloud-region",
+      "name": "AE Central",
+      "score": 8.450704225352112,
+      "factors": {
+        "gpu_supply": 0.08207485226526592
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.710Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.08207485226526592,
+          "normalized": 8.450704225352112,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-uaenorth": {
+      "type": "cloud-region",
+      "name": "AE North",
+      "score": 53.52112676056338,
+      "factors": {
+        "gpu_supply": 8.337849668570476
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.692Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 8.337849668570476,
+          "normalized": 53.52112676056338,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-uksouth": {
+      "type": "cloud-region",
+      "name": "UK South",
+      "score": 87.32394366197182,
+      "factors": {
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.695Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 87.32394366197182,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-ukwest": {
+      "type": "cloud-region",
+      "name": "UK West",
+      "score": 14.08450704225352,
+      "factors": {
+        "gpu_supply": 0.11646866992778943
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.708Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.11646866992778943,
+          "normalized": 14.084507042253522,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-usgovarizona": {
+      "type": "cloud-region",
+      "name": "US Gov AZ",
+      "score": 87.32394366197182,
+      "factors": {
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.699Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 87.32394366197182,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-usgovvirginia": {
+      "type": "cloud-region",
+      "name": "US Gov Virginia",
+      "score": 87.32394366197182,
+      "factors": {
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.701Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 87.32394366197182,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-westcentralus": {
+      "type": "cloud-region",
+      "name": "US West Central",
+      "score": 12.676056338028168,
+      "factors": {
+        "gpu_supply": 0.09394540644540644
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.709Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.09394540644540644,
+          "normalized": 12.676056338028168,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-westeurope": {
+      "type": "cloud-region",
+      "name": "EU West",
+      "score": 87.32394366197182,
+      "factors": {
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.698Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 87.32394366197182,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-westus": {
+      "type": "cloud-region",
+      "name": "US West",
+      "score": 61.97183098591548,
+      "factors": {
+        "gpu_supply": 12.497188132670148
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.699Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 12.497188132670148,
+          "normalized": 61.97183098591549,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-westus2": {
+      "type": "cloud-region",
+      "name": "US West 2",
+      "score": 100,
+      "factors": {
+        "gpu_supply": 23.224487900041805
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.697Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 23.224487900041805,
+          "normalized": 100,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "azure-westus3": {
+      "type": "cloud-region",
+      "name": "US West 3",
+      "score": 100,
+      "factors": {
+        "gpu_supply": 23.224487900041805
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.700Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 23.224487900041805,
+          "normalized": 100,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "gcp-asia-east1": {
+      "type": "cloud-region",
+      "name": "Changhua County (GCP)",
+      "score": 21.12676056338028,
+      "factors": {
+        "gpu_supply": 0.2777777777777778
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.2777777777777778,
+          "normalized": 21.12676056338028,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "gcp-europe-west1": {
+      "type": "cloud-region",
+      "name": "St. Ghislain (GCP)",
+      "score": 19.718309859154928,
+      "factors": {
+        "gpu_supply": 0.2631578947368421
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.2631578947368421,
+          "normalized": 19.718309859154928,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "gcp-us-central1": {
+      "type": "cloud-region",
+      "name": "Council Bluffs, IA (GCP)",
+      "score": 22.535211267605636,
+      "factors": {
+        "gpu_supply": 0.2857142857142857
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.2857142857142857,
+          "normalized": 22.535211267605636,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "ibm-us-south": {
+      "type": "cloud-region",
+      "name": "Dallas, TX (IBM)",
+      "score": 16.901408450704224,
+      "factors": {
+        "gpu_supply": 0.23809523809523808
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.23809523809523808,
+          "normalized": 16.901408450704224,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "oracle-us-ashburn-1": {
+      "type": "cloud-region",
+      "name": "Ashburn, VA (Oracle)",
+      "score": 18.30985915492958,
+      "factors": {
+        "gpu_supply": 0.25
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "gpu_supply": {
+          "raw": 0.25,
+          "normalized": 18.30985915492958,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "alphabet": {
+      "type": "company",
+      "name": "Alphabet/Google",
+      "score": 100,
+      "factors": {
+        "ai_capex": 115109000000
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "ai_capex": {
+          "raw": 115109000000,
+          "normalized": 100,
+          "weight": 0.25
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "amazon": {
+      "type": "company",
+      "name": "Amazon",
+      "score": 40,
+      "factors": {
+        "ai_capex": 9470000000
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "ai_capex": {
+          "raw": 9470000000,
+          "normalized": 40,
+          "weight": 0.25
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "meta": {
+      "type": "company",
+      "name": "Meta",
+      "score": 60,
+      "factors": {
+        "ai_capex": 82288000000
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.689Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "ai_capex": {
+          "raw": 82288000000,
+          "normalized": 60,
+          "weight": 0.25
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "microsoft": {
+      "type": "company",
+      "name": "Microsoft",
+      "score": 80,
+      "factors": {
+        "ai_capex": 114093000000
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "ai_capex": {
+          "raw": 114093000000,
+          "normalized": 80,
+          "weight": 0.25
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "nvidia": {
+      "type": "company",
+      "name": "NVIDIA",
+      "score": 20,
+      "factors": {
+        "ai_capex": 138735000
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "ai_capex": {
+          "raw": 138735000,
+          "normalized": 20,
+          "weight": 0.25
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "ca": {
+      "type": "country",
+      "name": "Canada",
+      "score": 78.81656804733727,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 19.325912183055042,
+        "energy_capacity": 652.44
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.683Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 19.325912183055042,
+          "normalized": 100,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 652.44,
+          "normalized": 60,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "cn": {
+      "type": "country",
+      "name": "China",
+      "score": 25.054945054945055,
+      "factors": {
+        "energy_capacity": 10583.36,
+        "cloud_region_density": 1
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.684Z",
+      "riskTier": "sanctioned",
+      "riskMultiplier": 0.3,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "energy_capacity": {
+          "raw": 10583.36,
+          "normalized": 100,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "de": {
+      "type": "country",
+      "name": "Germany",
+      "score": 63.6094674556213,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 11.276990866303226,
+        "energy_capacity": 500.47
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.684Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 92.3076923076923,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 11.276990866303226,
+          "normalized": 58.333333333333336,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 500.47,
+          "normalized": 50,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "gb": {
+      "type": "country",
+      "name": "United Kingdom",
+      "score": 68.81656804733727,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 18.595310262751735,
+        "energy_capacity": 292.31
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.685Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 91.66666666666666,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 292.31,
+          "normalized": 40,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "ie": {
+      "type": "country",
+      "name": "Ireland",
+      "score": 55.147928994082825,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 11.631460028535395,
+        "energy_capacity": 30.95
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.685Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 92.3076923076923,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 11.631460028535395,
+          "normalized": 66.66666666666666,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 30.95,
+          "normalized": 10,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "in": {
+      "type": "country",
+      "name": "India",
+      "score": 51.402366863905314,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 16.598887874512407,
+        "energy_capacity": 2081.6
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.685Z",
+      "riskTier": "restricted",
+      "riskMultiplier": 0.7,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 16.598887874512407,
+          "normalized": 75,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 2081.6,
+          "normalized": 80,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "jp": {
+      "type": "country",
+      "name": "Japan",
+      "score": 62.07100591715976,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 9.711584599744674,
+        "energy_capacity": 1029.86
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.686Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 92.3076923076923,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 9.711584599744674,
+          "normalized": 41.66666666666667,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 1029.86,
+          "normalized": 70,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "nl": {
+      "type": "country",
+      "name": "Netherlands",
+      "score": 65.73964497041419,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 18.595310262751735,
+        "energy_capacity": 134.96
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.686Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 91.66666666666666,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 134.96,
+          "normalized": 30,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "sg": {
+      "type": "country",
+      "name": "Singapore",
+      "score": 50.532544378698226,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 10.552904787108451,
+        "energy_capacity": 60.15
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.687Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 92.3076923076923,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 10.552904787108451,
+          "normalized": 50,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 60.15,
+          "normalized": 20,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "us": {
+      "type": "country",
+      "name": "United States",
+      "score": 66.15384615384615,
+      "factors": {
+        "cloud_region_density": 7,
+        "gpu_supply": 8.160539346129005,
+        "energy_capacity": 4519.79
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T09:43:25.688Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 7,
+          "normalized": 100,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 8.160539346129005,
+          "normalized": 33.33333333333333,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 4519.79,
+          "normalized": 90,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "br": {
+      "type": "country",
+      "name": "br",
+      "score": 37.17948717948718,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 2.9123951537744643
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 2.9123951537744643,
+          "normalized": 25,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "tw": {
+      "type": "country",
+      "name": "tw",
+      "score": 31.623931623931625,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.2777777777777778
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.2777777777777778,
+          "normalized": 16.666666666666664,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "be": {
+      "type": "country",
+      "name": "be",
+      "score": 26.068376068376068,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.2631578947368421
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.2631578947368421,
+          "normalized": 8.333333333333332,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "tokyo": {
+      "type": "city",
+      "name": "Tokyo",
+      "score": 62.22222222222222,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 9.711584599744674
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 9.711584599744674,
+          "normalized": 46.666666666666664,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "singapore": {
+      "type": "city",
+      "name": "Singapore",
+      "score": 66.66666666666667,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 10.552904787108451
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 10.552904787108451,
+          "normalized": 53.333333333333336,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "frankfurt": {
+      "type": "city",
+      "name": "Frankfurt",
+      "score": 71.11111111111111,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 11.276990866303226
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 11.276990866303226,
+          "normalized": 60,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "dublin": {
+      "type": "city",
+      "name": "Dublin",
+      "score": 75.55555555555554,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 11.631460028535395
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 11.631460028535395,
+          "normalized": 66.66666666666666,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "sao-paulo": {
+      "type": "city",
+      "name": "Sao Paulo",
+      "score": 42.22222222222223,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 2.9123951537744643
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 2.9123951537744643,
+          "normalized": 33.33333333333333,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "ashburn": {
+      "type": "city",
+      "name": "Ashburn, VA",
+      "score": 60.00000000000001,
+      "factors": {
+        "cloud_region_density": 3,
+        "gpu_supply": 9.474994316515586
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 3,
+          "normalized": 100,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 9.474994316515586,
+          "normalized": 40,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "portland": {
+      "type": "city",
+      "name": "Portland, OR",
+      "score": 79.99999999999999,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 14.087491474773378
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 14.087491474773378,
+          "normalized": 73.33333333333333,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "toronto": {
+      "type": "city",
+      "name": "Toronto",
+      "score": 86.66666666666667,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 19.325912183055042
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-01T00:00:00.000Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 19.325912183055042,
+          "normalized": 100,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "pune": {
+      "type": "city",
+      "name": "Pune",
+      "score": 51.333333333333336,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 16.598887874512407
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-01T00:00:00.000Z",
+      "riskTier": "restricted",
+      "riskMultiplier": 0.7,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 16.598887874512407,
+          "normalized": 80,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "london": {
+      "type": "city",
+      "name": "London",
+      "score": 82.22222222222223,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-01T00:00:00.000Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 93.33333333333333,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "amsterdam": {
+      "type": "city",
+      "name": "Amsterdam",
+      "score": 82.22222222222223,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-01T00:00:00.000Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 93.33333333333333,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "changhua": {
+      "type": "city",
+      "name": "Changhua County",
+      "score": 33.333333333333336,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.2777777777777778
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.2777777777777778,
+          "normalized": 20,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "st-ghislain": {
+      "type": "city",
+      "name": "St. Ghislain",
+      "score": 28.888888888888893,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.2631578947368421
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.2631578947368421,
+          "normalized": 13.333333333333334,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "council-bluffs": {
+      "type": "city",
+      "name": "Council Bluffs, IA",
+      "score": 37.77777777777778,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.2857142857142857
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.2857142857142857,
+          "normalized": 26.666666666666668,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "dallas": {
+      "type": "city",
+      "name": "Dallas, TX",
+      "score": 24.444444444444446,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.23809523809523808
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.23809523809523808,
+          "normalized": 6.666666666666667,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    }
+  }
+}
