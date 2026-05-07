@@ -14,6 +14,8 @@
     "prepare:geo": "tsx scripts/prepare-geo.ts",
     "bundle:check": "node scripts/check-initial-bundle.mjs",
     "pipeline": "tsx scripts/run-pipeline.ts",
+    "data:validate": "tsx scripts/validate-data.ts public/data",
+    "data:validate:dir": "tsx scripts/validate-data.ts",
     "test": "vitest run",
     "test:scripts": "vitest run scripts/"
   },
