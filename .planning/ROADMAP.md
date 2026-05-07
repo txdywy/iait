@@ -77,7 +77,7 @@ Plans:
 - [x] 03-01-PLAN.md -- Frontend package/scripts/Vite/Tailwind/Vitest and minimal map-first boot shell
 
 **Wave 2** *(blocked on Wave 1 completion)*
-- [ ] 03-02-PLAN.md -- Static JSON types, base-path fetchers, React Query hooks, and derived cluster contract
+- [x] 03-02-PLAN.md -- Static JSON types, base-path fetchers, React Query hooks, and derived cluster contract
 
 **Wave 3** *(blocked on Wave 2 completion)*
 - [ ] 03-03-PLAN.md -- Public geo/crossref/aggregate asset materialization and 300KB bundle gate
