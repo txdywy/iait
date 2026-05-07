@@ -110,7 +110,7 @@ describe('drill-down hierarchy helpers', () => {
     render(<TestDrilldown />);
 
     fireEvent.click(screen.getByRole('button', { name: /Ashburn, VA/i }));
-    fireEvent.click(screen.getByRole('button', { name: /aws-us-east-1/i }));
+    fireEvent.click(screen.getAllByRole('button', { name: /aws-us-east-1/i })[0]);
     const clusterButton = screen.getByRole('button', { name: /AWS ashburn data center cluster/i });
     expect(clusterButton).toHaveTextContent('modeled cluster proxy');
     expect(clusterButton).toHaveTextContent('not a verified facility');
