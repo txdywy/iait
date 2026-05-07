@@ -33,8 +33,12 @@ function isConfidence(value: unknown): value is number {
 }
 
 function isIsoDate(value: unknown): value is string {
-  return isNonEmptyString(value) && Number.isFinite(Date.parse(value));
+  return isNonEmptyString(value)
+    && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{3})?Z$/.test(value)
+    && Number.isFinite(Date.parse(value));
 }
+
+const VALID_ENTITY_TYPES = new Set(['country', 'city', 'cloud-region', 'company']);
 
 async function readJson(dataDir: string, fileName: string, errors: string[]): Promise<unknown> {
   const filePath = path.join(dataDir, fileName);
@@ -70,6 +74,9 @@ function validateLatest(value: unknown, errors: string[]): void {
     if (!isRecord(entity)) {
       errors.push(`latest.json entity ${entityId} must be an object`);
       continue;
+    }
+    if (!isNonEmptyString(entity.type) || !VALID_ENTITY_TYPES.has(entity.type)) {
+      errors.push(`latest.json entity ${entityId} type must be a valid entity type`);
     }
     if (!isFiniteNumber(entity.score)) errors.push(`latest.json entity ${entityId} score must be finite`);
     if (!isConfidence(entity.confidence)) errors.push(`latest.json entity ${entityId} confidence must be 1-5`);

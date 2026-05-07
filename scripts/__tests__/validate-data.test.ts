@@ -135,6 +135,51 @@ describe('validateDataDir', () => {
     expect(result.errors).toContain('latest.json entity broken lastUpdated must be an ISO timestamp');
   });
 
+  it.each(['05/07/2026', 'May 7 2026', '2026-05-07', '2026-05-07T12:00:00'])(
+    'fails non-canonical latest entity lastUpdated timestamp %j',
+    async (lastUpdated) => {
+      await writeFixture(tmpDir, {
+        'latest.json': {
+          generated: '2026-05-07T12:00:00.000Z',
+          entities: {
+            broken: { type: 'cloud-region', name: 'Broken', score: 1, confidence: 3, lastUpdated },
+          },
+        },
+      });
+
+      const result = await validateDataDir(tmpDir);
+
+      expect(result.ok).toBe(false);
+      expect(result.errors).toContain('latest.json entity broken lastUpdated must be an ISO timestamp');
+    },
+  );
+
+  it.each([
+    { type: undefined, label: 'missing' },
+    { type: '', label: 'empty' },
+    { type: 'region', label: 'unexpected' },
+  ])('fails latest entity with $label type', async ({ type }) => {
+    const broken: Record<string, unknown> = {
+      name: 'Broken',
+      score: 1,
+      confidence: 3,
+      lastUpdated: '2026-05-07T12:00:00.000Z',
+    };
+    if (type !== undefined) broken.type = type;
+
+    await writeFixture(tmpDir, {
+      'latest.json': {
+        generated: '2026-05-07T12:00:00.000Z',
+        entities: { broken },
+      },
+    });
+
+    const result = await validateDataDir(tmpDir);
+
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain('latest.json entity broken type must be a valid entity type');
+  });
+
   it.each([
     {
       name: 'entity object',

@@ -71,6 +71,19 @@ describe('createSnapshot', () => {
     await expect(fs.stat(path.join(tmpDir, 'snapshots', snapshotId))).resolves.toBeTruthy();
   });
 
+  it('removes a partial snapshot directory when aggregate copy fails', async () => {
+    await fs.rm(path.join(tmpDir, 'history.json'));
+
+    await expect(createSnapshot({
+      dataDir: tmpDir,
+      snapshotId: 'partial-failure',
+    })).rejects.toThrow();
+
+    await expect(fs.stat(path.join(tmpDir, 'snapshots', 'partial-failure'))).rejects.toMatchObject({
+      code: 'ENOENT',
+    });
+  });
+
   it.each([{ keep: 0 }, { keep: -1 }, { keep: Number.NaN }])(
     'rejects invalid retention $keep before creating snapshots',
     async ({ keep }) => {

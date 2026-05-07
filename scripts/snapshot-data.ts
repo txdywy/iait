@@ -75,8 +75,13 @@ export async function createSnapshot(options: SnapshotOptions = {}): Promise<str
 
   await fs.mkdir(snapshotDir, { recursive: true });
 
-  for (const fileName of SNAPSHOT_FILES) {
-    await fs.copyFile(path.join(dataDir, fileName), path.join(snapshotDir, fileName));
+  try {
+    for (const fileName of SNAPSHOT_FILES) {
+      await fs.copyFile(path.join(dataDir, fileName), path.join(snapshotDir, fileName));
+    }
+  } catch (err) {
+    await fs.rm(snapshotDir, { recursive: true, force: true });
+    throw err;
   }
 
   const createdAt = new Date().toISOString();
