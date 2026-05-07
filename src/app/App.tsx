@@ -1,6 +1,22 @@
+import { EntityType } from '../data/types';
+import type { EntityLevel } from '../data/types';
+import { ComputeMap } from '../features/map/ComputeMap';
 import { RankingRail } from '../features/rankings/RankingRail';
+import { useExplorerStore } from '../store/explorer-store';
+
+function updateHashRoute(level: EntityLevel, id: string) {
+  window.location.hash = `/entity/${level}/${encodeURIComponent(id)}`;
+}
 
 export function App() {
+  const { setSelection, setViewportIntent } = useExplorerStore();
+
+  function handleRankingSelect(type: EntityType, id: string) {
+    setViewportIntent(type === EntityType.COUNTRY ? { type: 'fit-country', id } : { type: 'focus-entity', id });
+    setSelection(type, id);
+    updateHashRoute(type, id);
+  }
+
   return (
     <main className="min-h-screen overflow-hidden bg-[var(--ca-bg)] text-[var(--ca-text)]">
       <section className="relative isolate flex min-h-screen flex-col px-6 py-5 lg:px-10">
@@ -11,30 +27,12 @@ export function App() {
         </header>
 
         <div className="grid flex-1 gap-5 py-6 lg:grid-cols-[minmax(0,1fr)_360px]">
-          <section
-            aria-label="Loading compute index"
-            className="ca-panel relative flex min-h-[560px] items-center justify-center overflow-hidden rounded-3xl p-8"
-          >
-            <div className="absolute inset-6 rounded-[1.5rem] border border-cyan-300/10 bg-[linear-gradient(90deg,rgba(34,211,238,0.05)_1px,transparent_1px),linear-gradient(rgba(34,211,238,0.05)_1px,transparent_1px)] bg-[size:44px_44px]" />
-            <div className="absolute left-8 top-8 rounded-full border border-[var(--ca-border)] bg-[var(--ca-surface)] px-4 py-2 font-mono text-xs uppercase tracking-[0.12em] text-[var(--ca-cyan)]">
-              Loading compute index
-            </div>
-            <div className="relative max-w-3xl text-center">
-              <p className="font-mono text-sm uppercase tracking-[0.08em] text-[var(--ca-cyan)]">
-                Predictive compute trend signal
-              </p>
-              <h1 className="mt-5 text-5xl font-semibold tracking-tight text-[var(--ca-text)] md:text-7xl">
-                Map-first AI compute capacity intelligence
-              </h1>
-              <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[var(--ca-muted)]">
-                The dark map shell is ready for static JSON-powered heatmaps, rankings, and
-                detail rails while heavier visualization modules stay deferred to later plans.
-              </p>
-            </div>
+          <section className="ca-panel relative min-h-[560px] overflow-hidden rounded-3xl p-0">
+            <ComputeMap />
           </section>
 
           <aside className="ca-panel flex flex-col rounded-3xl p-6">
-            <RankingRail />
+            <RankingRail onSelect={handleRankingSelect} />
           </aside>
         </div>
       </section>
