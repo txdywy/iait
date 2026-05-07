@@ -89,7 +89,7 @@ Plans:
 - [x] 03-05-PLAN.md -- MapLibre choropleth, zoom-first drill-down, visible/selectable derived cluster proxies, hierarchy state, and symbolic company overlays
 
 **Wave 6** *(blocked on Wave 5 completion)*
-- [ ] 03-06-PLAN.md -- Persistent HashRouter detail routes, cluster detail support, source metadata, factor breakdown, and lazy ECharts trend charts
+- [x] 03-06-PLAN.md -- Persistent HashRouter detail routes, cluster detail support, source metadata, factor breakdown, and lazy ECharts trend charts
 **UI hint**: yes
 
 ### Phase 4: Automation + Deployment
