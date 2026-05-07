@@ -83,7 +83,7 @@ Plans:
 - [x] 03-03-PLAN.md -- Public geo/crossref/aggregate asset materialization and 300KB bundle gate
 
 **Wave 4** *(blocked on Wave 3 completion)*
-- [ ] 03-04-PLAN.md -- HUD app shell, status badges, loading states, and ranking rail
+- [x] 03-04-PLAN.md -- HUD app shell, status badges, loading states, and ranking rail
 
 **Wave 5** *(blocked on Wave 4 completion)*
 - [ ] 03-05-PLAN.md -- MapLibre choropleth, zoom-first drill-down, visible/selectable derived cluster proxies, hierarchy state, and symbolic company overlays
