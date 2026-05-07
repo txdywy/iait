@@ -74,7 +74,9 @@ function validateLatest(value: unknown, errors: string[]): void {
     if (!isFiniteNumber(entity.score)) errors.push(`latest.json entity ${entityId} score must be finite`);
     if (!isConfidence(entity.confidence)) errors.push(`latest.json entity ${entityId} confidence must be 1-5`);
     if (!isNonEmptyString(entity.name)) errors.push(`latest.json entity ${entityId} name must be non-empty`);
-    if (!isNonEmptyString(entity.lastUpdated)) errors.push(`latest.json entity ${entityId} lastUpdated must be non-empty`);
+    if (!isIsoDate(entity.lastUpdated)) {
+      errors.push(`latest.json entity ${entityId} lastUpdated must be an ISO timestamp`);
+    }
   }
 }
 
@@ -111,6 +113,43 @@ function validateRankings(value: unknown, errors: string[]): void {
 function validateHistory(value: unknown, errors: string[]): void {
   if (!isRecord(value)) {
     errors.push('history.json must be an object');
+    return;
+  }
+
+  for (const [entityId, entity] of Object.entries(value)) {
+    if (!isRecord(entity)) {
+      errors.push(`history.json entity ${entityId} must be an object`);
+      continue;
+    }
+    if (entity.type !== undefined && typeof entity.type !== 'string') {
+      errors.push(`history.json entity ${entityId} type must be a string`);
+    }
+    if (entity.name !== undefined && typeof entity.name !== 'string') {
+      errors.push(`history.json entity ${entityId} name must be a string`);
+    }
+    if (!Array.isArray(entity.series)) {
+      errors.push(`history.json entity ${entityId} series must be an array`);
+      continue;
+    }
+
+    for (const [index, point] of entity.series.entries()) {
+      if (!isRecord(point)) {
+        errors.push(`history.json entity ${entityId} series[${index}] must be an object`);
+        continue;
+      }
+      if (!isIsoDate(point.timestamp)) {
+        errors.push(`history.json entity ${entityId} series[${index}].timestamp must be an ISO timestamp`);
+      }
+      if (!isFiniteNumber(point.score)) {
+        errors.push(`history.json entity ${entityId} series[${index}].score must be finite`);
+      }
+      if (point.confidence !== undefined && !isConfidence(point.confidence)) {
+        errors.push(`history.json entity ${entityId} series[${index}].confidence must be 1-5`);
+      }
+      if (!isRecord(point.factors)) {
+        errors.push(`history.json entity ${entityId} series[${index}].factors must be an object`);
+      }
+    }
   }
 }
 
