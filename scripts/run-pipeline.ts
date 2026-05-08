@@ -137,8 +137,8 @@ export async function runPipeline(dataDir = resolveDataDir()): Promise<void> {
     else skipped++;
   }
 
-  if (written === 0) {
-    throw new Error(`No fresh records produced. Written: ${written}, skipped: ${skipped}`);
+  if (written === 0 && skipped > 0) {
+    console.log(`[pipeline] No entity hashes changed; continuing with metadata refresh. Skipped: ${skipped}`);
   }
 
   await compile(dataDir);
