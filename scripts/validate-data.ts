@@ -24,6 +24,14 @@ function isNonEmptyString(value: unknown): value is string {
   return typeof value === 'string' && value.trim().length > 0;
 }
 
+function isSafePathSegment(value: string): boolean {
+  return value.length > 0
+    && value === value.trim()
+    && value !== '.'
+    && value !== '..'
+    && /^[A-Za-z0-9_-]+$/.test(value);
+}
+
 function isFiniteNumber(value: unknown): value is number {
   return typeof value === 'number' && Number.isFinite(value);
 }
@@ -77,6 +85,10 @@ function validateLatest(value: unknown, errors: string[]): void {
     return;
   }
   for (const [entityId, entity] of Object.entries(value.entities)) {
+    if (!isSafePathSegment(entityId)) {
+      errors.push(`latest.json entity ${entityId} id must be a safe path segment`);
+      continue;
+    }
     if (!isRecord(entity)) {
       errors.push(`latest.json entity ${entityId} must be an object`);
       continue;
@@ -235,6 +247,7 @@ async function validateEntityFiles(dataDir: string, errors: string[], expectedEn
   }
 
   for (const [entityId, entity] of Object.entries(expectedEntities)) {
+    if (!isSafePathSegment(entityId)) continue;
     if (!isRecord(entity) || !isNonEmptyString(entity.type) || !VALID_ENTITY_TYPES.has(entity.type)) continue;
     const relativePath = `entities/${entity.type}/${entityId}.json`;
     if (!(await pathExists(path.join(dataDir, relativePath)))) {

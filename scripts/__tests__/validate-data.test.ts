@@ -141,6 +141,30 @@ describe('validateDataDir', () => {
     expect(result.errors).toContain('Missing referenced entity detail file: entities/cloud-region/aws-us-east-1.json');
   });
 
+  it.each(['../escape', 'bad/id'])('rejects unsafe latest entity id %j before detail path checks', async (entityId) => {
+    await writeFixture(tmpDir, {
+      'latest.json': {
+        generated: '2026-05-07T12:00:00.000Z',
+        entities: {
+          [entityId]: {
+            type: 'cloud-region',
+            name: 'Unsafe Entity',
+            score: 42,
+            confidence: 5,
+            lastUpdated: '2026-05-07T12:00:00.000Z',
+          },
+        },
+      },
+    });
+    await fs.mkdir(path.join(tmpDir, 'entities', 'cloud-region'), { recursive: true });
+
+    const result = await validateDataDir(tmpDir);
+
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain(`latest.json entity ${entityId} id must be a safe path segment`);
+    expect(result.errors).not.toContain(`Missing referenced entity detail file: entities/cloud-region/${entityId}.json`);
+  });
+
   it('fails when latest.json is missing', async () => {
     await writeFixture(tmpDir, { 'latest.json': undefined });
 
