@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: data-pipeline-${{ github.ref }}
@@ -81,11 +82,24 @@ jobs:
           git config user.email "actions@github.com"
 
       - name: Commit generated data
+        id: commit-generated-data
         run: |
           git add public/data
           if git diff --cached --quiet; then
             echo "No generated data changes to commit"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "data: refresh automated snapshot"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Dispatch Deploy Pages
+        if: steps.commit-generated-data.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run deploy.yml --ref main \
+            -f source=data-pipeline \
+            -f source_run_id="${{ github.run_id }}" \
+            -f source_sha="$(git rev-parse HEAD)"

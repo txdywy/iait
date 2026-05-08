@@ -13,11 +13,14 @@ const viteConfig = readFileSync(join(process.cwd(), 'vite.config.ts'), 'utf-8');
 const router = readFileSync(join(process.cwd(), 'src/app/router.tsx'), 'utf-8');
 
 describe('Deploy Pages workflow contract', () => {
-  it('deploys from push to main and manual dispatch without path filters', () => {
+  it('deploys from push to main and manual/data-pipeline dispatch without path filters', () => {
     expect(workflow).toContain('name: Deploy Pages');
     expect(workflow).toContain('push:');
     expect(workflow).toContain('branches: [main]');
     expect(workflow).toContain('workflow_dispatch:');
+    expect(workflow).toMatch(/source:\n\s+description: 'Dispatch source, e\.g\. data-pipeline'\n\s+required: false\n\s+type: string/);
+    expect(workflow).toMatch(/source_run_id:\n\s+description: 'Data Pipeline run id that requested deployment'\n\s+required: false\n\s+type: string/);
+    expect(workflow).toMatch(/source_sha:\n\s+description: 'Generated data commit SHA requested for deployment'\n\s+required: false\n\s+type: string/);
     expect(nonCommentWorkflow).not.toMatch(/^\s*paths:/m);
     expect(nonCommentWorkflow).not.toMatch(/^\s*paths-ignore:/m);
   });
