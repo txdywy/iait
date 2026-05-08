@@ -61,6 +61,19 @@ describe('createSnapshot', () => {
     expect(Date.parse(manifest[0].createdAt)).not.toBeNaN();
   });
 
+  it('copies entity detail files into each dated snapshot and records entities in the manifest', async () => {
+    const snapshotId = await createSnapshot({ dataDir: tmpDir, snapshotId: 'with-entities' });
+    const copiedEntity = await fs.readFile(
+      path.join(tmpDir, 'snapshots', snapshotId, 'entities', 'cloud-region', 'root-safe.json'),
+      'utf-8',
+    );
+    const raw = await fs.readFile(path.join(tmpDir, 'snapshots', 'manifest.json'), 'utf-8');
+    const manifest = JSON.parse(raw);
+
+    expect(JSON.parse(copiedEntity)).toEqual({});
+    expect(manifest[0].files).toContain('entities/');
+  });
+
   it('sanitizes invalid snapshot ID characters including ISO colons and periods', async () => {
     const snapshotId = await createSnapshot({
       dataDir: tmpDir,
