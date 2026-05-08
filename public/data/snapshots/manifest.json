@@ -1,0 +1,16 @@
+[
+  {
+    "snapshotId": "public-data",
+    "createdAt": "2026-05-08T07:57:15.599Z",
+    "sourceDataDir": "public/data",
+    "files": [
+      "latest.json",
+      "rankings.json",
+      "history.json",
+      "_pipeline-meta.json",
+      "index-config.json",
+      "entity-crossref.json",
+      "entities/"
+    ]
+  }
+]

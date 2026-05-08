@@ -1,0 +1,34 @@
+{
+  "id": "alphabet",
+  "type": "company",
+  "latest": {
+    "source": "sec-edgar-capex",
+    "entity": {
+      "id": "alphabet",
+      "type": "company",
+      "name": "Alphabet/Google"
+    },
+    "metric": "ai-capex-ttm",
+    "value": 115109000000,
+    "unit": "USD",
+    "timestamp": "2026-03-31T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "sec-edgar-capex",
+      "entity": {
+        "id": "alphabet",
+        "type": "company",
+        "name": "Alphabet/Google"
+      },
+      "metric": "ai-capex-ttm",
+      "value": 115109000000,
+      "unit": "USD",
+      "timestamp": "2026-03-31T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "3a5fd619d1a3f95d2ba4c8f3ef8c222f86db1dfba9e6823e8890a14a02d09cc9",
+  "_updatedAt": "2026-05-07T10:42:07.108Z"
+}
