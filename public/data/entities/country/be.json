@@ -6,7 +6,7 @@
     "entity": {
       "id": "be",
       "type": "country",
-      "name": "be"
+      "name": "Belgium"
     },
     "metric": "compute-index-score",
     "value": 26.068376068376068,
@@ -20,7 +20,7 @@
       "entity": {
         "id": "be",
         "type": "country",
-        "name": "be"
+        "name": "Belgium"
       },
       "metric": "compute-index-score",
       "value": 26.068376068376068,

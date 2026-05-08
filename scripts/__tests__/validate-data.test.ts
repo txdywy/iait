@@ -72,6 +72,12 @@ async function writeFixture(dataDir: string, overrides: Record<string, unknown |
   }
 }
 
+const countryDisplayNames = {
+  be: 'Belgium',
+  br: 'Brazil',
+  tw: 'Taiwan',
+} as const;
+
 const validEntityFile = {
   id: 'aws-us-east-1',
   type: 'cloud-region',
@@ -369,6 +375,17 @@ describe('validateDataDir', () => {
     await writeEntityFile(tmpDir);
 
     await expect(validateDataDir(tmpDir)).resolves.toEqual({ ok: true, errors: [] });
+  });
+
+  it.each(Object.entries(countryDisplayNames))('uses human-readable display names in country detail %s.json', async (countryCode, expectedName) => {
+    const raw = await fs.readFile(path.join(process.cwd(), 'public', 'data', 'entities', 'country', `${countryCode}.json`), 'utf-8');
+    const detail = JSON.parse(raw) as {
+      latest: { entity: { name: string } };
+      series: Array<{ entity: { name: string } }>;
+    };
+
+    expect(detail.latest.entity.name).toBe(expectedName);
+    expect(detail.series.map(point => point.entity.name)).toEqual([expectedName]);
   });
 
   it.each([

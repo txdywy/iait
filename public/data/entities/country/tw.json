@@ -6,7 +6,7 @@
     "entity": {
       "id": "tw",
       "type": "country",
-      "name": "tw"
+      "name": "Taiwan"
     },
     "metric": "compute-index-score",
     "value": 31.623931623931625,
@@ -20,7 +20,7 @@
       "entity": {
         "id": "tw",
         "type": "country",
-        "name": "tw"
+        "name": "Taiwan"
       },
       "metric": "compute-index-score",
       "value": 31.623931623931625,

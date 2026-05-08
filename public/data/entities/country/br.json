@@ -6,7 +6,7 @@
     "entity": {
       "id": "br",
       "type": "country",
-      "name": "br"
+      "name": "Brazil"
     },
     "metric": "compute-index-score",
     "value": 37.17948717948718,
@@ -20,7 +20,7 @@
       "entity": {
         "id": "br",
         "type": "country",
-        "name": "br"
+        "name": "Brazil"
       },
       "metric": "compute-index-score",
       "value": 37.17948717948718,
