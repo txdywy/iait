@@ -50,39 +50,50 @@ status: issues_found
 
 ## Summary
 
-Reviewed the listed automation/deployment workflows, package scripts, static entity JSON files, pipeline/snapshot/validation scripts, and associated tests at standard depth. The gap-closure changes fixed the previously visible snapshot/entity-validation gaps, but there is still one blocker for unattended scheduled automation and two data-integrity/validation robustness issues that should be fixed before shipping the phase.
+Reviewed the listed GitHub Actions workflows, package scripts, static entity JSON files, automation scripts, and script tests at standard depth. The automation now has validation and staged promotion coverage, but there is still one deployment-scope blocker and two data/validation robustness issues that should be fixed before Phase 04 ships.
 
 ## Critical Issues
 
-### CR-01: Scheduled pipeline fails on valid no-change refreshes
+### CR-01: Manual pipeline runs can deploy non-main commits to production Pages
 
-**File:** `/Users/yiwei/ics/iait/scripts/run-pipeline.ts:140-142`
+**Classification:** BLOCKER
 
-**Issue:** `runPipeline` throws when `written === 0`, even when scrapers succeeded and returned fresh records but every entity hash matched existing metadata. In scheduled unattended operation, unchanged upstream data is a normal successful outcome; this code turns stable data periods into failed workflow runs before snapshot/build/deploy gating can complete, making real outages indistinguishable from no-op refreshes.
+**File:** `/Users/yiwei/ics/iait/.github/workflows/data-pipeline.yml:6`, `/Users/yiwei/ics/iait/.github/workflows/data-pipeline.yml:92-105`, and `/Users/yiwei/ics/iait/.github/workflows/deploy.yml:34-38`
 
-**Fix:** Treat successful scraper runs with unchanged hashes as a successful no-op instead of throwing. For example:
+**Issue:** `data-pipeline.yml` allows unrestricted `workflow_dispatch`, commits/pushes generated data to the currently selected ref, and then dispatches `deploy.yml --ref main` with `source_sha="$(git rev-parse HEAD)"`. `deploy.yml` checks out `${{ inputs.source_sha || github.sha }}` without verifying that this SHA belongs to `main`. A manual run from a feature branch can therefore push a generated commit on that branch and deploy that branch's source tree to GitHub Pages, bypassing the intended `main`-only production deployment path and any branch-protection/review gate on `main`.
 
-```ts
-if (written === 0) {
-  console.log(`[pipeline] No entity changes detected. Written: ${written}, Skipped: ${skipped}`);
-  await compile(dataDir);
-  meta.lastRun = new Date().toISOString();
-  await fs.writeFile(metaPath, JSON.stringify(meta, null, 2));
-  return;
-}
+**Fix:** Fail closed unless the pipeline is running on `refs/heads/main`, or only dispatch deployment when the generated SHA is confirmed to be reachable from `origin/main`. For example, add an early guard before commit/deploy steps:
+
+```yaml
+      - name: Ensure production pipeline runs on main
+        run: |
+          if [ "${GITHUB_REF}" != "refs/heads/main" ]; then
+            echo "Data deployment is only allowed from main" >&2
+            exit 1
+          fi
 ```
 
-If the intended behavior is to avoid commits on no-change data, return successfully after any required validation metadata update; do not fail the workflow solely because hashes matched.
+Also harden `deploy.yml` before checkout/deploy by fetching `main` and rejecting any provided `source_sha` that is not an ancestor of `origin/main`:
+
+```yaml
+      - name: Verify requested source SHA is on main
+        if: ${{ inputs.source_sha != '' }}
+        run: |
+          git fetch origin main
+          git merge-base --is-ancestor "${{ inputs.source_sha }}" origin/main
+```
 
 ## Warnings
 
 ### WR-01: Validation does not reject unsafe entity IDs before building filesystem paths
 
+**Classification:** WARNING
+
 **File:** `/Users/yiwei/ics/iait/scripts/validate-data.ts:79` and `/Users/yiwei/ics/iait/scripts/validate-data.ts:237-241`
 
-**Issue:** `validateLatest` accepts arbitrary keys from `latest.json.entities`, and `validateEntityFiles` later interpolates each key into `entities/${entity.type}/${entityId}.json`. A malformed entity id such as `../../latest` can cause the existence check to resolve outside the expected entity-type directory and mask a missing detail file. This weakens the static data integrity gate that is supposed to prevent broken drill-down JSON from being deployed.
+**Issue:** `validateLatest` accepts arbitrary keys from `latest.json.entities`, and `validateEntityFiles` interpolates each key into `entities/${entity.type}/${entityId}.json` for existence checks. A malformed entity id containing path separators or traversal segments can make the validation gate check a path outside the intended entity-type directory, weakening the guarantee that every aggregate entity has a valid detail file.
 
-**Fix:** Reuse the same safe path-segment rule used by the pipeline for every aggregate entity id before any `path.join` call, and skip filesystem checks for unsafe ids after recording an error. For example:
+**Fix:** Apply the same safe path-segment rule used by `run-pipeline.ts` to every aggregate entity id before constructing any path, record a validation error for unsafe IDs, and skip the filesystem check for those entries. For example:
 
 ```ts
 function isSafePathSegment(value: string): boolean {
@@ -102,15 +113,15 @@ for (const [entityId, entity] of Object.entries(value.entities)) {
 }
 ```
 
-Also apply the same check to `entityId` derived from filenames if those IDs are ever used to construct further paths or frontend URLs.
-
 ### WR-02: Country detail files use country codes as display names
+
+**Classification:** WARNING
 
 **File:** `/Users/yiwei/ics/iait/public/data/entities/country/be.json:9`, `/Users/yiwei/ics/iait/public/data/entities/country/br.json:9`, and `/Users/yiwei/ics/iait/public/data/entities/country/tw.json:9`
 
-**Issue:** The new country detail files set `entity.name` to `be`, `br`, and `tw` instead of the human-readable names already present in the cross-reference data (`Belgium`, `Brazil`, `Taiwan`). These detail files are loaded by the compiler as real entities; when a real entity exists, the compiler uses `scored.entity.latest.entity.name` for aggregate output, so the public data can expose lower-case country codes in UI/detail views instead of proper labels.
+**Issue:** The country detail files set `entity.name` to `be`, `br`, and `tw` instead of the canonical human-readable names already present in `entity-crossref.json` (`Belgium`, `Brazil`, `Taiwan`). The compiler uses `scored.entity.latest.entity.name` when writing aggregate `latest.json`, so real country entity files with code-valued names can leak lower-case country codes into public UI/detail output instead of user-facing labels.
 
-**Fix:** Replace the country entity display names with canonical human-readable names and keep them consistent in both `latest.entity.name` and every `series[].entity.name` entry. For example, in `be.json`:
+**Fix:** Replace the country entity display names with canonical names in both `latest.entity.name` and every `series[].entity.name`. For example, in `be.json`:
 
 ```json
 "entity": {
@@ -120,7 +131,7 @@ Also apply the same check to `entityId` derived from filenames if those IDs are 
 }
 ```
 
-Apply equivalent fixes for Brazil and Taiwan.
+Apply equivalent changes for `br` (`Brazil`) and `tw` (`Taiwan`).
 
 ---
 
