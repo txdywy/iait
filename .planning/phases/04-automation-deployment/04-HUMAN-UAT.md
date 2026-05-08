@@ -1,18 +1,14 @@
 ---
-status: partial
+status: diagnosed
 phase: 04-automation-deployment
 source: [04-VERIFICATION.md]
 started: 2026-05-08T00:45:00Z
-updated: 2026-05-08T01:12:07Z
+updated: 2026-05-08T07:27:23Z
 ---
 
 ## Current Test
 
-number: 2
-name: Failed/no-fresh-data run preserves the deployed site
-expected: |
-  The data workflow fails before root metadata/snapshot/commit/push; no new deploy is triggered from generated data; the previous Pages deployment remains served.
-awaiting: user response
+[testing complete]
 
 ## Tests
 
@@ -24,14 +20,14 @@ severity: major
 
 ### 2. Failed/no-fresh-data run preserves the deployed site
 expected: The data workflow fails before root metadata/snapshot/commit/push; no new deploy is triggered from generated data; the previous Pages deployment remains served.
-result: [pending]
+result: pass
 
 ## Summary
 
 total: 2
-passed: 0
+passed: 1
 issues: 1
-pending: 1
+pending: 0
 skipped: 0
 blocked: 0
 
