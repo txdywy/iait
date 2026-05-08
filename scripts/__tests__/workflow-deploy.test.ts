@@ -45,6 +45,33 @@ describe('Deploy Pages workflow contract', () => {
     expect(workflow).toContain('exit 1');
   });
 
+  it('rejects workflow_dispatch source_sha unless it is reachable from origin main before build or publish', () => {
+    expect(workflow).toContain('fetch-depth: 0');
+    expect(workflow).toContain('Verify requested source SHA is on main');
+    expect(workflow).toContain("if: ${{ inputs.source_sha != '' }}");
+    expect(workflow).toMatch(/REQUESTED_SOURCE_SHA:\s+\$\{\{ inputs\.source_sha \}\}/);
+    expect(workflow).toContain('REQUESTED_SHA="$REQUESTED_SOURCE_SHA"');
+    expect(workflow).toContain('git fetch');
+    expect(workflow).toContain('origin/main');
+    expect(workflow).toContain('git merge-base --is-ancestor "$REQUESTED_SHA" origin/main');
+    expect(workflow).toContain('Requested source SHA $REQUESTED_SHA is not reachable from origin/main');
+
+    const sourceShaVerificationIndex = workflow.indexOf('Verify requested source SHA');
+    const ancestryVerificationIndex = workflow.indexOf('Verify requested source SHA is on main');
+    const setupNodeIndex = workflow.indexOf('Setup Node.js');
+    const validateDataIndex = workflow.indexOf('Validate committed data');
+    const buildIndex = workflow.indexOf('Build static site');
+    const uploadIndex = workflow.indexOf('Upload Pages artifact');
+    const deployIndex = workflow.indexOf('Deploy to GitHub Pages');
+
+    expect(ancestryVerificationIndex).toBeGreaterThan(sourceShaVerificationIndex);
+    expect(ancestryVerificationIndex).toBeLessThan(setupNodeIndex);
+    expect(ancestryVerificationIndex).toBeLessThan(validateDataIndex);
+    expect(ancestryVerificationIndex).toBeLessThan(buildIndex);
+    expect(ancestryVerificationIndex).toBeLessThan(uploadIndex);
+    expect(ancestryVerificationIndex).toBeLessThan(deployIndex);
+  });
+
   it('validates, tests, prepares geo data, builds, and checks the static bundle', () => {
     expect(workflow).toContain('npm ci');
     expect(workflow).toContain('npm run data:validate');
