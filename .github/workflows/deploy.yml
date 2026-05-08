@@ -4,6 +4,19 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      source:
+        description: 'Dispatch source, e.g. data-pipeline'
+        required: false
+        type: string
+      source_run_id:
+        description: 'Data Pipeline run id that requested deployment'
+        required: false
+        type: string
+      source_sha:
+        description: 'Generated data commit SHA requested for deployment'
+        required: false
+        type: string
 
 permissions:
   contents: read
