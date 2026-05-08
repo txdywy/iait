@@ -9,7 +9,10 @@
     "sg": { "iso2": "SG", "iso3": "SGP", "worldBankCode": "SGP", "owidName": "Singapore", "name": "Singapore" },
     "nl": { "iso2": "NL", "iso3": "NLD", "worldBankCode": "NLD", "owidName": "Netherlands", "name": "Netherlands" },
     "ie": { "iso2": "IE", "iso3": "IRL", "worldBankCode": "IRL", "owidName": "Ireland", "name": "Ireland" },
-    "ca": { "iso2": "CA", "iso3": "CAN", "worldBankCode": "CAN", "owidName": "Canada", "name": "Canada" }
+    "ca": { "iso2": "CA", "iso3": "CAN", "worldBankCode": "CAN", "owidName": "Canada", "name": "Canada" },
+    "be": { "iso2": "BE", "iso3": "BEL", "worldBankCode": "BEL", "owidName": "Belgium", "name": "Belgium" },
+    "br": { "iso2": "BR", "iso3": "BRA", "worldBankCode": "BRA", "owidName": "Brazil", "name": "Brazil" },
+    "tw": { "iso2": "TW", "iso3": "TWN", "worldBankCode": "TWN", "owidName": "Taiwan", "name": "Taiwan" }
   },
   "cloudRegions": {
     "aws-us-east-1": { "country": "us", "city": "ashburn", "provider": "aws" },
