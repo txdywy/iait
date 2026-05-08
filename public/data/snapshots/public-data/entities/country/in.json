@@ -1,0 +1,86 @@
+{
+  "id": "in",
+  "type": "country",
+  "latest": {
+    "source": "owid-energy",
+    "entity": {
+      "id": "in",
+      "type": "country",
+      "name": "India"
+    },
+    "metric": "renewables-share-elec",
+    "value": 24.067,
+    "unit": "%",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "in",
+        "type": "country",
+        "name": "India"
+      },
+      "metric": "electricity-renewable-production",
+      "value": 150626270000,
+      "unit": "kWh",
+      "timestamp": "2021-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "in",
+        "type": "country",
+        "name": "India"
+      },
+      "metric": "electricity-per-capita",
+      "value": 1181.63126786529,
+      "unit": "kWh",
+      "timestamp": "2023-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "in",
+        "type": "country",
+        "name": "India"
+      },
+      "metric": "primary-energy-consumption",
+      "value": 11336.057,
+      "unit": "TWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "in",
+        "type": "country",
+        "name": "India"
+      },
+      "metric": "electricity-generation",
+      "value": 2081.6,
+      "unit": "TWh",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "in",
+        "type": "country",
+        "name": "India"
+      },
+      "metric": "renewables-share-elec",
+      "value": 24.067,
+      "unit": "%",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "a04bf40f34a8610facd98a72fa87a93dbc4e207adbd2a660c3f936dc55305778",
+  "_updatedAt": "2026-05-07T10:42:07.104Z"
+}

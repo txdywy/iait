@@ -1,0 +1,34 @@
+{
+  "id": "nvidia",
+  "type": "company",
+  "latest": {
+    "source": "sec-edgar-capex",
+    "entity": {
+      "id": "nvidia",
+      "type": "company",
+      "name": "NVIDIA"
+    },
+    "metric": "ai-capex-ttm",
+    "value": 138735000,
+    "unit": "USD",
+    "timestamp": "2012-01-29T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "sec-edgar-capex",
+      "entity": {
+        "id": "nvidia",
+        "type": "company",
+        "name": "NVIDIA"
+      },
+      "metric": "ai-capex-ttm",
+      "value": 138735000,
+      "unit": "USD",
+      "timestamp": "2012-01-29T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "8d456915b9afccbc11dcd752ad5ece1644e29af0b65ea93fb749c67d7cc124bc",
+  "_updatedAt": "2026-05-07T10:42:07.107Z"
+}

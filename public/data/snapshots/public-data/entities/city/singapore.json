@@ -1,0 +1,34 @@
+{
+  "id": "singapore",
+  "type": "city",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "singapore",
+      "type": "city",
+      "name": "Singapore"
+    },
+    "metric": "compute-index-score",
+    "value": 66.66666666666667,
+    "unit": "score",
+    "timestamp": "2026-05-07T06:03:43Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "singapore",
+        "type": "city",
+        "name": "Singapore"
+      },
+      "metric": "compute-index-score",
+      "value": 66.66666666666667,
+      "unit": "score",
+      "timestamp": "2026-05-07T06:03:43Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-singapore",
+  "_updatedAt": "2026-05-07T06:03:43Z"
+}

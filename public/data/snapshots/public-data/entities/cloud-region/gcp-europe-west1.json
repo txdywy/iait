@@ -1,0 +1,26 @@
+{
+  "id": "gcp-europe-west1",
+  "type": "cloud-region",
+  "latest": {
+    "source": "manual-seed",
+    "entity": { "id": "gcp-europe-west1", "type": "cloud-region", "name": "St. Ghislain (GCP)" },
+    "metric": "gpu-price-hr",
+    "value": 3.80,
+    "unit": "USD/hr",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 4
+  },
+  "series": [
+    {
+      "source": "manual-seed",
+      "entity": { "id": "gcp-europe-west1", "type": "cloud-region", "name": "St. Ghislain (GCP)" },
+      "metric": "gpu-price-hr",
+      "value": 3.80,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 4
+    }
+  ],
+  "_hash": "",
+  "_updatedAt": "2025-01-01T00:00:00Z"
+}

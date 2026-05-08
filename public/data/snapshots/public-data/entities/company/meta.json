@@ -1,0 +1,34 @@
+{
+  "id": "meta",
+  "type": "company",
+  "latest": {
+    "source": "sec-edgar-capex",
+    "entity": {
+      "id": "meta",
+      "type": "company",
+      "name": "Meta"
+    },
+    "metric": "ai-capex-ttm",
+    "value": 82288000000,
+    "unit": "USD",
+    "timestamp": "2026-03-31T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "sec-edgar-capex",
+      "entity": {
+        "id": "meta",
+        "type": "company",
+        "name": "Meta"
+      },
+      "metric": "ai-capex-ttm",
+      "value": 82288000000,
+      "unit": "USD",
+      "timestamp": "2026-03-31T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "ed7355fba86fd7511629271e80ce634e56b9a792481e7716e3579efc33093d26",
+  "_updatedAt": "2026-05-07T10:42:07.110Z"
+}

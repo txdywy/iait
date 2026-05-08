@@ -1,0 +1,26 @@
+{
+  "id": "oracle-us-ashburn-1",
+  "type": "cloud-region",
+  "latest": {
+    "source": "manual-seed",
+    "entity": { "id": "oracle-us-ashburn-1", "type": "cloud-region", "name": "Ashburn, VA (Oracle)" },
+    "metric": "gpu-price-hr",
+    "value": 4.00,
+    "unit": "USD/hr",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 4
+  },
+  "series": [
+    {
+      "source": "manual-seed",
+      "entity": { "id": "oracle-us-ashburn-1", "type": "cloud-region", "name": "Ashburn, VA (Oracle)" },
+      "metric": "gpu-price-hr",
+      "value": 4.00,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 4
+    }
+  ],
+  "_hash": "",
+  "_updatedAt": "2025-01-01T00:00:00Z"
+}
