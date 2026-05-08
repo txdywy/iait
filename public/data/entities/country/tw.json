@@ -1,0 +1,34 @@
+{
+  "id": "tw",
+  "type": "country",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "tw",
+      "type": "country",
+      "name": "tw"
+    },
+    "metric": "compute-index-score",
+    "value": 31.623931623931625,
+    "unit": "score",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "tw",
+        "type": "country",
+        "name": "tw"
+      },
+      "metric": "compute-index-score",
+      "value": 31.623931623931625,
+      "unit": "score",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-tw",
+  "_updatedAt": "2025-01-01T00:00:00Z"
+}

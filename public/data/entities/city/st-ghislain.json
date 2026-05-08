@@ -1,0 +1,34 @@
+{
+  "id": "st-ghislain",
+  "type": "city",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "st-ghislain",
+      "type": "city",
+      "name": "St. Ghislain"
+    },
+    "metric": "compute-index-score",
+    "value": 28.888888888888893,
+    "unit": "score",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "st-ghislain",
+        "type": "city",
+        "name": "St. Ghislain"
+      },
+      "metric": "compute-index-score",
+      "value": 28.888888888888893,
+      "unit": "score",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-st-ghislain",
+  "_updatedAt": "2025-01-01T00:00:00Z"
+}

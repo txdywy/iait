@@ -32,6 +32,19 @@ describe('Deploy Pages workflow contract', () => {
     expect(workflow).not.toContain('contents: write');
   });
 
+  it('checks out and verifies workflow_dispatch source_sha when provided', () => {
+    expect(workflow).toContain('actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5');
+    expect(workflow).toContain('ref: ${{ inputs.source_sha || github.sha }}');
+    expect(workflow).toMatch(/with:\n\s+ref: \$\{\{ inputs\.source_sha \|\| github\.sha \}\}/);
+    expect(workflow).toContain('Verify requested source SHA');
+    expect(workflow).toContain("if: ${{ inputs.source_sha != '' }}");
+    expect(workflow).toMatch(/EXPECTED_SOURCE_SHA:\s+\$\{\{ inputs\.source_sha \}\}/);
+    expect(workflow).toContain('EXPECTED_SHA="$EXPECTED_SOURCE_SHA"');
+    expect(workflow).toContain('ACTUAL_SHA="$(git rev-parse HEAD)"');
+    expect(workflow).toContain('Checked out $ACTUAL_SHA but expected $EXPECTED_SHA');
+    expect(workflow).toContain('exit 1');
+  });
+
   it('validates, tests, prepares geo data, builds, and checks the static bundle', () => {
     expect(workflow).toContain('npm ci');
     expect(workflow).toContain('npm run data:validate');

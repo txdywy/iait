@@ -117,8 +117,28 @@ describe('validateDataDir', () => {
 
   it('passes valid aggregate data fixtures', async () => {
     await writeFixture(tmpDir);
+    await writeEntityFile(tmpDir);
 
     await expect(validateDataDir(tmpDir)).resolves.toEqual({ ok: true, errors: [] });
+  });
+
+  it('fails when latest entities exist but entities directory is missing', async () => {
+    await writeFixture(tmpDir);
+
+    const result = await validateDataDir(tmpDir);
+
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain('entities directory is required when latest.json contains entities');
+  });
+
+  it('fails when a latest entity is missing its referenced detail file', async () => {
+    await writeFixture(tmpDir);
+    await fs.mkdir(path.join(tmpDir, 'entities', 'cloud-region'), { recursive: true });
+
+    const result = await validateDataDir(tmpDir);
+
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain('Missing referenced entity detail file: entities/cloud-region/aws-us-east-1.json');
   });
 
   it('fails when latest.json is missing', async () => {

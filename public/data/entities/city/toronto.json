@@ -1,0 +1,34 @@
+{
+  "id": "toronto",
+  "type": "city",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "toronto",
+      "type": "city",
+      "name": "Toronto"
+    },
+    "metric": "compute-index-score",
+    "value": 86.66666666666667,
+    "unit": "score",
+    "timestamp": "2026-05-01T00:00:00.000Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "toronto",
+        "type": "city",
+        "name": "Toronto"
+      },
+      "metric": "compute-index-score",
+      "value": 86.66666666666667,
+      "unit": "score",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-toronto",
+  "_updatedAt": "2026-05-01T00:00:00.000Z"
+}

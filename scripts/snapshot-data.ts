@@ -24,6 +24,8 @@ const SNAPSHOT_FILES = [
   'entity-crossref.json',
 ] as const;
 
+const ENTITY_DETAILS_MANIFEST_ENTRY = 'entities/';
+
 function defaultSnapshotId(date = new Date()): string {
   return date.toISOString().replace(/[:.]/g, '-');
 }
@@ -93,9 +95,16 @@ export async function createSnapshot(options: SnapshotOptions = {}): Promise<str
   }
   await fs.mkdir(snapshotDir, { recursive: false });
 
+  let copiedEntities = false;
   try {
     for (const fileName of SNAPSHOT_FILES) {
       await fs.copyFile(path.join(dataDir, fileName), path.join(snapshotDir, fileName));
+    }
+
+    const entitiesDir = path.join(dataDir, 'entities');
+    if (await pathExists(entitiesDir)) {
+      await fs.cp(entitiesDir, path.join(snapshotDir, 'entities'), { recursive: true, errorOnExist: false });
+      copiedEntities = true;
     }
   } catch (err) {
     await fs.rm(snapshotDir, { recursive: true, force: true });
@@ -108,7 +117,7 @@ export async function createSnapshot(options: SnapshotOptions = {}): Promise<str
     snapshotId,
     createdAt,
     sourceDataDir: dataDir,
-    files: [...SNAPSHOT_FILES],
+    files: copiedEntities ? [...SNAPSHOT_FILES, ENTITY_DETAILS_MANIFEST_ENTRY] : [...SNAPSHOT_FILES],
   };
   const nextManifest = [entry, ...existing.filter(item => item.snapshotId !== snapshotId)];
   const retained = nextManifest.slice(0, keep);

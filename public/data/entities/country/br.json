@@ -1,0 +1,34 @@
+{
+  "id": "br",
+  "type": "country",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "br",
+      "type": "country",
+      "name": "br"
+    },
+    "metric": "compute-index-score",
+    "value": 37.17948717948718,
+    "unit": "score",
+    "timestamp": "2026-05-07T06:03:43Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "br",
+        "type": "country",
+        "name": "br"
+      },
+      "metric": "compute-index-score",
+      "value": 37.17948717948718,
+      "unit": "score",
+      "timestamp": "2026-05-07T06:03:43Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-br",
+  "_updatedAt": "2026-05-07T06:03:43Z"
+}
