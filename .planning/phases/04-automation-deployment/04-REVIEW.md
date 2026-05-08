@@ -34,11 +34,16 @@ files_reviewed_list:
   - scripts/snapshot-data.ts
   - scripts/validate-data.ts
 findings:
+  critical: 0
+  warning: 0
+  info: 0
+  total: 0
+resolved_findings:
   critical: 1
   warning: 2
   info: 0
   total: 3
-status: issues_found
+status: resolved
 ---
 
 # Phase 04: Code Review Report
@@ -46,15 +51,18 @@ status: issues_found
 **Reviewed:** 2026-05-08T00:00:00Z
 **Depth:** standard
 **Files Reviewed:** 29
-**Status:** issues_found
+**Status:** resolved
 
 ## Summary
 
-Reviewed the listed GitHub Actions workflows, package scripts, static entity JSON files, automation scripts, and script tests at standard depth. The automation now has validation and staged promotion coverage, but there is still one deployment-scope blocker and two data/validation robustness issues that should be fixed before Phase 04 ships.
+Reviewed the listed GitHub Actions workflows, package scripts, static entity JSON files, automation scripts, and script tests at standard depth. The originally reported findings are now resolved: CR-01 is stale because `deploy.yml` already verifies requested `source_sha` ancestry against `origin/main`, and WR-01/WR-02 were fixed with regression coverage.
 
-## Critical Issues
+## Resolved Critical Issues
 
 ### CR-01: Manual pipeline runs can deploy non-main commits to production Pages
+
+**Resolution:** Resolved as stale. Current `.github/workflows/deploy.yml` includes `Verify requested source SHA is on main`, fetches `origin/main`, and rejects any `source_sha` that is not reachable from `origin/main` before deployment. No workflow code change was required.
+
 
 **Classification:** BLOCKER
 
@@ -83,9 +91,12 @@ Also harden `deploy.yml` before checkout/deploy by fetching `main` and rejecting
           git merge-base --is-ancestor "${{ inputs.source_sha }}" origin/main
 ```
 
-## Warnings
+## Resolved Warnings
 
 ### WR-01: Validation does not reject unsafe entity IDs before building filesystem paths
+
+**Resolution:** Fixed in `scripts/validate-data.ts` and covered by `scripts/__tests__/validate-data.test.ts`; unsafe latest entity IDs are rejected as unsafe path segments and skipped for referenced detail-file path construction.
+
 
 **Classification:** WARNING
 
@@ -114,6 +125,8 @@ for (const [entityId, entity] of Object.entries(value.entities)) {
 ```
 
 ### WR-02: Country detail files use country codes as display names
+
+**Resolution:** Fixed in `public/data/entities/country/{be,br,tw}.json` and covered by `scripts/__tests__/validate-data.test.ts`; country detail data now uses Belgium, Brazil, and Taiwan in `latest.entity.name` and `series[].entity.name`.
 
 **Classification:** WARNING
 
