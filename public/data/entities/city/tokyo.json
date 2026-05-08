@@ -1,0 +1,34 @@
+{
+  "id": "tokyo",
+  "type": "city",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "tokyo",
+      "type": "city",
+      "name": "Tokyo"
+    },
+    "metric": "compute-index-score",
+    "value": 62.22222222222222,
+    "unit": "score",
+    "timestamp": "2026-05-07T06:03:43Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "tokyo",
+        "type": "city",
+        "name": "Tokyo"
+      },
+      "metric": "compute-index-score",
+      "value": 62.22222222222222,
+      "unit": "score",
+      "timestamp": "2026-05-07T06:03:43Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-tokyo",
+  "_updatedAt": "2026-05-07T06:03:43Z"
+}

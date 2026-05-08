@@ -1,0 +1,34 @@
+{
+  "id": "be",
+  "type": "country",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "be",
+      "type": "country",
+      "name": "be"
+    },
+    "metric": "compute-index-score",
+    "value": 26.068376068376068,
+    "unit": "score",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "be",
+        "type": "country",
+        "name": "be"
+      },
+      "metric": "compute-index-score",
+      "value": 26.068376068376068,
+      "unit": "score",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-be",
+  "_updatedAt": "2025-01-01T00:00:00Z"
+}

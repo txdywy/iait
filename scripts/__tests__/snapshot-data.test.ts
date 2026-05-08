@@ -56,7 +56,7 @@ describe('createSnapshot', () => {
     expect(manifest[0]).toMatchObject({
       snapshotId,
       sourceDataDir: tmpDir,
-      files: Object.keys(aggregateFiles),
+      files: [...Object.keys(aggregateFiles), 'entities/'],
     });
     expect(Date.parse(manifest[0].createdAt)).not.toBeNaN();
   });
