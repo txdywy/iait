@@ -1,0 +1,86 @@
+{
+  "id": "de",
+  "type": "country",
+  "latest": {
+    "source": "owid-energy",
+    "entity": {
+      "id": "de",
+      "type": "country",
+      "name": "Germany"
+    },
+    "metric": "renewables-share-elec",
+    "value": 59.092,
+    "unit": "%",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "de",
+        "type": "country",
+        "name": "Germany"
+      },
+      "metric": "electricity-renewable-production",
+      "value": 211143200000,
+      "unit": "kWh",
+      "timestamp": "2021-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "de",
+        "type": "country",
+        "name": "Germany"
+      },
+      "metric": "electricity-per-capita",
+      "value": 6109.08541252395,
+      "unit": "kWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "de",
+        "type": "country",
+        "name": "Germany"
+      },
+      "metric": "primary-energy-consumption",
+      "value": 3195.441,
+      "unit": "TWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "de",
+        "type": "country",
+        "name": "Germany"
+      },
+      "metric": "electricity-generation",
+      "value": 500.47,
+      "unit": "TWh",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "de",
+        "type": "country",
+        "name": "Germany"
+      },
+      "metric": "renewables-share-elec",
+      "value": 59.092,
+      "unit": "%",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "1f5b53fd7b686b58cd1d127cc33b5c30bd8c33472d75dabab23ae90280b96a02",
+  "_updatedAt": "2026-05-07T10:42:07.103Z"
+}

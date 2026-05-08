@@ -1,0 +1,86 @@
+{
+  "id": "gb",
+  "type": "country",
+  "latest": {
+    "source": "owid-energy",
+    "entity": {
+      "id": "gb",
+      "type": "country",
+      "name": "United Kingdom"
+    },
+    "metric": "renewables-share-elec",
+    "value": 51.972,
+    "unit": "%",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "gb",
+        "type": "country",
+        "name": "United Kingdom"
+      },
+      "metric": "electricity-renewable-production",
+      "value": 116761000000,
+      "unit": "kWh",
+      "timestamp": "2021-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "gb",
+        "type": "country",
+        "name": "United Kingdom"
+      },
+      "metric": "electricity-per-capita",
+      "value": 4198.22032184439,
+      "unit": "kWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "gb",
+        "type": "country",
+        "name": "United Kingdom"
+      },
+      "metric": "primary-energy-consumption",
+      "value": 1936.96,
+      "unit": "TWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "gb",
+        "type": "country",
+        "name": "United Kingdom"
+      },
+      "metric": "electricity-generation",
+      "value": 292.31,
+      "unit": "TWh",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "gb",
+        "type": "country",
+        "name": "United Kingdom"
+      },
+      "metric": "renewables-share-elec",
+      "value": 51.972,
+      "unit": "%",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "b577c8a997abbbbef6c54fbeda04ab8e9e43018d713adeb4a30919924f153fe3",
+  "_updatedAt": "2026-05-07T10:42:07.103Z"
+}

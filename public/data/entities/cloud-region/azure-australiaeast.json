@@ -1,0 +1,2855 @@
+{
+  "id": "azure-australiaeast",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-australiaeast",
+      "type": "cloud-region",
+      "name": "AU East"
+    },
+    "metric": "gpu-price-hr",
+    "value": 0.8008,
+    "unit": "USD/hr",
+    "timestamp": "2026-05-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.636,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.59,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.318,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.142,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.426,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.179,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.713,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.857,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.358,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.566,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.283,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.272,
+      "unit": "USD/hr",
+      "timestamp": "2019-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.954,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.46,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.908,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.815,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.23,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.919,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.27,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.351,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.175,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0676,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.087,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.541,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.522,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.835,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.209,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.703,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.67,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.135,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.044,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.676,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.338,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.417,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.978,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.347,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.602,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.196,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.137,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.658,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.313,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.132,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.346,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.92,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.684,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.538,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.868,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.301,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.565,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.441,
+      "unit": "USD/hr",
+      "timestamp": "2021-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.006,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.732,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.959,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.836,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.366,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.918,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.11,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.683,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.261,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.144,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.326,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.652,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.288,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.065,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.572,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.86,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.43,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.13,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.303,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 25.719,
+      "unit": "USD/hr",
+      "timestamp": "2022-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.891,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.263,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.311,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.658,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.284,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.317,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.518,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.148,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.928,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.296,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.766,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.64,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.259,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.747,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.869,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.454,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.21,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.374,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.132,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.554,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.934,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.106,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.32,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.464,
+      "unit": "USD/hr",
+      "timestamp": "2023-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 20.773,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 47.516,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 47.516,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 20.773,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.503,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 51.932,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.503,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 51.932,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.048,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.784,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 20.242,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.922,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.121,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.569,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.024,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.961,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 147.016,
+      "unit": "USD/hr",
+      "timestamp": "2024-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 28.52,
+      "unit": "USD/hr",
+      "timestamp": "2024-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 58.806,
+      "unit": "USD/hr",
+      "timestamp": "2024-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 142.6,
+      "unit": "USD/hr",
+      "timestamp": "2024-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 122.96,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 50.95,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 122.96,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 127.376,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.592,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 127.376,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 162.728,
+      "unit": "USD/hr",
+      "timestamp": "2025-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 156.84,
+      "unit": "USD/hr",
+      "timestamp": "2025-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 13.50232,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.35416,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 13.50232,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.35416,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 156.84,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 162.728,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.062462,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.747099,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.163501,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.385678,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.096466,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.395842,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.58175,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.249665,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.517208,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.359157,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.791498,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.243382,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.124925,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.582997,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.293832,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.121598,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.211179,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.587479,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.499514,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.174958,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.428736,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.857472,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.172603,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.345391,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.77154,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.192931,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 26.35248,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 27.168557,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.96849,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.936794,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.376528,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.752871,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.188264,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.984245,
+      "unit": "USD/hr",
+      "timestamp": "2025-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.442824,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.666896,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.608,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.333792,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.04,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.234,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.387,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.694,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.63,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.51,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.646843,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 19.734,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.936,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.129773,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.726,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.216,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.782443,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.847,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.804,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.564886,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.833448,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.468,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.893,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.02,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.39034,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.25172,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.49458,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.19836,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.66729,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.64082,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.28362,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.45385,
+      "unit": "USD/hr",
+      "timestamp": "2026-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.833654,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.026012,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.052024,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.916827,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.4004,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.967,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.335,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.768,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.29,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.696,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.483,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.9,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.004,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0966,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.45,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.1934,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.9536,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.667,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.58,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.48,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.267,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.002,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.1334,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-australiaeast",
+        "type": "cloud-region",
+        "name": "AU East"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.8008,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "be95291035af8edf11309bbe7456db9af51b2c57f4d0d4fa4d10f121537ad00f",
+  "_updatedAt": "2026-05-07T10:42:07.117Z"
+}

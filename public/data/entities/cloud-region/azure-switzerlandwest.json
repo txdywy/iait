@@ -1,0 +1,177 @@
+{
+  "id": "azure-switzerlandwest",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-switzerlandwest",
+      "type": "cloud-region",
+      "name": "CH West"
+    },
+    "metric": "gpu-price-hr",
+    "value": 16.9871,
+    "unit": "USD/hr",
+    "timestamp": "2025-06-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 60.919,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.184,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 65.335,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 26.134,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 65.335,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.184,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 60.919,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 26.134,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.83894,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.9871,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.83894,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-switzerlandwest",
+        "type": "cloud-region",
+        "name": "CH West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.9871,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "92bf293855385cb04cb4f77d0713a8d30e226d5a2897853dfa1ea5f008c7d72d",
+  "_updatedAt": "2026-05-07T10:42:07.144Z"
+}

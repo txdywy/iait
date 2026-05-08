@@ -1,0 +1,177 @@
+{
+  "id": "azure-germanynorth",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-germanynorth",
+      "type": "cloud-region",
+      "name": "DE North"
+    },
+    "metric": "gpu-price-hr",
+    "value": 14.39906,
+    "unit": "USD/hr",
+    "timestamp": "2025-06-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 55.381,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 59.797,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.076,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.919,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 55.381,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 59.797,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.076,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.919,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.39906,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.54722,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.54722,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-germanynorth",
+        "type": "cloud-region",
+        "name": "DE North"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.39906,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "0deaa813cf259b81506d5b07ca7109eb85525612460108503a4e9dda600c34d3",
+  "_updatedAt": "2026-05-07T10:42:07.148Z"
+}

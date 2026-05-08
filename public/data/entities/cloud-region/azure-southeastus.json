@@ -1,0 +1,229 @@
+{
+  "id": "azure-southeastus",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-southeastus",
+      "type": "cloud-region",
+      "name": "US Southeast"
+    },
+    "metric": "gpu-price-hr",
+    "value": 21.258283,
+    "unit": "USD/hr",
+    "timestamp": "2025-08-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 127.816,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 132.232,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.620397,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.436474,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southeastus",
+        "type": "cloud-region",
+        "name": "US Southeast"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "66e8aad4669992a6478dd65ccf894c1ebfac994cf94355d028ae7e0ecb7aafa7",
+  "_updatedAt": "2026-05-07T10:42:07.146Z"
+}

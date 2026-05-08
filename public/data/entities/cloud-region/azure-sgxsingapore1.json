@@ -1,0 +1,125 @@
+{
+  "id": "azure-sgxsingapore1",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-sgxsingapore1",
+      "type": "cloud-region",
+      "name": "SGX Singapore 1"
+    },
+    "metric": "gpu-price-hr",
+    "value": 0.2576,
+    "unit": "USD/hr",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-sgxsingapore1",
+        "type": "cloud-region",
+        "name": "SGX Singapore 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.485,
+      "unit": "USD/hr",
+      "timestamp": "2023-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-sgxsingapore1",
+        "type": "cloud-region",
+        "name": "SGX Singapore 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.288,
+      "unit": "USD/hr",
+      "timestamp": "2023-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-sgxsingapore1",
+        "type": "cloud-region",
+        "name": "SGX Singapore 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.61,
+      "unit": "USD/hr",
+      "timestamp": "2023-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-sgxsingapore1",
+        "type": "cloud-region",
+        "name": "SGX Singapore 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.841,
+      "unit": "USD/hr",
+      "timestamp": "2023-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-sgxsingapore1",
+        "type": "cloud-region",
+        "name": "SGX Singapore 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3682,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-sgxsingapore1",
+        "type": "cloud-region",
+        "name": "SGX Singapore 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.497,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-sgxsingapore1",
+        "type": "cloud-region",
+        "name": "SGX Singapore 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.322,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-sgxsingapore1",
+        "type": "cloud-region",
+        "name": "SGX Singapore 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.2576,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "b0b822a9958d9929e579137362e02bad175ba60929c89d6bd86adf72edf7eb79",
+  "_updatedAt": "2026-05-07T10:42:07.143Z"
+}

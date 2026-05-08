@@ -1,0 +1,385 @@
+{
+  "id": "azure-jioindiacentral",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-jioindiacentral",
+      "type": "cloud-region",
+      "name": "IN Central Jio"
+    },
+    "metric": "gpu-price-hr",
+    "value": 6.328,
+    "unit": "USD/hr",
+    "timestamp": "2024-12-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 20.569,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.284,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.985,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.492,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.057,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.498,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.114,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.246,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.028,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.994,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.997,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.142,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 19.544,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.224,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.772,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.612,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.068,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.636,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.984,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.136,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.44,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.912,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.48,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.823,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.128,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.271,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.24,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-jioindiacentral",
+        "type": "cloud-region",
+        "name": "IN Central Jio"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.328,
+      "unit": "USD/hr",
+      "timestamp": "2024-12-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "27383afe0581bb2d7711999ce97a802132ebb030f916b42b91c5710308a9c0d1",
+  "_updatedAt": "2026-05-07T10:42:07.143Z"
+}

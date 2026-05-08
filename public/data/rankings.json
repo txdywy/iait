@@ -1,0 +1,637 @@
+{
+  "generated": "2026-05-07T11:27:09.128Z",
+  "byType": {
+    "countries": [
+      {
+        "rank": 1,
+        "entityId": "ca",
+        "score": 78.81656804733727,
+        "confidence": 1
+      },
+      {
+        "rank": 2,
+        "entityId": "gb",
+        "score": 68.81656804733727,
+        "confidence": 1
+      },
+      {
+        "rank": 3,
+        "entityId": "us",
+        "score": 66.15384615384615,
+        "confidence": 1
+      },
+      {
+        "rank": 4,
+        "entityId": "nl",
+        "score": 65.73964497041419,
+        "confidence": 1
+      },
+      {
+        "rank": 5,
+        "entityId": "de",
+        "score": 63.6094674556213,
+        "confidence": 1
+      },
+      {
+        "rank": 6,
+        "entityId": "jp",
+        "score": 62.07100591715976,
+        "confidence": 1
+      },
+      {
+        "rank": 7,
+        "entityId": "ie",
+        "score": 55.147928994082825,
+        "confidence": 1
+      },
+      {
+        "rank": 8,
+        "entityId": "in",
+        "score": 51.402366863905314,
+        "confidence": 1
+      },
+      {
+        "rank": 9,
+        "entityId": "sg",
+        "score": 50.532544378698226,
+        "confidence": 1
+      },
+      {
+        "rank": 10,
+        "entityId": "br",
+        "score": 37.17948717948718,
+        "confidence": 1
+      },
+      {
+        "rank": 11,
+        "entityId": "tw",
+        "score": 31.623931623931625,
+        "confidence": 1
+      },
+      {
+        "rank": 12,
+        "entityId": "be",
+        "score": 26.068376068376068,
+        "confidence": 1
+      },
+      {
+        "rank": 13,
+        "entityId": "cn",
+        "score": 25.054945054945055,
+        "confidence": 1
+      }
+    ],
+    "cities": [
+      {
+        "rank": 1,
+        "entityId": "toronto",
+        "score": 86.66666666666667,
+        "confidence": 1
+      },
+      {
+        "rank": 2,
+        "entityId": "london",
+        "score": 82.22222222222223,
+        "confidence": 1
+      },
+      {
+        "rank": 3,
+        "entityId": "amsterdam",
+        "score": 82.22222222222223,
+        "confidence": 1
+      },
+      {
+        "rank": 4,
+        "entityId": "portland",
+        "score": 79.99999999999999,
+        "confidence": 1
+      },
+      {
+        "rank": 5,
+        "entityId": "dublin",
+        "score": 75.55555555555554,
+        "confidence": 1
+      },
+      {
+        "rank": 6,
+        "entityId": "frankfurt",
+        "score": 71.11111111111111,
+        "confidence": 1
+      },
+      {
+        "rank": 7,
+        "entityId": "singapore",
+        "score": 66.66666666666667,
+        "confidence": 1
+      },
+      {
+        "rank": 8,
+        "entityId": "tokyo",
+        "score": 62.22222222222222,
+        "confidence": 1
+      },
+      {
+        "rank": 9,
+        "entityId": "ashburn",
+        "score": 60.00000000000001,
+        "confidence": 1
+      },
+      {
+        "rank": 10,
+        "entityId": "pune",
+        "score": 51.333333333333336,
+        "confidence": 1
+      },
+      {
+        "rank": 11,
+        "entityId": "sao-paulo",
+        "score": 42.22222222222223,
+        "confidence": 1
+      },
+      {
+        "rank": 12,
+        "entityId": "council-bluffs",
+        "score": 37.77777777777778,
+        "confidence": 1
+      },
+      {
+        "rank": 13,
+        "entityId": "changhua",
+        "score": 33.333333333333336,
+        "confidence": 1
+      },
+      {
+        "rank": 14,
+        "entityId": "st-ghislain",
+        "score": 28.888888888888893,
+        "confidence": 1
+      },
+      {
+        "rank": 15,
+        "entityId": "dallas",
+        "score": 24.444444444444446,
+        "confidence": 1
+      }
+    ],
+    "cloudRegions": [
+      {
+        "rank": 1,
+        "entityId": "azure-eastus",
+        "score": 100,
+        "confidence": 1
+      },
+      {
+        "rank": 2,
+        "entityId": "azure-eastus2",
+        "score": 100,
+        "confidence": 1
+      },
+      {
+        "rank": 3,
+        "entityId": "azure-westus2",
+        "score": 100,
+        "confidence": 1
+      },
+      {
+        "rank": 4,
+        "entityId": "azure-westus3",
+        "score": 100,
+        "confidence": 1
+      },
+      {
+        "rank": 5,
+        "entityId": "azure-mexicocentral",
+        "score": 94.36619718309859,
+        "confidence": 1
+      },
+      {
+        "rank": 6,
+        "entityId": "azure-canadacentral",
+        "score": 92.95774647887323,
+        "confidence": 1
+      },
+      {
+        "rank": 7,
+        "entityId": "azure-northcentralus",
+        "score": 92.95774647887323,
+        "confidence": 1
+      },
+      {
+        "rank": 8,
+        "entityId": "azure-northeurope",
+        "score": 92.95774647887323,
+        "confidence": 1
+      },
+      {
+        "rank": 9,
+        "entityId": "azure-southcentralus",
+        "score": 92.95774647887323,
+        "confidence": 1
+      },
+      {
+        "rank": 10,
+        "entityId": "azure-francecentral",
+        "score": 87.32394366197182,
+        "confidence": 1
+      },
+      {
+        "rank": 11,
+        "entityId": "azure-germanywestcentral",
+        "score": 87.32394366197182,
+        "confidence": 1
+      },
+      {
+        "rank": 12,
+        "entityId": "azure-italynorth",
+        "score": 87.32394366197182,
+        "confidence": 1
+      },
+      {
+        "rank": 13,
+        "entityId": "azure-polandcentral",
+        "score": 87.32394366197182,
+        "confidence": 1
+      },
+      {
+        "rank": 14,
+        "entityId": "azure-uksouth",
+        "score": 87.32394366197182,
+        "confidence": 1
+      },
+      {
+        "rank": 15,
+        "entityId": "azure-usgovarizona",
+        "score": 87.32394366197182,
+        "confidence": 1
+      },
+      {
+        "rank": 16,
+        "entityId": "azure-usgovvirginia",
+        "score": 87.32394366197182,
+        "confidence": 1
+      },
+      {
+        "rank": 17,
+        "entityId": "azure-westeurope",
+        "score": 87.32394366197182,
+        "confidence": 1
+      },
+      {
+        "rank": 18,
+        "entityId": "azure-southeastasia",
+        "score": 76.05633802816901,
+        "confidence": 1
+      },
+      {
+        "rank": 19,
+        "entityId": "azure-spaincentral",
+        "score": 76.05633802816901,
+        "confidence": 1
+      },
+      {
+        "rank": 20,
+        "entityId": "azure-koreacentral",
+        "score": 73.23943661971832,
+        "confidence": 1
+      },
+      {
+        "rank": 21,
+        "entityId": "azure-chilecentral",
+        "score": 71.83098591549296,
+        "confidence": 1
+      },
+      {
+        "rank": 22,
+        "entityId": "azure-swedencentral",
+        "score": 71.83098591549296,
+        "confidence": 1
+      },
+      {
+        "rank": 23,
+        "entityId": "azure-australiaeast",
+        "score": 67.6056338028169,
+        "confidence": 1
+      },
+      {
+        "rank": 24,
+        "entityId": "azure-japaneast",
+        "score": 67.6056338028169,
+        "confidence": 1
+      },
+      {
+        "rank": 25,
+        "entityId": "azure-australiacentral2",
+        "score": 64.7887323943662,
+        "confidence": 1
+      },
+      {
+        "rank": 26,
+        "entityId": "azure-attdallas1",
+        "score": 63.38028169014084,
+        "confidence": 1
+      },
+      {
+        "rank": 27,
+        "entityId": "azure-westus",
+        "score": 61.97183098591548,
+        "confidence": 1
+      },
+      {
+        "rank": 28,
+        "entityId": "azure-attatlanta1",
+        "score": 60.56338028169014,
+        "confidence": 1
+      },
+      {
+        "rank": 29,
+        "entityId": "azure-malaysiawest",
+        "score": 59.15492957746479,
+        "confidence": 1
+      },
+      {
+        "rank": 30,
+        "entityId": "azure-indonesiacentral",
+        "score": 57.74647887323944,
+        "confidence": 1
+      },
+      {
+        "rank": 31,
+        "entityId": "azure-centralus",
+        "score": 56.33802816901408,
+        "confidence": 1
+      },
+      {
+        "rank": 32,
+        "entityId": "azure-koreasouth",
+        "score": 54.929577464788736,
+        "confidence": 1
+      },
+      {
+        "rank": 33,
+        "entityId": "azure-israelcentral",
+        "score": 53.52112676056338,
+        "confidence": 1
+      },
+      {
+        "rank": 34,
+        "entityId": "azure-qatarcentral",
+        "score": 53.52112676056338,
+        "confidence": 1
+      },
+      {
+        "rank": 35,
+        "entityId": "azure-switzerlandnorth",
+        "score": 53.52112676056338,
+        "confidence": 1
+      },
+      {
+        "rank": 36,
+        "entityId": "azure-uaenorth",
+        "score": 53.52112676056338,
+        "confidence": 1
+      },
+      {
+        "rank": 37,
+        "entityId": "azure-centralindia",
+        "score": 50.28169014084507,
+        "confidence": 1
+      },
+      {
+        "rank": 38,
+        "entityId": "azure-southafricanorth",
+        "score": 47.88732394366197,
+        "confidence": 1
+      },
+      {
+        "rank": 39,
+        "entityId": "azure-eastasia",
+        "score": 46.478873239436616,
+        "confidence": 1
+      },
+      {
+        "rank": 40,
+        "entityId": "azure-australiacentral",
+        "score": 45.07042253521127,
+        "confidence": 1
+      },
+      {
+        "rank": 41,
+        "entityId": "azure-southindia",
+        "score": 43.66197183098591,
+        "confidence": 1
+      },
+      {
+        "rank": 42,
+        "entityId": "azure-brazilsouth",
+        "score": 42.25352112676056,
+        "confidence": 1
+      },
+      {
+        "rank": 43,
+        "entityId": "aws-us-east-1",
+        "score": 40.845070422535215,
+        "confidence": 1
+      },
+      {
+        "rank": 44,
+        "entityId": "aws-us-west-2",
+        "score": 40.845070422535215,
+        "confidence": 1
+      },
+      {
+        "rank": 45,
+        "entityId": "azure-japanwest",
+        "score": 38.028169014084504,
+        "confidence": 1
+      },
+      {
+        "rank": 46,
+        "entityId": "aws-eu-central-1",
+        "score": 36.61971830985916,
+        "confidence": 1
+      },
+      {
+        "rank": 47,
+        "entityId": "aws-eu-west-1",
+        "score": 35.2112676056338,
+        "confidence": 1
+      },
+      {
+        "rank": 48,
+        "entityId": "azure-sgxsingapore1",
+        "score": 33.80281690140845,
+        "confidence": 1
+      },
+      {
+        "rank": 49,
+        "entityId": "azure-norwayeast",
+        "score": 32.3943661971831,
+        "confidence": 1
+      },
+      {
+        "rank": 50,
+        "entityId": "aws-ap-northeast-1",
+        "score": 30.98591549295774,
+        "confidence": 1
+      },
+      {
+        "rank": 51,
+        "entityId": "aws-ap-southeast-1",
+        "score": 29.577464788732396,
+        "confidence": 1
+      },
+      {
+        "rank": 52,
+        "entityId": "aws-sa-east-1",
+        "score": 28.16901408450704,
+        "confidence": 1
+      },
+      {
+        "rank": 53,
+        "entityId": "azure-norwaywest",
+        "score": 26.76056338028169,
+        "confidence": 1
+      },
+      {
+        "rank": 54,
+        "entityId": "azure-jioindiacentral",
+        "score": 25.352112676056336,
+        "confidence": 1
+      },
+      {
+        "rank": 55,
+        "entityId": "azure-jioindiawest",
+        "score": 25.352112676056336,
+        "confidence": 1
+      },
+      {
+        "rank": 56,
+        "entityId": "gcp-us-central1",
+        "score": 22.535211267605636,
+        "confidence": 1
+      },
+      {
+        "rank": 57,
+        "entityId": "gcp-asia-east1",
+        "score": 21.12676056338028,
+        "confidence": 1
+      },
+      {
+        "rank": 58,
+        "entityId": "gcp-europe-west1",
+        "score": 19.718309859154928,
+        "confidence": 1
+      },
+      {
+        "rank": 59,
+        "entityId": "oracle-us-ashburn-1",
+        "score": 18.30985915492958,
+        "confidence": 1
+      },
+      {
+        "rank": 60,
+        "entityId": "ibm-us-south",
+        "score": 16.901408450704224,
+        "confidence": 1
+      },
+      {
+        "rank": 61,
+        "entityId": "azure-canadaeast",
+        "score": 15.49295774647887,
+        "confidence": 1
+      },
+      {
+        "rank": 62,
+        "entityId": "azure-ukwest",
+        "score": 14.08450704225352,
+        "confidence": 1
+      },
+      {
+        "rank": 63,
+        "entityId": "azure-westcentralus",
+        "score": 12.676056338028168,
+        "confidence": 1
+      },
+      {
+        "rank": 64,
+        "entityId": "azure-francesouth",
+        "score": 11.267605633802818,
+        "confidence": 1
+      },
+      {
+        "rank": 65,
+        "entityId": "azure-germanynorth",
+        "score": 9.859154929577464,
+        "confidence": 1
+      },
+      {
+        "rank": 66,
+        "entityId": "azure-switzerlandwest",
+        "score": 8.450704225352112,
+        "confidence": 1
+      },
+      {
+        "rank": 67,
+        "entityId": "azure-uaecentral",
+        "score": 8.450704225352112,
+        "confidence": 1
+      },
+      {
+        "rank": 68,
+        "entityId": "azure-australiasoutheast",
+        "score": 5.633802816901409,
+        "confidence": 1
+      },
+      {
+        "rank": 69,
+        "entityId": "azure-southcentralus2",
+        "score": 4.225352112676056,
+        "confidence": 1
+      },
+      {
+        "rank": 70,
+        "entityId": "azure-southeastus",
+        "score": 2.8169014084507045,
+        "confidence": 1
+      },
+      {
+        "rank": 71,
+        "entityId": "azure-southafricawest",
+        "score": 1.4084507042253522,
+        "confidence": 1
+      }
+    ],
+    "companies": [
+      {
+        "rank": 1,
+        "entityId": "alphabet",
+        "score": 100,
+        "confidence": 1
+      },
+      {
+        "rank": 2,
+        "entityId": "microsoft",
+        "score": 80,
+        "confidence": 1
+      },
+      {
+        "rank": 3,
+        "entityId": "meta",
+        "score": 60,
+        "confidence": 1
+      },
+      {
+        "rank": 4,
+        "entityId": "amazon",
+        "score": 40,
+        "confidence": 1
+      },
+      {
+        "rank": 5,
+        "entityId": "nvidia",
+        "score": 20,
+        "confidence": 1
+      }
+    ]
+  }
+}

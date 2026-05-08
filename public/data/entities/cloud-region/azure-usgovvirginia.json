@@ -1,0 +1,2153 @@
+{
+  "id": "azure-usgovvirginia",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-usgovvirginia",
+      "type": "cloud-region",
+      "name": "US Gov Virginia"
+    },
+    "metric": "gpu-price-hr",
+    "value": 2.986368,
+    "unit": "USD/hr",
+    "timestamp": "2026-01-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.752,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 27.54,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 29.379,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.508,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.977,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.954,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.285,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.163,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.908,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.14,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.791,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.57,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.85,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.7,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.582,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.425,
+      "unit": "USD/hr",
+      "timestamp": "2020-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.278,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.191,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.819,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.382,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.639,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.095,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.505,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.44,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.384,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.5232,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.8964,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.088,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.188,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.132,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.3536,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.842,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3368,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.94,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.308,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.301,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.241,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.658,
+      "unit": "USD/hr",
+      "timestamp": "2021-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 34.003,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0582,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.475,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.116,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.38,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.19,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.582,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.802,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.466,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.95,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.33,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.521,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.76,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.165,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.291,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.901,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.233,
+      "unit": "USD/hr",
+      "timestamp": "2021-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.368,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 34.003,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 38.419,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.801,
+      "unit": "USD/hr",
+      "timestamp": "2021-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.901,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.195,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.751,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.95,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.475,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.091,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.502,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.005,
+      "unit": "USD/hr",
+      "timestamp": "2022-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.15,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.687,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.656,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.828,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.675,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.131,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.567,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.306,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.113,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.585,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.8,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.843,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.4,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.462,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.262,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.135,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.922,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.65,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.13,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.63,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.227,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.337,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 40.962,
+      "unit": "USD/hr",
+      "timestamp": "2024-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.192,
+      "unit": "USD/hr",
+      "timestamp": "2024-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 45.378,
+      "unit": "USD/hr",
+      "timestamp": "2024-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.151,
+      "unit": "USD/hr",
+      "timestamp": "2024-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.45218,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.48066,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.48066,
+      "unit": "USD/hr",
+      "timestamp": "2025-03-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 106,
+      "unit": "USD/hr",
+      "timestamp": "2025-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.65012,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.79828,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.19082,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.43136,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.24418,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.5776,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.64989,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.2726,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.37932,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.43645,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.416,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 106,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.429239,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.089392,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.430584,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.17556,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.118178,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.522614,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.311758,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.107554,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.104782,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.05336,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.50612,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.045229,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.36535,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.7392,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.155786,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.70261,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.04412,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.351305,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.08778,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.215292,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.52668,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.461398,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.26334,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.209748,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.350149,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.730699,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.053777,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3696,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.08,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.734,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.688,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.344,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.231,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.746592,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.464,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.469,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.938,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.493184,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.672,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.714342,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.985814,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.04,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.232,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.678586,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.357171,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.16,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.11,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.157,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 17.776,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.616,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.285005,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-usgovvirginia",
+        "type": "cloud-region",
+        "name": "US Gov Virginia"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.986368,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "d0a59ed78977d79fee62517372432fc884eda455fa85d78893130a1fed3b73e0",
+  "_updatedAt": "2026-05-07T10:42:07.130Z"
+}

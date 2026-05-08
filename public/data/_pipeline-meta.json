@@ -1,0 +1,329 @@
+{
+  "lastRun": "2026-05-07T11:27:09.130Z",
+  "entities": {
+    "ca": {
+      "hash": "2d9da07abbc3a62927cc6f7ee9c8a02ec1784cd2dffac81e840ec6b7814d1131",
+      "updatedAt": "2026-05-07T10:42:07.102Z"
+    },
+    "cn": {
+      "hash": "5ed3ba39d8ba5c09e0bfcd897be32d0a5436dcf9af36d88d8c02de2d411a93e5",
+      "updatedAt": "2026-05-07T10:42:07.103Z"
+    },
+    "de": {
+      "hash": "1f5b53fd7b686b58cd1d127cc33b5c30bd8c33472d75dabab23ae90280b96a02",
+      "updatedAt": "2026-05-07T10:42:07.103Z"
+    },
+    "gb": {
+      "hash": "b577c8a997abbbbef6c54fbeda04ab8e9e43018d713adeb4a30919924f153fe3",
+      "updatedAt": "2026-05-07T10:42:07.104Z"
+    },
+    "in": {
+      "hash": "a04bf40f34a8610facd98a72fa87a93dbc4e207adbd2a660c3f936dc55305778",
+      "updatedAt": "2026-05-07T10:42:07.104Z"
+    },
+    "ie": {
+      "hash": "07b6abb9676bb7d441d2a6b0f08e0fc2baf03ed60cbee30e9ae99cd8b532af4e",
+      "updatedAt": "2026-05-07T10:42:07.104Z"
+    },
+    "jp": {
+      "hash": "796ef6e591743ca5fda5767961e11952e59a3a51977cbe5b1c2c63ab51b0a068",
+      "updatedAt": "2026-05-07T10:42:07.104Z"
+    },
+    "nl": {
+      "hash": "d2e9bf793cb7722797bb7bc277a9221e252951284d6851de0038451691701d29",
+      "updatedAt": "2026-05-07T10:42:07.105Z"
+    },
+    "sg": {
+      "hash": "abbc8f346400b1891492e4e6a26d1eccceca226a55623244b5b0cb7f52211ac2",
+      "updatedAt": "2026-05-07T10:42:07.106Z"
+    },
+    "us": {
+      "hash": "e0e768eca32540ab901fd0014674b2b7526ee635b8568df27067b087101b3c99",
+      "updatedAt": "2026-05-07T10:42:07.106Z"
+    },
+    "nvidia": {
+      "hash": "8d456915b9afccbc11dcd752ad5ece1644e29af0b65ea93fb749c67d7cc124bc",
+      "updatedAt": "2026-05-07T10:42:07.107Z"
+    },
+    "microsoft": {
+      "hash": "799eb36ba0ce4e2f68ef9a490d04510fa26ccd5111c3bbb5796623de02e10918",
+      "updatedAt": "2026-05-07T10:42:07.108Z"
+    },
+    "alphabet": {
+      "hash": "3a5fd619d1a3f95d2ba4c8f3ef8c222f86db1dfba9e6823e8890a14a02d09cc9",
+      "updatedAt": "2026-05-07T10:42:07.109Z"
+    },
+    "amazon": {
+      "hash": "9eb6961fca64af530acb441971d0635d2e302bbb2165efb8222718e4fe14b9e8",
+      "updatedAt": "2026-05-07T10:42:07.109Z"
+    },
+    "meta": {
+      "hash": "ed7355fba86fd7511629271e80ce634e56b9a792481e7716e3579efc33093d26",
+      "updatedAt": "2026-05-07T10:42:07.110Z"
+    },
+    "azure-germanywestcentral": {
+      "hash": "0eb9fdb02cfa04e47345b14846ac447532792c0134681d0e872ee98ad4c7f917",
+      "updatedAt": "2026-05-07T10:42:07.113Z"
+    },
+    "azure-eastus2": {
+      "hash": "4cb6a436dfe90e51d279d803b3676be3c90af6c138b95129a74fea91de23158b",
+      "updatedAt": "2026-05-07T10:42:07.114Z"
+    },
+    "azure-eastus": {
+      "hash": "07d05d2f0438682a0493e95201eb06968bec240696acc86291ee0e764603fc3e",
+      "updatedAt": "2026-05-07T10:42:07.114Z"
+    },
+    "azure-southindia": {
+      "hash": "bb75e40cccd56d5eebf1caedadd342062c3f9ea8ee6aae32adf3e4bf48b8400d",
+      "updatedAt": "2026-05-07T10:42:07.115Z"
+    },
+    "azure-uaenorth": {
+      "hash": "96e61d7f3b678682ee26c653dbb19a9ba858b071c2a0c7bbe0ab87338d625b23",
+      "updatedAt": "2026-05-07T10:42:07.115Z"
+    },
+    "azure-northcentralus": {
+      "hash": "087756aab9145974309fcae3d5aad240eb6f981d8842ba8e80f526313efaae8c",
+      "updatedAt": "2026-05-07T10:42:07.116Z"
+    },
+    "azure-italynorth": {
+      "hash": "2695ed17f9bb46d4d646248c3f2dc9dc6ab0515f01557567053f7875a3fd49ba",
+      "updatedAt": "2026-05-07T10:42:07.116Z"
+    },
+    "azure-southcentralus": {
+      "hash": "77ae3f5eb08d6f74a814e1ac81e19501719d9e169d285038295ceb5a17f0a472",
+      "updatedAt": "2026-05-07T10:42:07.117Z"
+    },
+    "azure-australiaeast": {
+      "hash": "be95291035af8edf11309bbe7456db9af51b2c57f4d0d4fa4d10f121537ad00f",
+      "updatedAt": "2026-05-07T10:42:07.118Z"
+    },
+    "azure-northeurope": {
+      "hash": "7f9f8d641ae6257b7f6df8353ea8c1b2d71744457cb461dbc541c36f04afba7b",
+      "updatedAt": "2026-05-07T10:42:07.118Z"
+    },
+    "azure-uksouth": {
+      "hash": "301022eb8b618238b20823fa880855b0d91d2c470f5d24535e372dfe2ca63013",
+      "updatedAt": "2026-05-07T10:42:07.119Z"
+    },
+    "azure-centralindia": {
+      "hash": "700b4c93af7228a5687bb9e75e64e51b58cea449c962b4feac0b8ef2a6e5964f",
+      "updatedAt": "2026-05-07T10:42:07.120Z"
+    },
+    "azure-brazilsouth": {
+      "hash": "9ec9f4cb4424edc44a6fab6b424f7220f8339b3606001b0b35fd7987df66a3b3",
+      "updatedAt": "2026-05-07T10:42:07.120Z"
+    },
+    "azure-polandcentral": {
+      "hash": "610ee6afc2d95e9a02356738ead36f3bfe197452b0139d208b55fee1eac83683",
+      "updatedAt": "2026-05-07T10:42:07.121Z"
+    },
+    "azure-canadacentral": {
+      "hash": "8ff92a40de5148b8c57bf95f505820a98bdb241b1e38b14bcc60fa391d2f6572",
+      "updatedAt": "2026-05-07T10:42:07.121Z"
+    },
+    "azure-westus2": {
+      "hash": "931db55f1b5970a3f230f38922a7dcec81eb7f380179406cdc099e22b07ad34d",
+      "updatedAt": "2026-05-07T10:42:07.122Z"
+    },
+    "azure-westeurope": {
+      "hash": "e67d2b1e02acdf62be2cdc2539964be1969d2d35862cb314617a91b2cbb68975",
+      "updatedAt": "2026-05-07T10:42:07.123Z"
+    },
+    "azure-westus": {
+      "hash": "6f3d351f4fdf0210235ffea2649a3f68dfc91fd845c2c1e66c4a4f6cddfae2d7",
+      "updatedAt": "2026-05-07T10:42:07.123Z"
+    },
+    "azure-usgovarizona": {
+      "hash": "9d487ae70c4020bf21354136cbd5012a28d834d7ba1218a260acf3df213dc9d9",
+      "updatedAt": "2026-05-07T10:42:07.124Z"
+    },
+    "azure-swedencentral": {
+      "hash": "16dd208c2458eb40fd87d1b39913a818f0a32f7cdf556335d6850062fff44836",
+      "updatedAt": "2026-05-07T10:42:07.126Z"
+    },
+    "azure-switzerlandnorth": {
+      "hash": "6cb5a8e3054cd419fc2bb762a9dca134a90bb71061925b72e3d5c1bc12fb93b8",
+      "updatedAt": "2026-05-07T10:42:07.128Z"
+    },
+    "azure-westus3": {
+      "hash": "a1a8aee5af186db4c86e0bc3b1708f659c1061853f6fec8ae19993d4069e1940",
+      "updatedAt": "2026-05-07T10:42:07.129Z"
+    },
+    "azure-usgovvirginia": {
+      "hash": "d0a59ed78977d79fee62517372432fc884eda455fa85d78893130a1fed3b73e0",
+      "updatedAt": "2026-05-07T10:42:07.130Z"
+    },
+    "azure-koreacentral": {
+      "hash": "0bd21686070dd7f6fdcafe56a2efcfb91dc26a66498236941edb48582369365b",
+      "updatedAt": "2026-05-07T10:42:07.131Z"
+    },
+    "azure-japaneast": {
+      "hash": "8a78d6a6a01533a9accc617125c76eb1c06b8fa8c33687b1272e8049c8649633",
+      "updatedAt": "2026-05-07T10:42:07.131Z"
+    },
+    "azure-centralus": {
+      "hash": "b7b442f8d4e1063a71a5845f870504a30439f0d58866b72a655c5271e434816d",
+      "updatedAt": "2026-05-07T10:42:07.132Z"
+    },
+    "azure-southeastasia": {
+      "hash": "6416a0619873bdc6a3896a5ece44fbc69c64474e8811ffc46febcdca219235d5",
+      "updatedAt": "2026-05-07T10:42:07.132Z"
+    },
+    "azure-attdallas1": {
+      "hash": "6f00eb82fe703e7a73a2e7e682c76cd2a037a46dc56b398b5eaaaffb867c1acf",
+      "updatedAt": "2026-05-07T10:42:07.133Z"
+    },
+    "azure-indonesiacentral": {
+      "hash": "9065b1bcdb292b9938331e47064ed8514fc9919dc2d2fad820641414bf99ccac",
+      "updatedAt": "2026-05-07T10:42:07.133Z"
+    },
+    "azure-spaincentral": {
+      "hash": "e570726aaad8cc1e05d4294b6e053f03e149a8edcd7388e07c2332a8d0347598",
+      "updatedAt": "2026-05-07T10:42:07.134Z"
+    },
+    "azure-malaysiawest": {
+      "hash": "212459874fbadd50e2c38762a7cfdd3a6a65869951b2eb90e617b36442294225",
+      "updatedAt": "2026-05-07T10:42:07.134Z"
+    },
+    "azure-francecentral": {
+      "hash": "ae375143390ce8e1a21329212e4ee37e90b672187997302d7abf5ccd2afc74b7",
+      "updatedAt": "2026-05-07T10:42:07.137Z"
+    },
+    "azure-jioindiawest": {
+      "hash": "c35786e0adc03d112c6ef49bbc3a0b0cb2bb0f8e34afa76f50de219fe0d9b7cc",
+      "updatedAt": "2026-05-07T10:42:07.138Z"
+    },
+    "azure-eastasia": {
+      "hash": "9ee64b3f1601445b8cfa1a3a754071311103d70bc5d7d24190ab6190bf78378b",
+      "updatedAt": "2026-05-07T10:42:07.138Z"
+    },
+    "azure-australiacentral2": {
+      "hash": "e4a5e53d433899c80ace4de35b9135d72005101710d75818b9b7647256ee2fcd",
+      "updatedAt": "2026-05-07T10:42:07.139Z"
+    },
+    "azure-qatarcentral": {
+      "hash": "72c6097269d19218313847dc5379a7f1162f355ea7a62289e65dd146e72b4d50",
+      "updatedAt": "2026-05-07T10:42:07.140Z"
+    },
+    "azure-koreasouth": {
+      "hash": "476f02dfadb81a8dd79079d990acd55099f52c3ae63933f27a83e620b16c7b59",
+      "updatedAt": "2026-05-07T10:42:07.140Z"
+    },
+    "azure-attatlanta1": {
+      "hash": "7da6349a3b6ca7bdd79f9b98843c5617612e0911fb8683dc4363fafd68883f9b",
+      "updatedAt": "2026-05-07T10:42:07.141Z"
+    },
+    "azure-israelcentral": {
+      "hash": "bfba237fcf8d207154b933ef8af7019605ddc34f7d94f0a6811ea3b8840840e7",
+      "updatedAt": "2026-05-07T10:42:07.142Z"
+    },
+    "azure-australiacentral": {
+      "hash": "6e20d5e043e81d3afec920f9d3dda88206a41891425bbe90f86710a19815e85f",
+      "updatedAt": "2026-05-07T10:42:07.142Z"
+    },
+    "azure-jioindiacentral": {
+      "hash": "27383afe0581bb2d7711999ce97a802132ebb030f916b42b91c5710308a9c0d1",
+      "updatedAt": "2026-05-07T10:42:07.143Z"
+    },
+    "azure-japanwest": {
+      "hash": "886f50d42ee57e1a804308bd59d0c7c30c54f06c96fc7e5fa3418bf5fe109570",
+      "updatedAt": "2026-05-07T10:42:07.143Z"
+    },
+    "azure-sgxsingapore1": {
+      "hash": "b0b822a9958d9929e579137362e02bad175ba60929c89d6bd86adf72edf7eb79",
+      "updatedAt": "2026-05-07T10:42:07.144Z"
+    },
+    "azure-switzerlandwest": {
+      "hash": "92bf293855385cb04cb4f77d0713a8d30e226d5a2897853dfa1ea5f008c7d72d",
+      "updatedAt": "2026-05-07T10:42:07.144Z"
+    },
+    "azure-ukwest": {
+      "hash": "c6e59d095804bca46d9d32c486d024c8bb3eb1aba917435444b2fedefe5eb73c",
+      "updatedAt": "2026-05-07T10:42:07.144Z"
+    },
+    "azure-canadaeast": {
+      "hash": "9397ba3ec7594d8cafed8b77a488479f343658961a3e04c6a559dad5bf7cf820",
+      "updatedAt": "2026-05-07T10:42:07.146Z"
+    },
+    "azure-norwayeast": {
+      "hash": "9709eecb93a926c193bb625da3f130dbca3129a79cb1b5b090ad5c8fa2693da2",
+      "updatedAt": "2026-05-07T10:42:07.146Z"
+    },
+    "azure-southeastus": {
+      "hash": "66e8aad4669992a6478dd65ccf894c1ebfac994cf94355d028ae7e0ecb7aafa7",
+      "updatedAt": "2026-05-07T10:42:07.147Z"
+    },
+    "azure-mexicocentral": {
+      "hash": "dbb973c98b3e54bf1bcfd41887ca0abbddb418b59f7ee27bc2148cf03b96525a",
+      "updatedAt": "2026-05-07T10:42:07.147Z"
+    },
+    "azure-westcentralus": {
+      "hash": "736febb80bfa65ed46735da8bebe31a472904a835c8f31d6de825aefa7c76981",
+      "updatedAt": "2026-05-07T10:42:07.147Z"
+    },
+    "azure-australiasoutheast": {
+      "hash": "ce5d72b874e521d50658cc95785af8a4782e6dd11b9fbfea79e102cf1e049e6d",
+      "updatedAt": "2026-05-07T10:42:07.148Z"
+    },
+    "azure-germanynorth": {
+      "hash": "0deaa813cf259b81506d5b07ca7109eb85525612460108503a4e9dda600c34d3",
+      "updatedAt": "2026-05-07T10:42:07.148Z"
+    },
+    "azure-southcentralus2": {
+      "hash": "e929f0180b06c91e20f525b1686a68131bc04fb8918f1184229d35f0974b2b13",
+      "updatedAt": "2026-05-07T10:42:07.148Z"
+    },
+    "azure-southafricawest": {
+      "hash": "6fc56638365d88d87cfd18d9de8785f1ea6ac163ddbda832bfc5879b53772e92",
+      "updatedAt": "2026-05-07T10:42:07.148Z"
+    },
+    "azure-francesouth": {
+      "hash": "faa58b0c5e0140eacff41c3108eb0aefd761f65726f698d416b19c39efd58f80",
+      "updatedAt": "2026-05-07T10:42:07.149Z"
+    },
+    "azure-southafricanorth": {
+      "hash": "9cf39e4e7fa455bf4d3b3b2e85215ee62287a961781170d644e167ad14526d64",
+      "updatedAt": "2026-05-07T10:42:07.149Z"
+    },
+    "azure-uaecentral": {
+      "hash": "c7008c15776576aaee2182672d915b15b8caa6e5ed5206acc93fa5fb1cba1ef2",
+      "updatedAt": "2026-05-07T10:42:07.149Z"
+    },
+    "azure-chilecentral": {
+      "hash": "9af93ffe897de7325cd1bac853ad86d1909d8923b7e967ee6ee37c07430e2c0c",
+      "updatedAt": "2026-05-07T10:42:07.150Z"
+    },
+    "azure-norwaywest": {
+      "hash": "9acb81e06cd1fec77e3d99fea3fab8c6883c153e63a9b7396b7b2ea4d1522688",
+      "updatedAt": "2026-05-07T10:42:07.150Z"
+    },
+    "aws-us-east-1": {
+      "hash": "7b225d7f4a86003a260d9ccbeb7ea56bde46e7eea887b83e04efa4e212a654fd",
+      "updatedAt": "2026-05-07T10:42:07.150Z"
+    },
+    "aws-us-west-2": {
+      "hash": "fd88cbd5cc53bf2667c169413db31a0c4a4a80ca4e8066366d05c74d7ba3956a",
+      "updatedAt": "2026-05-07T10:42:07.150Z"
+    },
+    "aws-eu-west-1": {
+      "hash": "099cc4d6635770eddd570fdf89ee229007409cad464489fa894a614b6e535980",
+      "updatedAt": "2026-05-07T10:42:07.151Z"
+    },
+    "aws-eu-central-1": {
+      "hash": "4047ef909146bf08e543b64b4928eb4872afa988c7d5f6da15fae324c6648f4a",
+      "updatedAt": "2026-05-07T10:42:07.151Z"
+    },
+    "aws-ap-northeast-1": {
+      "hash": "9364c62b18a00ea00c5a555db95187d05f523c7cdaca581d2d726dadf1f0816b",
+      "updatedAt": "2026-05-07T10:42:07.151Z"
+    },
+    "aws-ap-southeast-1": {
+      "hash": "0857c577ffdaca451c6c49012b1f50ae1060a22da0b75f317d80a62569e04a68",
+      "updatedAt": "2026-05-07T10:42:07.152Z"
+    },
+    "aws-sa-east-1": {
+      "hash": "f6a76ce52eb439cc92033833fcd6cc73d44823c0434b9975a7167bbb80f542eb",
+      "updatedAt": "2026-05-07T10:42:07.152Z"
+    }
+  }
+}

@@ -1,0 +1,749 @@
+{
+  "id": "azure-attdallas1",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-attdallas1",
+      "type": "cloud-region",
+      "name": "ATT Dallas 1"
+    },
+    "metric": "gpu-price-hr",
+    "value": 0.3914,
+    "unit": "USD/hr",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.196,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.548,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.347,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.508,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0979,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.673,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.489,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.754,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.693,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.155,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.377,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.096,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.539,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.269,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.189,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.386,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.783,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.914,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.391,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.137,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.077,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.979,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.957,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.274,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.343,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.858,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.521,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.527,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.157,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0686,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.608,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.31,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.49,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.211,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.775,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.343,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.566,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.785,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.098,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.831,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0686,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.1054,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.155,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.098,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.157,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.1716,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.5662,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3042,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.1958,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.5386,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.0772,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.1346,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.2694,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0978,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.7828,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attdallas1",
+        "type": "cloud-region",
+        "name": "ATT Dallas 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3914,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "6f00eb82fe703e7a73a2e7e682c76cd2a037a46dc56b398b5eaaaffb867c1acf",
+  "_updatedAt": "2026-05-07T10:42:07.133Z"
+}

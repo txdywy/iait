@@ -1,0 +1,541 @@
+{
+  "id": "azure-southindia",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-southindia",
+      "type": "cloud-region",
+      "name": "IN South"
+    },
+    "metric": "gpu-price-hr",
+    "value": 163.32,
+    "unit": "USD/hr",
+    "timestamp": "2025-08-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.627,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.742,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.697,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.926,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.433,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.973,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.059,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.148,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.067,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.212,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.339,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.427,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.225,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.37,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.571,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.123,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 53.899,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 53.899,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.897,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.559,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.559,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 49.483,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.897,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 49.483,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 169.208,
+      "unit": "USD/hr",
+      "timestamp": "2025-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 163.32,
+      "unit": "USD/hr",
+      "timestamp": "2025-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.01374,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.01374,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.86558,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.86558,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.49213,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.77567,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.30711,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.21518,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.62943,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.41383,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.26854,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.70557,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 169.208,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-southindia",
+        "type": "cloud-region",
+        "name": "IN South"
+      },
+      "metric": "gpu-price-hr",
+      "value": 163.32,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "bb75e40cccd56d5eebf1caedadd342062c3f9ea8ee6aae32adf3e4bf48b8400d",
+  "_updatedAt": "2026-05-07T10:42:07.114Z"
+}

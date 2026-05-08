@@ -1,0 +1,34 @@
+{
+  "id": "amazon",
+  "type": "company",
+  "latest": {
+    "source": "sec-edgar-capex",
+    "entity": {
+      "id": "amazon",
+      "type": "company",
+      "name": "Amazon"
+    },
+    "metric": "ai-capex-ttm",
+    "value": 9470000000,
+    "unit": "USD",
+    "timestamp": "2017-03-31T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "sec-edgar-capex",
+      "entity": {
+        "id": "amazon",
+        "type": "company",
+        "name": "Amazon"
+      },
+      "metric": "ai-capex-ttm",
+      "value": 9470000000,
+      "unit": "USD",
+      "timestamp": "2017-03-31T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "9eb6961fca64af530acb441971d0635d2e302bbb2165efb8222718e4fe14b9e8",
+  "_updatedAt": "2026-05-07T10:42:07.109Z"
+}

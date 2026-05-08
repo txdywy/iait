@@ -1,0 +1,3505 @@
+{
+  "id": "azure-westus",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-westus",
+      "type": "cloud-region",
+      "name": "US West"
+    },
+    "metric": "gpu-price-hr",
+    "value": 3.94606,
+    "unit": "USD/hr",
+    "timestamp": "2026-05-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.307,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.534,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.614,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.767,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.069,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.153,
+      "unit": "USD/hr",
+      "timestamp": "2018-09-04T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.905,
+      "unit": "USD/hr",
+      "timestamp": "2019-07-09T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.448,
+      "unit": "USD/hr",
+      "timestamp": "2019-07-09T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.362,
+      "unit": "USD/hr",
+      "timestamp": "2019-07-09T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.81,
+      "unit": "USD/hr",
+      "timestamp": "2019-07-09T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.724,
+      "unit": "USD/hr",
+      "timestamp": "2019-07-09T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.708,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.768,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.912,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.56,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.228,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.678,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.14,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.692,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.354,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.456,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.384,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.28,
+      "unit": "USD/hr",
+      "timestamp": "2019-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.326,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.181,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.289,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.27,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.902,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.126,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.044,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.222,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.18,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.631,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.445,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.508,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.266,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.872,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.166,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.815,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.744,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.02,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.04,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.08,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.976,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.488,
+      "unit": "USD/hr",
+      "timestamp": "2020-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.516,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.55,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.775,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 19.1,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.406,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.879,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.758,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.91,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.82,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.703,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.955,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.352,
+      "unit": "USD/hr",
+      "timestamp": "2022-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.346,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.476,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.326,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.788,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.908,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.175,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.876,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.163,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.866,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.18,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.832,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.532,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.816,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.416,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.695,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.118,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.732,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.08,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.59,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.715,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.013,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.693,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.16,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.236,
+      "unit": "USD/hr",
+      "timestamp": "2023-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 42.601,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.807,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.52,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 47.017,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.52,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 47.017,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 42.601,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.807,
+      "unit": "USD/hr",
+      "timestamp": "2023-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 52.893,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 25.563,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 132.232,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 47.78,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 127.816,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.007,
+      "unit": "USD/hr",
+      "timestamp": "2023-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.731,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.914,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.074,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.148,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.815,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.366,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.63,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.828,
+      "unit": "USD/hr",
+      "timestamp": "2024-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 115.034,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 119.45,
+      "unit": "USD/hr",
+      "timestamp": "2025-02-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.24,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 110.24,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 114.656,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 114.656,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 45.862,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.048,
+      "unit": "USD/hr",
+      "timestamp": "2025-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.22442,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.07626,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.22442,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.07626,
+      "unit": "USD/hr",
+      "timestamp": "2025-06-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3683,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.36814,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.63249,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.51438,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.41905,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.18299,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.26158,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.23635,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.433,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.235,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.704,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.867,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.12,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.6,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.3,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.852,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.408,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.617,
+      "unit": "USD/hr",
+      "timestamp": "2025-07-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.34225,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.228228,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.114022,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.24024,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.48048,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.684499,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.160222,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.814598,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.576576,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.080018,
+      "unit": "USD/hr",
+      "timestamp": "2025-08-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.384384,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.312682,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.391914,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.160037,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.167244,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.283483,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.141742,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.178422,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.334488,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.842688,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.320074,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.218064,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.567151,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.421344,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.537398,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.566365,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.625363,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.085885,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.250726,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.074797,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.768768,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.210672,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.109032,
+      "unit": "USD/hr",
+      "timestamp": "2025-09-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.571,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 26.908,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.258283,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 24.436474,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 62.853,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 22.07436,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 23.620397,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 62.853,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 67.269,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.571,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 67.269,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 26.908,
+      "unit": "USD/hr",
+      "timestamp": "2025-10-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.718,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.15,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.43,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.624,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.6176,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.172,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.088,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3748,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.6588,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.68,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 13.038,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.6692,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.736,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.3,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.469,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.2152,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.8364,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.2938,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.616,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.346,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.86,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.59,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 5.6728,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.294,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.116,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 21.564,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.205,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 28.364,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.6076,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.3176,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.6344,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3232,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.3248,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.441,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 26.076,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.2568,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.662,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 36.284,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 33.31,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.2232,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.3128,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.588,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.874,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 14.182,
+      "unit": "USD/hr",
+      "timestamp": "2025-11-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.735134,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 17.503,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.508,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.956,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.470269,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 17.016,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 18.607,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.572278,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.940538,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.702,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 15.912,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.501,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 6.806,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.591,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.182,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.254,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.234554,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.403,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.978,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.443,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.144557,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.438574,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.796,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.786139,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.615234,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.431311,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 11.615234,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 12.431311,
+      "unit": "USD/hr",
+      "timestamp": "2026-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.429203,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.214601,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 19.6452,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.858406,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.97303,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 9.8226,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.986515,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 16.3332,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 8.1666,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-westus",
+        "type": "cloud-region",
+        "name": "US West"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.94606,
+      "unit": "USD/hr",
+      "timestamp": "2026-05-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "6f3d351f4fdf0210235ffea2649a3f68dfc91fd845c2c1e66c4a4f6cddfae2d7",
+  "_updatedAt": "2026-05-07T10:42:07.123Z"
+}

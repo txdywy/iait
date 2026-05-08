@@ -1,0 +1,86 @@
+{
+  "id": "sg",
+  "type": "country",
+  "latest": {
+    "source": "owid-energy",
+    "entity": {
+      "id": "sg",
+      "type": "country",
+      "name": "Singapore"
+    },
+    "metric": "renewables-share-elec",
+    "value": 5.486,
+    "unit": "%",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "sg",
+        "type": "country",
+        "name": "Singapore"
+      },
+      "metric": "electricity-renewable-production",
+      "value": 2267010000,
+      "unit": "kWh",
+      "timestamp": "2021-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "sg",
+        "type": "country",
+        "name": "Singapore"
+      },
+      "metric": "electricity-per-capita",
+      "value": 9750.49546711802,
+      "unit": "kWh",
+      "timestamp": "2023-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "sg",
+        "type": "country",
+        "name": "Singapore"
+      },
+      "metric": "primary-energy-consumption",
+      "value": 1053.921,
+      "unit": "TWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "sg",
+        "type": "country",
+        "name": "Singapore"
+      },
+      "metric": "electricity-generation",
+      "value": 60.15,
+      "unit": "TWh",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "sg",
+        "type": "country",
+        "name": "Singapore"
+      },
+      "metric": "renewables-share-elec",
+      "value": 5.486,
+      "unit": "%",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "abbc8f346400b1891492e4e6a26d1eccceca226a55623244b5b0cb7f52211ac2",
+  "_updatedAt": "2026-05-07T10:42:07.105Z"
+}

@@ -1,0 +1,749 @@
+{
+  "id": "azure-attatlanta1",
+  "type": "cloud-region",
+  "latest": {
+    "source": "azure-gpu-pricing",
+    "entity": {
+      "id": "azure-attatlanta1",
+      "type": "cloud-region",
+      "name": "ATT Atlanta 1"
+    },
+    "metric": "gpu-price-hr",
+    "value": 0.1632,
+    "unit": "USD/hr",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0816,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.457,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.663,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.592,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.631,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.947,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.237,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.408,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.228,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.652,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.734,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.326,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.894,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.473,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.166,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.114,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 3.262,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.367,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.816,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.184,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.913,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.163,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.326,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.331,
+      "unit": "USD/hr",
+      "timestamp": "2022-04-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 7.6,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.104,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 4.217,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.673,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.184,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.92,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.263,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.52,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.683,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.137,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 10.544,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.842,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.315,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.442,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.106,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.421,
+      "unit": "USD/hr",
+      "timestamp": "2022-12-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.2208,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3366,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.263,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.4212,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 1.52,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.184,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.5684,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 2.1088,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.1184,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.9468,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.4734,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.3262,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.0816,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.2368,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.6524,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    },
+    {
+      "source": "azure-gpu-pricing",
+      "entity": {
+        "id": "azure-attatlanta1",
+        "type": "cloud-region",
+        "name": "ATT Atlanta 1"
+      },
+      "metric": "gpu-price-hr",
+      "value": 0.1632,
+      "unit": "USD/hr",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "7da6349a3b6ca7bdd79f9b98843c5617612e0911fb8683dc4363fafd68883f9b",
+  "_updatedAt": "2026-05-07T10:42:07.140Z"
+}

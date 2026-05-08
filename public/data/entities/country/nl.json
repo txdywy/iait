@@ -1,0 +1,86 @@
+{
+  "id": "nl",
+  "type": "country",
+  "latest": {
+    "source": "owid-energy",
+    "entity": {
+      "id": "nl",
+      "type": "country",
+      "name": "Netherlands"
+    },
+    "metric": "renewables-share-elec",
+    "value": 51.2,
+    "unit": "%",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 5
+  },
+  "series": [
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "nl",
+        "type": "country",
+        "name": "Netherlands"
+      },
+      "metric": "electricity-renewable-production",
+      "value": 40383500000,
+      "unit": "kWh",
+      "timestamp": "2021-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "world-bank-energy",
+      "entity": {
+        "id": "nl",
+        "type": "country",
+        "name": "Netherlands"
+      },
+      "metric": "electricity-per-capita",
+      "value": 6386.36706563515,
+      "unit": "kWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "nl",
+        "type": "country",
+        "name": "Netherlands"
+      },
+      "metric": "primary-energy-consumption",
+      "value": 926.465,
+      "unit": "TWh",
+      "timestamp": "2024-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "nl",
+        "type": "country",
+        "name": "Netherlands"
+      },
+      "metric": "electricity-generation",
+      "value": 134.96,
+      "unit": "TWh",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    },
+    {
+      "source": "owid-energy",
+      "entity": {
+        "id": "nl",
+        "type": "country",
+        "name": "Netherlands"
+      },
+      "metric": "renewables-share-elec",
+      "value": 51.2,
+      "unit": "%",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 5
+    }
+  ],
+  "_hash": "d2e9bf793cb7722797bb7bc277a9221e252951284d6851de0038451691701d29",
+  "_updatedAt": "2026-05-07T10:42:07.104Z"
+}
