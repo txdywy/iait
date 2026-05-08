@@ -1,396 +1,6 @@
 {
-  "generated": "2026-05-08T07:53:02.957Z",
+  "generated": "2026-05-07T11:27:09.127Z",
   "entities": {
-    "amsterdam": {
-      "type": "city",
-      "name": "Amsterdam",
-      "score": 82.22222222222223,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 18.595310262751735
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-01T00:00:00.000Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 60,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 18.595310262751735,
-          "normalized": 93.33333333333333,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "ashburn": {
-      "type": "city",
-      "name": "Ashburn, VA",
-      "score": 60.00000000000001,
-      "factors": {
-        "cloud_region_density": 3,
-        "gpu_supply": 9.474994316515586
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-07T06:03:43Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 3,
-          "normalized": 100,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 9.474994316515586,
-          "normalized": 40,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "changhua": {
-      "type": "city",
-      "name": "Changhua County",
-      "score": 33.333333333333336,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 0.2777777777777778
-      },
-      "confidence": 1,
-      "lastUpdated": "2025-01-01T00:00:00Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 60,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 0.2777777777777778,
-          "normalized": 20,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "council-bluffs": {
-      "type": "city",
-      "name": "Council Bluffs, IA",
-      "score": 37.77777777777778,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 0.2857142857142857
-      },
-      "confidence": 1,
-      "lastUpdated": "2025-01-01T00:00:00Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 60,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 0.2857142857142857,
-          "normalized": 26.666666666666668,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "dallas": {
-      "type": "city",
-      "name": "Dallas, TX",
-      "score": 24.444444444444446,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 0.23809523809523808
-      },
-      "confidence": 1,
-      "lastUpdated": "2025-01-01T00:00:00Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 60,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 0.23809523809523808,
-          "normalized": 6.666666666666667,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "dublin": {
-      "type": "city",
-      "name": "Dublin",
-      "score": 75.55555555555554,
-      "factors": {
-        "cloud_region_density": 2,
-        "gpu_supply": 11.631460028535395
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-07T06:03:43Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 2,
-          "normalized": 93.33333333333333,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 11.631460028535395,
-          "normalized": 66.66666666666666,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "frankfurt": {
-      "type": "city",
-      "name": "Frankfurt",
-      "score": 71.11111111111111,
-      "factors": {
-        "cloud_region_density": 2,
-        "gpu_supply": 11.276990866303226
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-07T06:03:43Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 2,
-          "normalized": 93.33333333333333,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 11.276990866303226,
-          "normalized": 60,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "london": {
-      "type": "city",
-      "name": "London",
-      "score": 82.22222222222223,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 18.595310262751735
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-01T00:00:00.000Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 60,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 18.595310262751735,
-          "normalized": 93.33333333333333,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "portland": {
-      "type": "city",
-      "name": "Portland, OR",
-      "score": 79.99999999999999,
-      "factors": {
-        "cloud_region_density": 2,
-        "gpu_supply": 14.087491474773378
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-07T06:03:43Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 2,
-          "normalized": 93.33333333333333,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 14.087491474773378,
-          "normalized": 73.33333333333333,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "pune": {
-      "type": "city",
-      "name": "Pune",
-      "score": 51.333333333333336,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 16.598887874512407
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-01T00:00:00.000Z",
-      "riskTier": "restricted",
-      "riskMultiplier": 0.7,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 60,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 16.598887874512407,
-          "normalized": 80,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "sao-paulo": {
-      "type": "city",
-      "name": "Sao Paulo",
-      "score": 42.22222222222223,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 2.9123951537744643
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-07T06:03:43Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 60,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 2.9123951537744643,
-          "normalized": 33.33333333333333,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "singapore": {
-      "type": "city",
-      "name": "Singapore",
-      "score": 66.66666666666667,
-      "factors": {
-        "cloud_region_density": 2,
-        "gpu_supply": 10.552904787108451
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-07T06:03:43Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 2,
-          "normalized": 93.33333333333333,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 10.552904787108451,
-          "normalized": 53.333333333333336,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "st-ghislain": {
-      "type": "city",
-      "name": "St. Ghislain",
-      "score": 28.888888888888893,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 0.2631578947368421
-      },
-      "confidence": 1,
-      "lastUpdated": "2025-01-01T00:00:00Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 60,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 0.2631578947368421,
-          "normalized": 13.333333333333334,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "tokyo": {
-      "type": "city",
-      "name": "Tokyo",
-      "score": 62.22222222222222,
-      "factors": {
-        "cloud_region_density": 2,
-        "gpu_supply": 9.711584599744674
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-07T06:03:43Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 2,
-          "normalized": 93.33333333333333,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 9.711584599744674,
-          "normalized": 46.666666666666664,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "toronto": {
-      "type": "city",
-      "name": "Toronto",
-      "score": 86.66666666666667,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 19.325912183055042
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-01T00:00:00.000Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 60,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 19.325912183055042,
-          "normalized": 100,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
     "aws-ap-northeast-1": {
       "type": "cloud-region",
       "name": "Asia Pacific (Tokyo)",
@@ -399,7 +9,7 @@
         "gpu_supply": 3.413435281267067
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.908Z",
+      "lastUpdated": "2026-05-07T10:42:07.151Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -419,7 +29,7 @@
         "gpu_supply": 3.2467532467532467
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.909Z",
+      "lastUpdated": "2026-05-07T10:42:07.151Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -439,7 +49,7 @@
         "gpu_supply": 3.9586714698547167
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.907Z",
+      "lastUpdated": "2026-05-07T10:42:07.151Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -459,7 +69,7 @@
         "gpu_supply": 3.937007874015748
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.906Z",
+      "lastUpdated": "2026-05-07T10:42:07.151Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -479,7 +89,7 @@
         "gpu_supply": 2.9123951537744643
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.910Z",
+      "lastUpdated": "2026-05-07T10:42:07.152Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -499,7 +109,7 @@
         "gpu_supply": 4.9504950495049505
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.904Z",
+      "lastUpdated": "2026-05-07T10:42:07.150Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -519,7 +129,7 @@
         "gpu_supply": 4.9504950495049505
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.905Z",
+      "lastUpdated": "2026-05-07T10:42:07.150Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -539,7 +149,7 @@
         "gpu_supply": 12.254901960784313
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.892Z",
+      "lastUpdated": "2026-05-07T10:42:07.140Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -559,7 +169,7 @@
         "gpu_supply": 14.57725947521866
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.883Z",
+      "lastUpdated": "2026-05-07T10:42:07.133Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -579,7 +189,7 @@
         "gpu_supply": 7.2992700729927
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.894Z",
+      "lastUpdated": "2026-05-07T10:42:07.142Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -599,7 +209,7 @@
         "gpu_supply": 14.619883040935672
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.890Z",
+      "lastUpdated": "2026-05-07T10:42:07.138Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -619,7 +229,7 @@
         "gpu_supply": 16.00973391822228
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.847Z",
+      "lastUpdated": "2026-05-07T10:42:07.117Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -639,7 +249,7 @@
         "gpu_supply": 0.08052463409606267
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.899Z",
+      "lastUpdated": "2026-05-07T10:42:07.147Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -659,7 +269,7 @@
         "gpu_supply": 5.959546597694847
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.855Z",
+      "lastUpdated": "2026-05-07T10:42:07.120Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -679,7 +289,7 @@
         "gpu_supply": 19.325912183055042
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.860Z",
+      "lastUpdated": "2026-05-07T10:42:07.121Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -699,7 +309,7 @@
         "gpu_supply": 0.12714558169103624
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.897Z",
+      "lastUpdated": "2026-05-07T10:42:07.144Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -719,7 +329,7 @@
         "gpu_supply": 16.598887874512407
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.853Z",
+      "lastUpdated": "2026-05-07T10:42:07.119Z",
       "riskTier": "restricted",
       "riskMultiplier": 0.7,
       "factorBreakdown": {
@@ -739,7 +349,7 @@
         "gpu_supply": 9.697627960200935
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.880Z",
+      "lastUpdated": "2026-05-07T10:42:07.131Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -759,7 +369,7 @@
         "gpu_supply": 16.598887874512407
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.903Z",
+      "lastUpdated": "2026-05-07T10:42:07.149Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -779,7 +389,7 @@
         "gpu_supply": 7.686454161830606
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.889Z",
+      "lastUpdated": "2026-05-07T10:42:07.138Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -799,7 +409,7 @@
         "gpu_supply": 23.224487900041805
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.838Z",
+      "lastUpdated": "2026-05-07T10:42:07.114Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -819,7 +429,7 @@
         "gpu_supply": 23.224487900041805
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.831Z",
+      "lastUpdated": "2026-05-07T10:42:07.113Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -839,7 +449,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.888Z",
+      "lastUpdated": "2026-05-07T10:42:07.135Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -859,7 +469,7 @@
         "gpu_supply": 0.09389671361502347
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.901Z",
+      "lastUpdated": "2026-05-07T10:42:07.148Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -879,7 +489,7 @@
         "gpu_supply": 0.09028530155290718
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.900Z",
+      "lastUpdated": "2026-05-07T10:42:07.148Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -899,7 +509,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.827Z",
+      "lastUpdated": "2026-05-07T10:42:07.112Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -919,7 +529,7 @@
         "gpu_supply": 9.732454817078512
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.883Z",
+      "lastUpdated": "2026-05-07T10:42:07.133Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -939,7 +549,7 @@
         "gpu_supply": 8.337849668570476
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.893Z",
+      "lastUpdated": "2026-05-07T10:42:07.142Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -959,7 +569,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.843Z",
+      "lastUpdated": "2026-05-07T10:42:07.116Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -979,7 +589,7 @@
         "gpu_supply": 16.00973391822228
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.878Z",
+      "lastUpdated": "2026-05-07T10:42:07.131Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -999,7 +609,7 @@
         "gpu_supply": 4.489942528735632
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.895Z",
+      "lastUpdated": "2026-05-07T10:42:07.143Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1019,7 +629,7 @@
         "gpu_supply": 1.572327044025157
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.894Z",
+      "lastUpdated": "2026-05-07T10:42:07.143Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1039,7 +649,7 @@
         "gpu_supply": 1.572327044025157
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.888Z",
+      "lastUpdated": "2026-05-07T10:42:07.137Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1059,7 +669,7 @@
         "gpu_supply": 17.178588607160037
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.876Z",
+      "lastUpdated": "2026-05-07T10:42:07.130Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1079,7 +689,7 @@
         "gpu_supply": 9.543623904869158
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.891Z",
+      "lastUpdated": "2026-05-07T10:42:07.140Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1099,7 +709,7 @@
         "gpu_supply": 10.190667386807162
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.886Z",
+      "lastUpdated": "2026-05-07T10:42:07.134Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1119,7 +729,7 @@
         "gpu_supply": 21.137627089982878
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.898Z",
+      "lastUpdated": "2026-05-07T10:42:07.147Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1139,7 +749,7 @@
         "gpu_supply": 19.325912183055042
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.841Z",
+      "lastUpdated": "2026-05-07T10:42:07.115Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1159,7 +769,7 @@
         "gpu_supply": 19.325912183055042
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.850Z",
+      "lastUpdated": "2026-05-07T10:42:07.118Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1179,7 +789,7 @@
         "gpu_supply": 3.451060510894998
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.897Z",
+      "lastUpdated": "2026-05-07T10:42:07.146Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1199,7 +809,7 @@
         "gpu_supply": 2.6551821189415383
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.903Z",
+      "lastUpdated": "2026-05-07T10:42:07.150Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1219,7 +829,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.856Z",
+      "lastUpdated": "2026-05-07T10:42:07.120Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1239,7 +849,7 @@
         "gpu_supply": 8.337849668570476
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.890Z",
+      "lastUpdated": "2026-05-07T10:42:07.139Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1259,7 +869,7 @@
         "gpu_supply": 3.8819875776397517
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.895Z",
+      "lastUpdated": "2026-05-07T10:42:07.143Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1279,7 +889,7 @@
         "gpu_supply": 8.16179951355675
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.902Z",
+      "lastUpdated": "2026-05-07T10:42:07.149Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1299,7 +909,7 @@
         "gpu_supply": 0.02899798226239822
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.901Z",
+      "lastUpdated": "2026-05-07T10:42:07.148Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1319,7 +929,7 @@
         "gpu_supply": 19.325912183055042
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.845Z",
+      "lastUpdated": "2026-05-07T10:42:07.117Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1339,7 +949,7 @@
         "gpu_supply": 0.053602058319039456
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.900Z",
+      "lastUpdated": "2026-05-07T10:42:07.148Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1359,7 +969,7 @@
         "gpu_supply": 17.859056327463655
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.882Z",
+      "lastUpdated": "2026-05-07T10:42:07.132Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1379,7 +989,7 @@
         "gpu_supply": 0.04704048770072353
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.898Z",
+      "lastUpdated": "2026-05-07T10:42:07.146Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1399,7 +1009,7 @@
         "gpu_supply": 6.756756756756757
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.839Z",
+      "lastUpdated": "2026-05-07T10:42:07.114Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1419,7 +1029,7 @@
         "gpu_supply": 17.859056327463655
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.885Z",
+      "lastUpdated": "2026-05-07T10:42:07.133Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1439,7 +1049,7 @@
         "gpu_supply": 16.598887874512407
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.870Z",
+      "lastUpdated": "2026-05-07T10:42:07.124Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1459,7 +1069,7 @@
         "gpu_supply": 8.337849668570476
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.871Z",
+      "lastUpdated": "2026-05-07T10:42:07.126Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1479,7 +1089,7 @@
         "gpu_supply": 0.08207485226526592
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.896Z",
+      "lastUpdated": "2026-05-07T10:42:07.144Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1499,7 +1109,7 @@
         "gpu_supply": 0.08207485226526592
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.902Z",
+      "lastUpdated": "2026-05-07T10:42:07.149Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1519,7 +1129,7 @@
         "gpu_supply": 8.337849668570476
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.840Z",
+      "lastUpdated": "2026-05-07T10:42:07.115Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1539,7 +1149,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.852Z",
+      "lastUpdated": "2026-05-07T10:42:07.119Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1559,7 +1169,7 @@
         "gpu_supply": 0.11646866992778943
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.896Z",
+      "lastUpdated": "2026-05-07T10:42:07.144Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1579,7 +1189,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.868Z",
+      "lastUpdated": "2026-05-07T10:42:07.123Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1599,7 +1209,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.875Z",
+      "lastUpdated": "2026-05-07T10:42:07.130Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1619,7 +1229,7 @@
         "gpu_supply": 0.09394540644540644
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.899Z",
+      "lastUpdated": "2026-05-07T10:42:07.147Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1639,7 +1249,7 @@
         "gpu_supply": 18.595310262751735
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.864Z",
+      "lastUpdated": "2026-05-07T10:42:07.122Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1659,7 +1269,7 @@
         "gpu_supply": 12.497188132670148
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.867Z",
+      "lastUpdated": "2026-05-07T10:42:07.123Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1679,7 +1289,7 @@
         "gpu_supply": 23.224487900041805
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.862Z",
+      "lastUpdated": "2026-05-07T10:42:07.121Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1699,7 +1309,7 @@
         "gpu_supply": 23.224487900041805
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.873Z",
+      "lastUpdated": "2026-05-07T10:42:07.128Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -1911,58 +1521,6 @@
       },
       "dataCompleteness": "partial"
     },
-    "be": {
-      "type": "country",
-      "name": "Belgium",
-      "score": 26.068376068376068,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 0.2631578947368421
-      },
-      "confidence": 1,
-      "lastUpdated": "2025-01-01T00:00:00Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 61.53846153846154,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 0.2631578947368421,
-          "normalized": 8.333333333333332,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
-    "br": {
-      "type": "country",
-      "name": "Brazil",
-      "score": 37.17948717948718,
-      "factors": {
-        "cloud_region_density": 1,
-        "gpu_supply": 2.9123951537744643
-      },
-      "confidence": 1,
-      "lastUpdated": "2026-05-07T06:03:43Z",
-      "riskTier": "unrestricted",
-      "riskMultiplier": 1,
-      "factorBreakdown": {
-        "cloud_region_density": {
-          "raw": 1,
-          "normalized": 61.53846153846154,
-          "weight": 0.15
-        },
-        "gpu_supply": {
-          "raw": 2.9123951537744643,
-          "normalized": 25,
-          "weight": 0.3
-        }
-      },
-      "dataCompleteness": "partial"
-    },
     "ca": {
       "type": "country",
       "name": "Canada",
@@ -1973,7 +1531,7 @@
         "energy_capacity": 652.44
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.820Z",
+      "lastUpdated": "2026-05-07T10:42:07.101Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -2031,7 +1589,7 @@
         "energy_capacity": 500.47
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.822Z",
+      "lastUpdated": "2026-05-07T10:42:07.103Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -2063,7 +1621,7 @@
         "energy_capacity": 292.31
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.823Z",
+      "lastUpdated": "2026-05-07T10:42:07.103Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -2095,7 +1653,7 @@
         "energy_capacity": 30.95
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.823Z",
+      "lastUpdated": "2026-05-07T10:42:07.104Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -2159,7 +1717,7 @@
         "energy_capacity": 1029.86
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.824Z",
+      "lastUpdated": "2026-05-07T10:42:07.104Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -2191,7 +1749,7 @@
         "energy_capacity": 134.96
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.824Z",
+      "lastUpdated": "2026-05-07T10:42:07.104Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
@@ -2245,9 +1803,67 @@
       },
       "dataCompleteness": "full"
     },
+    "us": {
+      "type": "country",
+      "name": "United States",
+      "score": 66.15384615384615,
+      "factors": {
+        "cloud_region_density": 7,
+        "gpu_supply": 8.160539346129005,
+        "energy_capacity": 4519.79
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T10:42:07.106Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 7,
+          "normalized": 100,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 8.160539346129005,
+          "normalized": 33.33333333333333,
+          "weight": 0.3
+        },
+        "energy_capacity": {
+          "raw": 4519.79,
+          "normalized": 90,
+          "weight": 0.2
+        }
+      },
+      "dataCompleteness": "full"
+    },
+    "br": {
+      "type": "country",
+      "name": "br",
+      "score": 37.17948717948718,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 2.9123951537744643
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 2.9123951537744643,
+          "normalized": 25,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
     "tw": {
       "type": "country",
-      "name": "Taiwan",
+      "name": "tw",
       "score": 31.623931623931625,
       "factors": {
         "cloud_region_density": 1,
@@ -2271,37 +1887,421 @@
       },
       "dataCompleteness": "partial"
     },
-    "us": {
+    "be": {
       "type": "country",
-      "name": "United States",
-      "score": 66.15384615384615,
+      "name": "be",
+      "score": 26.068376068376068,
       "factors": {
-        "cloud_region_density": 7,
-        "gpu_supply": 8.160539346129005,
-        "energy_capacity": 4519.79
+        "cloud_region_density": 1,
+        "gpu_supply": 0.2631578947368421
       },
       "confidence": 1,
-      "lastUpdated": "2026-05-08T07:53:02.825Z",
+      "lastUpdated": "2025-01-01T00:00:00Z",
       "riskTier": "unrestricted",
       "riskMultiplier": 1,
       "factorBreakdown": {
         "cloud_region_density": {
-          "raw": 7,
+          "raw": 1,
+          "normalized": 61.53846153846154,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.2631578947368421,
+          "normalized": 8.333333333333332,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "tokyo": {
+      "type": "city",
+      "name": "Tokyo",
+      "score": 62.22222222222222,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 9.711584599744674
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 9.711584599744674,
+          "normalized": 46.666666666666664,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "singapore": {
+      "type": "city",
+      "name": "Singapore",
+      "score": 66.66666666666667,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 10.552904787108451
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 10.552904787108451,
+          "normalized": 53.333333333333336,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "frankfurt": {
+      "type": "city",
+      "name": "Frankfurt",
+      "score": 71.11111111111111,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 11.276990866303226
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 11.276990866303226,
+          "normalized": 60,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "dublin": {
+      "type": "city",
+      "name": "Dublin",
+      "score": 75.55555555555554,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 11.631460028535395
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 11.631460028535395,
+          "normalized": 66.66666666666666,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "sao-paulo": {
+      "type": "city",
+      "name": "Sao Paulo",
+      "score": 42.22222222222223,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 2.9123951537744643
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 2.9123951537744643,
+          "normalized": 33.33333333333333,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "ashburn": {
+      "type": "city",
+      "name": "Ashburn, VA",
+      "score": 60.00000000000001,
+      "factors": {
+        "cloud_region_density": 3,
+        "gpu_supply": 9.474994316515586
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 3,
           "normalized": 100,
           "weight": 0.15
         },
         "gpu_supply": {
-          "raw": 8.160539346129005,
-          "normalized": 33.33333333333333,
+          "raw": 9.474994316515586,
+          "normalized": 40,
           "weight": 0.3
-        },
-        "energy_capacity": {
-          "raw": 4519.79,
-          "normalized": 90,
-          "weight": 0.2
         }
       },
-      "dataCompleteness": "full"
+      "dataCompleteness": "partial"
+    },
+    "portland": {
+      "type": "city",
+      "name": "Portland, OR",
+      "score": 79.99999999999999,
+      "factors": {
+        "cloud_region_density": 2,
+        "gpu_supply": 14.087491474773378
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-07T06:03:43Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 2,
+          "normalized": 93.33333333333333,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 14.087491474773378,
+          "normalized": 73.33333333333333,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "toronto": {
+      "type": "city",
+      "name": "Toronto",
+      "score": 86.66666666666667,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 19.325912183055042
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-01T00:00:00.000Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 19.325912183055042,
+          "normalized": 100,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "pune": {
+      "type": "city",
+      "name": "Pune",
+      "score": 51.333333333333336,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 16.598887874512407
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-01T00:00:00.000Z",
+      "riskTier": "restricted",
+      "riskMultiplier": 0.7,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 16.598887874512407,
+          "normalized": 80,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "london": {
+      "type": "city",
+      "name": "London",
+      "score": 82.22222222222223,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-01T00:00:00.000Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 93.33333333333333,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "amsterdam": {
+      "type": "city",
+      "name": "Amsterdam",
+      "score": 82.22222222222223,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 18.595310262751735
+      },
+      "confidence": 1,
+      "lastUpdated": "2026-05-01T00:00:00.000Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 18.595310262751735,
+          "normalized": 93.33333333333333,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "changhua": {
+      "type": "city",
+      "name": "Changhua County",
+      "score": 33.333333333333336,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.2777777777777778
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.2777777777777778,
+          "normalized": 20,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "st-ghislain": {
+      "type": "city",
+      "name": "St. Ghislain",
+      "score": 28.888888888888893,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.2631578947368421
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.2631578947368421,
+          "normalized": 13.333333333333334,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "council-bluffs": {
+      "type": "city",
+      "name": "Council Bluffs, IA",
+      "score": 37.77777777777778,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.2857142857142857
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.2857142857142857,
+          "normalized": 26.666666666666668,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
+    },
+    "dallas": {
+      "type": "city",
+      "name": "Dallas, TX",
+      "score": 24.444444444444446,
+      "factors": {
+        "cloud_region_density": 1,
+        "gpu_supply": 0.23809523809523808
+      },
+      "confidence": 1,
+      "lastUpdated": "2025-01-01T00:00:00Z",
+      "riskTier": "unrestricted",
+      "riskMultiplier": 1,
+      "factorBreakdown": {
+        "cloud_region_density": {
+          "raw": 1,
+          "normalized": 60,
+          "weight": 0.15
+        },
+        "gpu_supply": {
+          "raw": 0.23809523809523808,
+          "normalized": 6.666666666666667,
+          "weight": 0.3
+        }
+      },
+      "dataCompleteness": "partial"
     }
   }
 }

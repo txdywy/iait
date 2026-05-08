@@ -108,7 +108,8 @@ describe('Deploy Pages workflow contract', () => {
   });
 
   it('keeps Vite and routing compatible with GitHub Pages static hosting', () => {
-    expect(viteConfig).toContain("base: '/iait/'");
+    expect(viteConfig).toContain("base: './'");
+    expect(viteConfig).not.toContain("base: '/iait/'");
     expect(router).toContain('HashRouter');
     expect(router).not.toContain('BrowserRouter');
   });

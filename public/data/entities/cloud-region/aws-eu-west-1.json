@@ -11,7 +11,7 @@
     "metric": "gpu-price-hr",
     "value": 16.22658,
     "unit": "USD/hr",
-    "timestamp": "2026-05-07T19:29:15Z",
+    "timestamp": "2026-05-07T06:03:43Z",
     "confidence": 5
   },
   "series": [
@@ -25,7 +25,7 @@
       "metric": "gpu-price-hr",
       "value": 2.45982,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -38,7 +38,7 @@
       "metric": "gpu-price-hr",
       "value": 1.81287,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -51,7 +51,7 @@
       "metric": "gpu-price-hr",
       "value": 1.123,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -64,7 +64,7 @@
       "metric": "gpu-price-hr",
       "value": 41.26,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -77,7 +77,7 @@
       "metric": "gpu-price-hr",
       "value": 1.721,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -90,7 +90,7 @@
       "metric": "gpu-price-hr",
       "value": 1.363,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -103,7 +103,7 @@
       "metric": "gpu-price-hr",
       "value": 4.195,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -116,7 +116,7 @@
       "metric": "gpu-price-hr",
       "value": 18.18233,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -129,7 +129,7 @@
       "metric": "gpu-price-hr",
       "value": 1.754,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -142,7 +142,7 @@
       "metric": "gpu-price-hr",
       "value": 1.35296,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -155,7 +155,7 @@
       "metric": "gpu-price-hr",
       "value": 1.315,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -168,7 +168,7 @@
       "metric": "gpu-price-hr",
       "value": 2.73271,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -181,7 +181,7 @@
       "metric": "gpu-price-hr",
       "value": 5.26,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -194,7 +194,7 @@
       "metric": "gpu-price-hr",
       "value": 4.57237,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -207,7 +207,7 @@
       "metric": "gpu-price-hr",
       "value": 0.322,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -220,7 +220,7 @@
       "metric": "gpu-price-hr",
       "value": 6.883,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -233,7 +233,7 @@
       "metric": "gpu-price-hr",
       "value": 23.71569,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -246,7 +246,7 @@
       "metric": "gpu-price-hr",
       "value": 10.315,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -259,7 +259,7 @@
       "metric": "gpu-price-hr",
       "value": 0.94775,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -272,7 +272,7 @@
       "metric": "gpu-price-hr",
       "value": 6.33167,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -285,7 +285,7 @@
       "metric": "gpu-price-hr",
       "value": 0.539,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -298,7 +298,7 @@
       "metric": "gpu-price-hr",
       "value": 8.11329,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -311,7 +311,7 @@
       "metric": "gpu-price-hr",
       "value": 0.403,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -324,7 +324,7 @@
       "metric": "gpu-price-hr",
       "value": 9.09117,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -337,7 +337,7 @@
       "metric": "gpu-price-hr",
       "value": 0.734,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -350,7 +350,7 @@
       "metric": "gpu-price-hr",
       "value": 16.78,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -363,7 +363,7 @@
       "metric": "gpu-price-hr",
       "value": 0.254,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -376,7 +376,7 @@
       "metric": "gpu-price-hr",
       "value": 3.403,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     },
     {
@@ -389,10 +389,10 @@
       "metric": "gpu-price-hr",
       "value": 16.22658,
       "unit": "USD/hr",
-      "timestamp": "2026-05-07T19:29:15Z",
+      "timestamp": "2026-05-07T06:03:43Z",
       "confidence": 5
     }
   ],
-  "_hash": "b8742f2c0085c37983435e3042eca4fc332660889697d07270d2669af54830aa",
-  "_updatedAt": "2026-05-08T07:53:02.906Z"
+  "_hash": "099cc4d6635770eddd570fdf89ee229007409cad464489fa894a614b6e535980",
+  "_updatedAt": "2026-05-07T10:42:07.151Z"
 }
