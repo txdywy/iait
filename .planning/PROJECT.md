@@ -12,7 +12,7 @@ Predictive trend signals for regional AI compute capacity — showing where comp
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] GitHub Actions automation: 4x daily (UTC 0/6/12/18) data fetch, compute, deploy — Validated in Phase 04: automation-deployment (2026-05-08)
 
 ### Active
 
@@ -23,7 +23,6 @@ Predictive trend signals for regional AI compute capacity — showing where comp
 - [ ] Energy/power data integration (OWID + World Bank API)
 - [ ] Company AI CapEx tracking via SEC EDGAR XBRL
 - [ ] GitHub Models (GPT-4o-mini) for NLP extraction of unstructured sources
-- [ ] GitHub Actions automation: 4x daily (UTC 0/6/12/18) data fetch, compute, deploy
 - [ ] Top country / city / cloud region rankings with historical trends
 - [ ] Confidence scoring per data point (1-5 scale based on source reliability)
 - [ ] Bloomberg Terminal-inspired dark theme HUD UI
@@ -83,4 +82,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-05-06 after initialization*
+*Last updated: 2026-05-08 after Phase 04 completion*
