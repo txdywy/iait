@@ -35,6 +35,7 @@ jobs:
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
         with:
           ref: ${{ inputs.source_sha || github.sha }}
+          fetch-depth: 0
 
       - name: Verify requested source SHA
         if: ${{ inputs.source_sha != '' }}
@@ -45,6 +46,18 @@ jobs:
           ACTUAL_SHA="$(git rev-parse HEAD)"
           if [ "$ACTUAL_SHA" != "$EXPECTED_SHA" ]; then
             echo "Checked out $ACTUAL_SHA but expected $EXPECTED_SHA" >&2
+            exit 1
+          fi
+
+      - name: Verify requested source SHA is on main
+        if: ${{ inputs.source_sha != '' }}
+        env:
+          REQUESTED_SOURCE_SHA: ${{ inputs.source_sha }}
+        run: |
+          REQUESTED_SHA="$REQUESTED_SOURCE_SHA"
+          git fetch --no-tags --prune origin main:refs/remotes/origin/main
+          if ! git merge-base --is-ancestor "$REQUESTED_SHA" origin/main; then
+            echo "Requested source SHA $REQUESTED_SHA is not reachable from origin/main" >&2
             exit 1
           fi
 
