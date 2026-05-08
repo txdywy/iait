@@ -31,11 +31,14 @@ describe('AppRouter', () => {
     expect(routerSource).not.toContain('BrowserRouter');
   });
 
-  it('renders the map-first App shell at the root route', () => {
+  it('renders the public launch narrative while the map module loads at the root route', async () => {
     render(<AppRouter />);
 
     expect(screen.getByText('ComputeAtlas')).toBeInTheDocument();
-    expect(screen.getByTestId('map-shell')).toBeInTheDocument();
+    expect(screen.getByText(/AI Compute Index/i)).toBeInTheDocument();
+    expect(screen.getByText(/GitHub Pages live build/i)).toBeInTheDocument();
+    expect(screen.getByText(/Loading compute map/i)).toBeInTheDocument();
+    expect(await screen.findByTestId('map-shell')).toBeInTheDocument();
     expect(screen.getByLabelText('Ranking rail')).toBeInTheDocument();
   });
 

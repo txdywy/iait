@@ -24,6 +24,14 @@ function isNonEmptyString(value: unknown): value is string {
   return typeof value === 'string' && value.trim().length > 0;
 }
 
+function isSafePathSegment(value: string): boolean {
+  return value.length > 0
+    && value === value.trim()
+    && value !== '.'
+    && value !== '..'
+    && /^[A-Za-z0-9_-]+$/.test(value);
+}
+
 function isFiniteNumber(value: unknown): value is number {
   return typeof value === 'number' && Number.isFinite(value);
 }
@@ -77,6 +85,10 @@ function validateLatest(value: unknown, errors: string[]): void {
     return;
   }
   for (const [entityId, entity] of Object.entries(value.entities)) {
+    if (!isSafePathSegment(entityId)) {
+      errors.push(`latest.json entity ${entityId} id must be a safe path segment`);
+      continue;
+    }
     if (!isRecord(entity)) {
       errors.push(`latest.json entity ${entityId} must be an object`);
       continue;
@@ -209,14 +221,38 @@ function validateEntityFile(value: unknown, relativePath: string, entityType: st
   if (!isIsoDate(value._updatedAt)) errors.push(`${relativePath} _updatedAt must be an ISO timestamp`);
 }
 
-async function validateEntityFiles(dataDir: string, errors: string[]): Promise<void> {
+async function pathExists(filePath: string): Promise<boolean> {
+  try {
+    await fs.stat(filePath);
+    return true;
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return false;
+    throw err;
+  }
+}
+
+async function validateEntityFiles(dataDir: string, errors: string[], expectedEntities: Record<string, unknown>): Promise<void> {
   const entitiesRoot = path.join(dataDir, 'entities');
   let typeEntries: import('node:fs').Dirent[];
   try {
     typeEntries = await fs.readdir(entitiesRoot, { withFileTypes: true });
   } catch (err) {
-    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return;
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') {
+      if (Object.keys(expectedEntities).length > 0) {
+        errors.push('entities directory is required when latest.json contains entities');
+      }
+      return;
+    }
     throw err;
+  }
+
+  for (const [entityId, entity] of Object.entries(expectedEntities)) {
+    if (!isSafePathSegment(entityId)) continue;
+    if (!isRecord(entity) || !isNonEmptyString(entity.type) || !VALID_ENTITY_TYPES.has(entity.type)) continue;
+    const relativePath = `entities/${entity.type}/${entityId}.json`;
+    if (!(await pathExists(path.join(dataDir, relativePath)))) {
+      errors.push(`Missing referenced entity detail file: ${relativePath}`);
+    }
   }
 
   for (const typeEntry of typeEntries) {
@@ -290,7 +326,10 @@ export async function validateDataDir(dataDir = 'public/data'): Promise<Validati
   if (files.get('_pipeline-meta.json') !== undefined) validateMeta(files.get('_pipeline-meta.json'), errors);
   if (files.get('index-config.json') !== undefined) validateIndexConfig(files.get('index-config.json'), errors);
   if (files.get('entity-crossref.json') !== undefined) validateCrossRef(files.get('entity-crossref.json'), errors);
-  await validateEntityFiles(dataDir, errors);
+
+  const latest = files.get('latest.json');
+  const expectedEntities = isRecord(latest) && isRecord(latest.entities) ? latest.entities : {};
+  await validateEntityFiles(dataDir, errors, expectedEntities);
 
   return { ok: errors.length === 0, errors };
 }

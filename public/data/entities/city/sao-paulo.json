@@ -1,0 +1,34 @@
+{
+  "id": "sao-paulo",
+  "type": "city",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "sao-paulo",
+      "type": "city",
+      "name": "Sao Paulo"
+    },
+    "metric": "compute-index-score",
+    "value": 42.22222222222223,
+    "unit": "score",
+    "timestamp": "2026-05-07T06:03:43Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "sao-paulo",
+        "type": "city",
+        "name": "Sao Paulo"
+      },
+      "metric": "compute-index-score",
+      "value": 42.22222222222223,
+      "unit": "score",
+      "timestamp": "2026-05-07T06:03:43Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-sao-paulo",
+  "_updatedAt": "2026-05-07T06:03:43Z"
+}

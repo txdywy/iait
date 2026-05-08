@@ -1,0 +1,34 @@
+{
+  "id": "portland",
+  "type": "city",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "portland",
+      "type": "city",
+      "name": "Portland, OR"
+    },
+    "metric": "compute-index-score",
+    "value": 79.99999999999999,
+    "unit": "score",
+    "timestamp": "2026-05-07T06:03:43Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "portland",
+        "type": "city",
+        "name": "Portland, OR"
+      },
+      "metric": "compute-index-score",
+      "value": 79.99999999999999,
+      "unit": "score",
+      "timestamp": "2026-05-07T06:03:43Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-portland",
+  "_updatedAt": "2026-05-07T06:03:43Z"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dallas",
+  "type": "city",
+  "latest": {
+    "source": "computed-index",
+    "entity": {
+      "id": "dallas",
+      "type": "city",
+      "name": "Dallas, TX"
+    },
+    "metric": "compute-index-score",
+    "value": 24.444444444444446,
+    "unit": "score",
+    "timestamp": "2025-01-01T00:00:00Z",
+    "confidence": 1
+  },
+  "series": [
+    {
+      "source": "computed-index",
+      "entity": {
+        "id": "dallas",
+        "type": "city",
+        "name": "Dallas, TX"
+      },
+      "metric": "compute-index-score",
+      "value": 24.444444444444446,
+      "unit": "score",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "confidence": 1
+    }
+  ],
+  "_hash": "derived-dallas",
+  "_updatedAt": "2025-01-01T00:00:00Z"
+}
