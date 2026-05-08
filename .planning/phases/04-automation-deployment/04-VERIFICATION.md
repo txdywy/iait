@@ -1,180 +1,145 @@
 ---
 phase: 04-automation-deployment
-verified: 2026-05-08T00:00:00Z
+verified: 2026-05-08T05:44:22Z
 status: gaps_found
-score: 20/23 must-haves verified
+score: 23/24 must-haves verified
 overrides_applied: 0
 re_verification:
-  previous_status: human_needed
-  previous_score: 16/16
+  previous_status: gaps_found
+  previous_score: 20/23
   gaps_closed:
-    - "Explicit Deploy Pages workflow_dispatch handoff added after successful generated-data push."
+    - "Snapshots now copy public/data/entities/** into dated snapshots and record entities/ in the manifest."
+    - "Data validation now fails when latest.json references entities but public/data/entities/ is missing."
+    - "Data validation now fails when a latest.json entity lacks its corresponding entities/{type}/{id}.json detail file."
+    - "Deploy Pages now checks out inputs.source_sha || github.sha and verifies checked-out HEAD when source_sha is provided."
   gaps_remaining:
-    - "Snapshots omit public/data/entities/** detail files."
-    - "Data validation can pass when entity detail files are missing."
-    - "Deploy handoff sends source_sha but deploy.yml does not check out or verify it."
+    - "Scheduled no-change refreshes fail when scrapers return records whose hashes match existing metadata."
   regressions: []
 gaps:
-  - truth: "Each run commits a dated snapshot for versioning and rollback"
+  - truth: "Scheduled 4x/day data pipeline runs can complete successfully for normal no-change upstream data."
     status: failed
-    reason: "Snapshots copy aggregate files only and omit public/data/entities/**, so rollback snapshots cannot restore the complete static dataset."
+    reason: "runPipeline throws when every scraper succeeds and returns records but all entity hashes match existing metadata, so a normal stable-data refresh fails before compile, snapshot, validation, commit, push, or deploy handoff."
     artifacts:
-      - path: "scripts/snapshot-data.ts"
-        issue: "SNAPSHOT_FILES excludes entities/ and createSnapshot does not copy entity detail files."
+      - path: "scripts/run-pipeline.ts"
+        issue: "Lines 140-142 throw `No fresh records produced` when `written === 0`, treating unchanged data as a failed pipeline run."
     missing:
-      - "Copy public/data/entities/** into each dated snapshot."
-      - "Record entities/ in snapshot manifest or include copied entity file paths."
-      - "Add tests proving entity details are included in snapshots."
-  - truth: "Deployment validates generated/current public/data before build so only safe generated data is published"
-    status: failed
-    reason: "validateEntityFiles silently succeeds when entities/ is missing, allowing aggregate-only datasets to pass validation despite broken detail JSON paths."
-    artifacts:
-      - path: "scripts/validate-data.ts"
-        issue: "validateEntityFiles returns on ENOENT for entities/ without checking latest.json referenced entities."
-    missing:
-      - "Fail validation when latest.json contains entities and entities/ is absent."
-      - "Validate every latest entity has a corresponding entities/{type}/{id}.json detail file."
-      - "Add missing-entities and missing-detail-file tests."
-  - truth: "Successful changed-data Data Pipeline run deploys the refreshed generated commit through the explicit Deploy Pages handoff"
-    status: partial
-    reason: "The handoff sends source_sha, but deploy.yml ignores it during checkout, so dispatch may build a different main commit if main advances."
-    artifacts:
-      - path: ".github/workflows/deploy.yml"
-        issue: "workflow_dispatch input source_sha is declared but not used in actions/checkout."
-    missing:
-      - "Checkout inputs.source_sha when provided, falling back to github.sha."
-      - "Optionally verify checked-out HEAD equals source_sha."
-      - "Add workflow contract tests for source_sha checkout/verification."
+      - "Treat successful scraper runs with unchanged hashes as a successful no-op or metadata-only refresh instead of a fatal pipeline error."
+      - "Add/update tests proving all-unchanged scraper output does not fail the scheduled workflow path."
 ---
 
 # Phase 4: Automation + Deployment Verification Report
 
-**Phase Goal:** Pipeline runs automatically 4x/day, deploys on push or supported handoff, and serves last valid data when pipeline fails.
-**Verified:** 2026-05-08T00:00:00Z
+**Phase Goal:** Pipeline runs automatically 4x/day, deploys on push, and serves last valid data when pipeline fails.
+**Verified:** 2026-05-08T05:44:22Z
 **Status:** gaps_found
-**Score:** 20/23 must-haves verified
+**Re-verification:** Yes — after gap closure plan 04-06
 
-## Verification Mode
+## Goal Achievement
 
-Re-verification after Phase 04 gap-closure plan `04-05`. The explicit Deploy Pages handoff gap discovered during UAT is now implemented, but the latest code review and verifier pass found three remaining safe-publication/versioning gaps that block full Phase 04 completion.
+### Observable Truths
 
-## Automated Checks
+| # | Truth | Status | Evidence |
+|---|-------|--------|----------|
+| 1 | GitHub Actions workflow triggers at UTC 0/6/12/18 and can run manually | VERIFIED | `.github/workflows/data-pipeline.yml` has cron `0 0,6,12,18 * * *` and `workflow_dispatch` at lines 4-6. |
+| 2 | Data workflow runs the full pipeline within a 15-minute job budget | VERIFIED | `.github/workflows/data-pipeline.yml` has `timeout-minutes: 15` at line 30 and runs install, tests, typecheck, staged pipeline, validation, snapshot, build, and bundle check at lines 43-77. |
+| 3 | Data workflow validates staged data before promotion | VERIFIED | Pipeline writes to staging at line 56, validates staging at line 59, and promotes only after validation at line 62. |
+| 4 | Failed generation or validation preserves currently served root data | VERIFIED | Served `public/data` is copied to `public/data-staging`, pipeline runs against staging, and root promotion occurs only after `npm run data:validate:dir -- public/data-staging` succeeds. Failed earlier steps stop the job before `rsync -a --delete public/data-staging/ public/data/`. |
+| 5 | Successful changed-data pipeline runs commit generated data and dispatch Deploy Pages | VERIFIED | Commit step adds only `public/data`, commits/pushes in the changed branch, emits `pushed=true`, and dispatches `deploy.yml` only when `steps.commit-generated-data.outputs.pushed == 'true'` at lines 84-105. |
+| 6 | Generated public/data pushes do not recursively trigger Data Pipeline | VERIFIED | Data workflow push paths are source/config inputs only at lines 9-17 and do not include `public/data/**`; audit grep found no `public/data/**` in the workflow. |
+| 7 | Deploy workflow runs on push to main and workflow_dispatch | VERIFIED | `.github/workflows/deploy.yml` has `push: branches: [main]` and `workflow_dispatch` at lines 3-19. |
+| 8 | Deploy workflow validates current public/data before publishing | VERIFIED | Deploy build job checks out source, verifies requested SHA when supplied, then runs `npm run data:validate` before tests/build/upload at lines 34-81. |
+| 9 | Deploy handoff builds exactly source_sha when provided | VERIFIED | Deploy checkout uses `ref: ${{ inputs.source_sha || github.sha }}` and the next step compares `git rev-parse HEAD` against `inputs.source_sha`, exiting non-zero on mismatch at lines 34-49. |
+| 10 | Dated snapshots include aggregate files and entity detail tree | VERIFIED | `scripts/snapshot-data.ts` copies required aggregate files and recursively copies `dataDir/entities` into `snapshots/{snapshotId}/entities` with `fs.cp` at lines 100-107. |
+| 11 | Snapshot manifest records entity-detail coverage | VERIFIED | Manifest entry includes `entities/` when entity directory copy succeeds via `ENTITY_DETAILS_MANIFEST_ENTRY` at lines 27 and 116-121. |
+| 12 | Data validation fails when latest references entities but entities/ is missing | VERIFIED | `validateEntityFiles` pushes `entities directory is required when latest.json contains entities` on missing entities root when expected entities are non-empty at lines 222-232. |
+| 13 | Data validation fails when referenced entity detail files are missing | VERIFIED | Validator loops over latest entities and pushes `Missing referenced entity detail file: entities/{type}/{id}.json` when the detail JSON is absent at lines 237-242. |
+| 14 | Workflows introduce no paid secrets, backend, or database assumptions | VERIFIED | Static audit found no `secrets.`, database URLs, backend server assumptions, or paid API key references in Phase 04 workflows/scripts. |
+| 15 | Scheduled no-change refreshes complete successfully | FAILED | `runPipeline` throws when `written === 0` at lines 140-142. If scrapers return valid records but hashes are unchanged, scheduled automation fails before compile/snapshot/deploy handoff. |
 
-Passed:
+**Score:** 23/24 must-haves verified
 
-- `npm test -- scripts/__tests__/workflow-data-pipeline.test.ts scripts/__tests__/workflow-deploy.test.ts scripts/__tests__/run-pipeline.test.ts scripts/__tests__/snapshot-data.test.ts scripts/__tests__/validate-data.test.ts`
-- `npm run data:validate`
-- `npm run typecheck`
-- `npm run build && npm run bundle:check`
+## Previously Reported Gap Re-check
 
-The orchestrator also ran:
+| Prior Gap | Status | Evidence |
+|---|---|---|
+| Snapshots omit `public/data/entities/**` | CLOSED | `scripts/snapshot-data.ts` now copies `entities` recursively with `fs.cp` and records `entities/` in manifest entries. |
+| Validation passes when `entities/` is missing | CLOSED | `scripts/validate-data.ts` now emits `entities directory is required when latest.json contains entities`. |
+| Validation passes when referenced detail files are missing | CLOSED | `scripts/validate-data.ts` now emits `Missing referenced entity detail file: entities/{type}/{id}.json`. |
+| Deploy handoff sends but ignores `source_sha` | CLOSED | `.github/workflows/deploy.yml` checks out `inputs.source_sha || github.sha` and verifies `git rev-parse HEAD`. |
 
-- `npm test` — 26 files, 211 tests passed
-- `npm run build` — production build passed with existing Vite chunk-size warning
-- `npm run data:validate` — `[data:validate] OK: public/data`
+## Required Artifacts
 
-## Gaps Found
+| Artifact | Expected | Status | Details |
+|---|---|---|---|
+| `.github/workflows/data-pipeline.yml` | 4x/day scheduled/manual/source-triggered data workflow with staged validation, snapshot, generated data commit, deploy handoff | VERIFIED | Substantive workflow with pinned actions, no generated-data recursion, 15-minute timeout, validation-before-promotion, data-only commit, and conditional deploy dispatch. |
+| `.github/workflows/deploy.yml` | GitHub Pages deploy workflow for push/manual/handoff with source_sha integrity | VERIFIED | Substantive workflow with push/main, workflow_dispatch inputs, Pages permissions, source SHA checkout/verification, validation/build/upload/deploy. |
+| `scripts/run-pipeline.ts` | Staging-compatible pipeline runner with fail-closed scraper errors and safe entity writes | PARTIAL | Staging and path safety are implemented, but all-unchanged successful scraper output is treated as fatal. |
+| `scripts/validate-data.ts` | Static data validation gate including latest-to-detail checks | VERIFIED | Validates aggregate files, current data shape, entity detail directory presence, and referenced detail file existence. |
+| `scripts/snapshot-data.ts` | Dated snapshot creation with aggregate files, entity details, manifest, retention | VERIFIED | Copies aggregates and `entities/`, records manifest metadata, validates keep, prunes manifest-listed snapshots only. |
+| `package.json` | CI-callable pipeline, validation, snapshot scripts | VERIFIED | Defines `pipeline`, `data:validate`, `data:validate:dir`, and `data:snapshot`. |
 
-### 1. Snapshot rollback is incomplete because snapshots omit entity detail files
+## Key Link Verification
 
-**Truth failed:** Each run commits a dated snapshot for versioning and rollback.
+| From | To | Via | Status | Details |
+|---|---|---|---|---|
+| `data-pipeline.yml` | `scripts/run-pipeline.ts` | `COMPUTEATLAS_DATA_DIR=public/data-staging npm run pipeline` | WIRED | Staged data directory is used before root promotion. |
+| `data-pipeline.yml` | `scripts/validate-data.ts` | `npm run data:validate:dir -- public/data-staging` and `npm run data:validate` | WIRED | Staged and promoted validation both run. |
+| `data-pipeline.yml` | `scripts/snapshot-data.ts` | `npm run data:snapshot -- public/data` | WIRED | Snapshot is created after promotion and before commit. |
+| `data-pipeline.yml` | `deploy.yml` | `gh workflow run deploy.yml --ref main -f source_sha=$(git rev-parse HEAD)` | WIRED | Dispatch occurs only after successful generated-data push. |
+| `deploy.yml` | exact generated commit | checkout `ref: ${{ inputs.source_sha || github.sha }}` plus HEAD verification | WIRED | Source SHA is honored and mismatch fails. |
+| `snapshot-data.ts` | `public/data/entities/**` | recursive `fs.cp` | WIRED | Entity detail tree is copied into each snapshot when present. |
+| `validate-data.ts` | latest entity references | detail path existence checks | WIRED | Every valid latest entity must have `entities/{type}/{id}.json`. |
 
-**Classification:** BLOCKER
+## Data-Flow Trace (Level 4)
 
-**Evidence:**
+| Artifact | Data Variable | Source | Produces Real Data | Status |
+|---|---|---|---|---|
+| `data-pipeline.yml` | generated `public/data` | `COMPUTEATLAS_DATA_DIR=public/data-staging npm run pipeline` -> validation -> `rsync` promotion | Yes, but no-change successful scraper data currently fails in `runPipeline` | PARTIAL |
+| `snapshot-data.ts` | snapshot contents | Root `public/data` aggregate files plus `entities/` directory | Yes | VERIFIED |
+| `validate-data.ts` | expected entity detail paths | `latest.json.entities` | Yes; derives paths and checks filesystem existence | VERIFIED |
+| `deploy.yml` | deployed source tree | `inputs.source_sha || github.sha` checkout | Yes; verifies HEAD when source_sha supplied | VERIFIED |
 
-- `scripts/snapshot-data.ts` copies only aggregate files into each snapshot:
-  - `latest.json`
-  - `rankings.json`
-  - `history.json`
-  - `_pipeline-meta.json`
-  - `index-config.json`
-  - `entity-crossref.json`
-- It does not copy `public/data/entities/**`.
-- Current project data includes entity detail files under `public/data/entities`.
+## Behavioral Spot-Checks
 
-**Why this blocks the goal:**
+| Behavior | Command | Result | Status |
+|---|---|---|---|
+| Phase 04 targeted tests pass | `npm --prefix /Users/yiwei/ics/iait test -- scripts/__tests__/workflow-data-pipeline.test.ts scripts/__tests__/workflow-deploy.test.ts scripts/__tests__/snapshot-data.test.ts scripts/__tests__/validate-data.test.ts scripts/__tests__/run-pipeline.test.ts` | 5 files, 89 tests passed | PASS |
+| Current static data validates | `npm --prefix /Users/yiwei/ics/iait run data:validate` | `[data:validate] OK: public/data` | PASS |
+| TypeScript accepts scripts/workflows tests | `npm --prefix /Users/yiwei/ics/iait run typecheck` | exited 0 | PASS |
 
-INF-06 requires dated snapshots to enable rollback. A snapshot without entity detail JSON cannot restore the complete validated static dataset used by frontend drill-down/detail views.
+## Requirements Coverage
 
-**Missing:**
+| Requirement | Source Plan | Description | Status | Evidence |
+|---|---|---|---|---|
+| INF-01 | 04-02, 04-05, 04-06 | GitHub Actions workflow runs data pipeline 4x/day (UTC 0/6/12/18) | PARTIAL | Schedule exists, but normal no-change scraper output currently fails `runPipeline`, so scheduled refreshes can fail despite healthy upstream data. |
+| INF-02 | 04-02, 04-03, 04-04, 04-05, 04-06 | GitHub Actions deploys to GitHub Pages on push to main | SATISFIED | Deploy workflow triggers on push/main and workflow_dispatch; data pipeline explicitly dispatches deploy after generated-data push; source_sha is checked out and verified. |
+| INF-04 | 04-01, 04-02, 04-05, 04-06 | GitHub Actions pipeline completes within 15 minutes per run | SATISFIED | Data workflow job has `timeout-minutes: 15`; targeted tests/typecheck pass locally. Actual runtime still needs observation in GitHub Actions. |
+| INF-05 | 04-01, 04-02, 04-03, 04-04, 04-05, 04-06 | Pipeline errors do not block deployment — last valid data is served until new data succeeds | SATISFIED | Staging validation prevents failed generated data from promotion; deploy validates committed data before publish; failed workflow leaves previous Pages deployment serving. |
+| INF-06 | 04-01, 04-02, 04-04, 04-05, 04-06 | Data versioning — each run commits dated snapshots to enable rollback | PARTIAL | Changed-data successful runs snapshot and commit `public/data`; snapshots are complete. However no-change scheduled refreshes fail before snapshot, so “each run” is not fully true. |
 
-- Update `scripts/snapshot-data.ts` to copy `entities/` into each snapshot.
-- Update snapshot manifest to record `entities/` or included entity file paths.
-- Add tests in `scripts/__tests__/snapshot-data.test.ts` proving entity details are included.
+No orphaned Phase 4 requirements were found beyond INF-01, INF-02, INF-04, INF-05, and INF-06 in `/Users/yiwei/ics/iait/REQUIREMENTS.md`.
 
-### 2. Data validation can pass when entity detail files are missing
+## Anti-Patterns Found
 
-**Truth failed:** Deployment validates generated/current `public/data` before build so only safe generated data is published.
+| File | Line | Pattern | Severity | Impact |
+|---|---:|---|---|---|
+| `scripts/run-pipeline.ts` | 140-142 | Throws on `written === 0` | BLOCKER | A normal stable upstream/no-change refresh becomes a failed scheduled pipeline run. |
+| `scripts/validate-data.ts` | 237-241 | Entity id from `latest.json` interpolated into detail path without safe segment validation | WARNING | Malformed committed aggregate IDs could weaken detail-file existence validation. Pipeline-generated IDs are protected by `run-pipeline.ts`, so this is not the current phase blocker. |
+| `public/data/entities/country/be.json`, `br.json`, `tw.json` | n/a | Country display names are lower-case country codes | WARNING | Data quality/UI label issue, not an automation/deployment goal blocker. |
 
-**Classification:** BLOCKER
+Console output in CLI scripts is expected operational logging, not a stub.
 
-**Evidence:**
+## Human Verification Required
 
-- `scripts/validate-data.ts` has `validateEntityFiles(dataDir, errors)`.
-- If `entities/` is missing, it silently returns success on `ENOENT`.
-- Therefore a generated dataset can contain valid aggregate files while omitting detail files, and `npm run data:validate` can still pass.
+None required for the automated gate result. A live GitHub Actions run is still useful after fixing the blocker to confirm external Pages/workflow_dispatch behavior in GitHub, but current codebase verification already found a blocking local implementation gap.
 
-**Why this blocks the goal:**
+## Gaps Summary
 
-ComputeAtlas serves static JSON with no backend fallback. Missing entity detail files would deploy broken drill-down JSON paths while validation still reports success.
+The three previous Phase 04 verification gaps are closed in code: snapshots include entity details, validation fails on missing entity detail data, and Deploy Pages binds workflow_dispatch builds to `source_sha`.
 
-**Missing:**
+Phase 04 is still blocked because scheduled no-change refreshes are treated as failed pipeline runs. Since 4x/day unattended automation must tolerate stable upstream data, `runPipeline` should not fail solely because all returned records hash-match existing metadata.
 
-- Require `entities/` when `latest.json.entities` is non-empty.
-- Verify every latest entity has a corresponding detail file under `entities/{type}/{id}.json`.
-- Add tests in `scripts/__tests__/validate-data.test.ts` for missing `entities/` and missing referenced detail files.
+---
 
-### 3. Deploy handoff accepts `source_sha` but does not check out or verify it
-
-**Truth failed:** A successful changed-data Data Pipeline run deploys the refreshed generated data through the explicit handoff.
-
-**Classification:** WARNING / potentially BLOCKER for strict safe-publication semantics
-
-**Evidence:**
-
-- `.github/workflows/data-pipeline.yml` dispatches Deploy Pages with `-f source_sha="$(git rev-parse HEAD)"`.
-- `.github/workflows/deploy.yml` declares `source_sha`, but the checkout step ignores it.
-- No `with.ref: ${{ inputs.source_sha || github.sha }}` or post-checkout SHA verification exists.
-
-**Why this matters:**
-
-The explicit dispatch handoff exists and addresses the UAT-discovered `GITHUB_TOKEN` push cascade issue. However, the Deploy Pages workflow may build the current `main` ref at dispatch execution time rather than the exact generated-data commit requested by Data Pipeline. If `main` advances between push/dispatch and checkout, the deployed commit can differ from `source_sha`.
-
-**Missing:**
-
-- Use `source_sha` in checkout when provided.
-- Optionally add a verification step that fails if `git rev-parse HEAD` does not match `inputs.source_sha`.
-- Extend `scripts/__tests__/workflow-deploy.test.ts` to enforce this.
-
-## Verified Must-Haves
-
-The following major Phase 04 requirements are verified in code:
-
-- **INF-01:** `.github/workflows/data-pipeline.yml` schedules UTC `0/6/12/18`.
-- **INF-02:** `.github/workflows/deploy.yml` deploys on push to `main`, and `.github/workflows/data-pipeline.yml` explicitly dispatches `deploy.yml` after successful generated-data push.
-- **INF-04:** Data pipeline job has `timeout-minutes: 15`.
-- **INF-05:** Pipeline uses staging and validates before promotion; deploy validates before build.
-- **INF-06:** Snapshot script and workflow exist, but rollback completeness fails because `entities/**` is omitted.
-
-## UAT Gap Re-check
-
-The UAT issue reported that Data Pipeline run `25530872617` succeeded and pushed commit `1e041e8`, but no Deploy Pages run was created. This specific gap is addressed by plan `04-05`:
-
-- Data Pipeline now has `actions: write` permission.
-- `Commit generated data` has `id: commit-generated-data` and emits `pushed=true` only after `git push`.
-- A separate `Dispatch Deploy Pages` step runs only when `steps.commit-generated-data.outputs.pushed == 'true'`.
-- The dispatch command targets `deploy.yml` on `main` with `source`, `source_run_id`, and `source_sha` metadata.
-- Data Pipeline push paths still omit `public/data/**`, preventing recursive generated-data pipeline runs.
-
-## Result
-
-Phase 04 is not complete. The deploy handoff gap is closed, but safe data publication and rollback guarantees still have unresolved code gaps.
-
-## Next Step
-
-Create gap-closure plan(s) from this report:
-
-```bash
-/gsd-plan-phase 04 --gaps
-```
+_Verified: 2026-05-08T05:44:22Z_
+_Verifier: Claude (gsd-verifier)_
