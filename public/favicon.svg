@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ComputeAtlas">
+  <rect width="64" height="64" rx="14" fill="#060A12"/>
+  <path d="M12 39c8-18 16-26 24-24 7 2 10 12 16 10" fill="none" stroke="#22D3EE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M12 44c12-5 23-5 40 0" fill="none" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="36" cy="15" r="4" fill="#F59E0B"/>
+</svg>
